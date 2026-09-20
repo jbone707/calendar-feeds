@@ -1,0 +1,24 @@
+{
+  "name": "calendar-feeds",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Auto-updating calendar subscriptions for schedules that change (UFC first)",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "refresh": "node src/update.ts",
+    "render": "node src/update.ts --render-only",
+    "test": "node --test \"tests/**/*.test.ts\""
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "ical-generator": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "node-ical": "^0.27.2",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,65 @@
+name: Refresh calendars
+
+on:
+  schedule:
+    - cron: '17 */6 * * *' # four times a day, off the top of the hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Never let two runs touch the state at once; a queued run waits for the one in progress.
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      TZ: UTC
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+
+      - name: Refresh all feeds
+        id: refresh
+        continue-on-error: true
+        run: npm run refresh
+
+      - name: Save state when the schedule changed
+        run: |
+          git config user.name "calendar-feeds bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "Schedule update $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      # Always publish: every calendar is rendered from the last valid state, so a failed refresh republishes the same calendars
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Fail the run if the refresh failed
+        if: steps.refresh.outcome == 'failure'
+        run: |
+          echo "Refresh failed for at least one feed; its last good calendar was republished. See the Refresh all feeds step."
+          exit 1
