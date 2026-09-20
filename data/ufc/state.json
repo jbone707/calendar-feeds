@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "key": "numbered:331",
+      "uid": "80045f00-74bf-4504-b24a-02979ff32d0b@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "cryptocom-ufc-331",
+      "aliases": [
+        "cryptocom-ufc-331"
+      ],
+      "title": "UFC 331: Van vs Pantoja 2",
+      "matchHint": "Van vs Pantoja 2",
+      "localEventDate": "2026-09-19",
+      "startUtc": "2026-09-20T01:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-09-19T23:00:00.000Z"
+        },
+        {
+          "label": "Early prelims",
+          "utc": "2026-09-19T21:30:00.000Z"
+        }
+      ],
+      "location": "Crypto.com Arena, Los Angeles, CA, United States",
+      "url": "https://www.ufc.com/event/cryptocom-ufc-331",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-20T06:04:51.207Z",
+      "lastModified": "2026-09-20T06:04:51.207Z",
+      "lastSeenAt": "2026-09-20T06:04:51.207Z"
+    },
+    {
+      "key": "ufc.com:ufc-fight-night-september-26-2026",
+      "uid": "75b7b5e8-6b02-4eee-a2ca-0ce91d9bc037@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-fight-night-september-26-2026",
+      "aliases": [
+        "ufc-fight-night-september-26-2026"
+      ],
+      "title": "UFC Fight Night: Rosas Jr. vs Barcelos",
+      "matchHint": "Rosas Jr. vs Barcelos",
+      "localEventDate": "2026-09-26",
+      "startUtc": "2026-09-27T00:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-09-26T21:00:00.000Z"
+        }
+      ],
+      "location": "Meta APEX, Las Vegas, NV, United States",
+      "url": "https://www.ufc.com/event/ufc-fight-night-september-26-2026",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-20T06:04:51.207Z",
+      "lastModified": "2026-09-20T06:04:51.207Z",
+      "lastSeenAt": "2026-09-20T06:04:51.207Z"
+    },
+    {
+      "key": "numbered:332",
+      "uid": "1d50a2bd-0890-4b61-9474-b92435185adb@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-332",
+      "aliases": [
+        "ufc-332"
+      ],
+      "title": "UFC 332: Silva vs Wang",
+      "matchHint": "Silva vs Wang",
+      "localEventDate": "2026-10-03",
+      "startUtc": "2026-10-04T00:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-10-03T22:00:00.000Z"
+        },
+        {
+          "label": "Early prelims",
+          "utc": "2026-10-03T20:00:00.000Z"
+        }
+      ],
+      "location": "Delta Center, Salt Lake City, UT, United States",
+      "url": "https://www.ufc.com/event/ufc-332",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-20T06:04:51.207Z",
+      "lastModified": "2026-09-20T06:04:51.207Z",
+      "lastSeenAt": "2026-09-20T06:04:51.207Z"
+    },
+    {
+      "key": "ufc.com:ufc-fight-night-october-10-2026",
+      "uid": "ab41077e-e70a-4d09-8c09-b56ecfd59743@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-fight-night-october-10-2026",
+      "aliases": [
+        "ufc-fight-night-october-10-2026"
+      ],
+      "title": "UFC Fight Night: Allen vs Duncan",
+      "matchHint": "Allen vs Duncan",
+      "localEventDate": "2026-10-10",
+      "startUtc": "2026-10-11T00:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-10-10T21:00:00.000Z"
+        }
+      ],
+      "location": "Meta APEX, Las Vegas, NV, United States",
+      "url": "https://www.ufc.com/event/ufc-fight-night-october-10-2026",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-20T06:04:51.207Z",
+      "lastModified": "2026-09-20T06:04:51.207Z",
+      "lastSeenAt": "2026-09-20T06:04:51.207Z"
+    },
+    {
+      "key": "ufc.com:ufc-fight-night-october-17-2026",
+      "uid": "c9169700-4653-416e-ba05-3467ddbfe696@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-fight-night-october-17-2026",
+      "aliases": [
+        "ufc-fight-night-october-17-2026"
+      ],
+      "title": "UFC Fight Night: Buckley vs Malott",
+      "matchHint": "Buckley vs Malott",
+      "localEventDate": "2026-10-17",
+      "startUtc": "2026-10-18T00:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-10-17T21:00:00.000Z"
+        }
+      ],
+      "location": "Rogers Place, Edmonton, AB, Canada",
+      "url": "https://www.ufc.com/event/ufc-fight-night-october-17-2026",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-20T06:04:51.207Z",
+      "lastModified": "2026-09-20T06:04:51.207Z",
+      "lastSeenAt": "2026-09-20T06:04:51.207Z"
+    },
+    {
+      "key": "numbered:333",
+      "uid": "47814a54-1ab1-4c59-87a4-3b6d2a74a937@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-333",
+      "aliases": [
+        "ufc-333"
+      ],
+      "title": "UFC 333: Volkanovski vs Evloev",
+      "matchHint": "Volkanovski vs Evloev",
+      "localEventDate": "2026-10-24",
+      "startUtc": "2026-10-24T18:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-10-24T16:00:00.000Z"
+        },
+        {
+          "label": "Early prelims",
+          "utc": "2026-10-24T14:00:00.000Z"
+        }
+      ],
+      "location": "Etihad Arena, Abu Dhabi, United Arab Emirates",
+      "url": "https://www.ufc.com/event/ufc-333",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-20T06:04:51.207Z",
+      "lastModified": "2026-09-20T06:04:51.207Z",
+      "lastSeenAt": "2026-09-20T06:04:51.207Z"
+    },
+    {
+      "key": "ufc.com:ufc-fight-night-october-31-2026",
+      "uid": "e030adce-d3d6-4638-b92a-11f6ff7fb67f@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-fight-night-october-31-2026",
+      "aliases": [
+        "ufc-fight-night-october-31-2026"
+      ],
+      "title": "UFC Fight Night: Moicano vs Nolan",
+      "matchHint": "Moicano vs Nolan",
+      "localEventDate": "2026-10-31",
+      "startUtc": "2026-11-01T00:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-10-31T21:00:00.000Z"
+        }
+      ],
+      "location": "Meta APEX, Las Vegas, NV, United States",
+      "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-20T06:04:51.207Z",
+      "lastModified": "2026-09-20T06:04:51.207Z",
+      "lastSeenAt": "2026-09-20T06:04:51.207Z"
+    },
+    {
+      "key": "ufc.com:ufc-fight-night-november-07-2026",
+      "uid": "802b3e54-3c53-4b37-a089-8e97a4e163f3@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-fight-night-november-07-2026",
+      "aliases": [
+        "ufc-fight-night-november-07-2026"
+      ],
+      "title": "UFC Fight Night: Bonfim vs Brady",
+      "matchHint": "Bonfim vs Brady",
+      "localEventDate": "2026-11-07",
+      "startUtc": "2026-11-07T22:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-11-07T20:00:00.000Z"
+        }
+      ],
+      "location": "Meta APEX, Las Vegas, NV, United States",
+      "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-20T06:04:51.207Z",
+      "lastModified": "2026-09-20T06:04:51.207Z",
+      "lastSeenAt": "2026-09-20T06:04:51.207Z"
+    },
+    {
+      "key": "numbered:334",
+      "uid": "17748478-21b7-4400-ae1f-363effe5688e@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-334",
+      "aliases": [
+        "ufc-334"
+      ],
+      "title": "UFC 334",
+      "matchHint": "",
+      "localEventDate": "2026-11-14",
+      "startUtc": "2026-11-15T02:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-11-15T00:00:00.000Z"
+        },
+        {
+          "label": "Early prelims",
+          "utc": "2026-11-14T22:00:00.000Z"
+        }
+      ],
+      "location": "Madison Square Garden, New York, NY, United States",
+      "url": "https://www.ufc.com/event/ufc-334",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-20T06:04:51.207Z",
+      "lastModified": "2026-09-20T06:04:51.207Z",
+      "lastSeenAt": "2026-09-20T06:04:51.207Z"
+    }
+  ]
+}
