@@ -8,13 +8,13 @@
       "model": "claude-sonnet-5"
     },
     "75b7b5e8-6b02-4eee-a2ca-0ce91d9bc037@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Bantamweight main event: two ranked fighters, Raul Rosas Jr (No. 12) and Raoni Barcelos (No. 13). Now, ranked in the bantamweight division, he takes on Raoni Barcelos. Rosas Jr, a 21",
-      "know": "",
-      "generatedAt": "2026-09-21T03:01:50.163Z",
+      "why": "Main event: bantamweight prospect Rosas Jr. ranked No. 12, faces No. 13 Raoni Barcelos, a veteran winner of five straight fights including victories over former UFC bantamweight champ Cody Garbrandt; the winner edges closer to a title shot. Also huge: No. 2-ranked Dumont faces No. 4-ranked Perez, two top contenders fighting for position near champion Kayla Harrison.",
+      "know": "Barcelos already beat two men who now fight each other on tonight's prelims: Ricky Simon and Montel Jackson, extending his win streak. In the UFC, official rankings run from champion down through #1-#15 in each weight class, and beating a ranked opponent is how fighters climb toward a title shot.",
+      "generatedAt": "2026-09-21T03:13:35.951Z",
       "factsHash": "5bd94e9183d1f072",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-09-21T03:01:50.163Z",
+  "lastWrittenAt": "2026-09-21T03:13:35.951Z",
   "lastError": null
 }
