@@ -6,8 +6,15 @@
       "generatedAt": "2026-09-21T02:57:05.827Z",
       "factsHash": "9a9353c9323748e6",
       "model": "claude-sonnet-5"
+    },
+    "75b7b5e8-6b02-4eee-a2ca-0ce91d9bc037@ufc.calendar-feeds.jbone707.github.io": {
+      "why": "Bantamweight main event: two ranked fighters, Raul Rosas Jr (No. 12) and Raoni Barcelos (No. 13). Now, ranked in the bantamweight division, he takes on Raoni Barcelos. Rosas Jr, a 21",
+      "know": "",
+      "generatedAt": "2026-09-21T03:01:50.163Z",
+      "factsHash": "5bd94e9183d1f072",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-09-21T02:57:05.827Z",
-  "lastError": "UFC Fight Night: Rosas Jr. vs Barcelos: write-up rejected (not an object)"
+  "lastWrittenAt": "2026-09-21T03:01:50.163Z",
+  "lastError": null
 }
