@@ -1,8 +1,12 @@
 import ical, { ICalCalendarMethod, ICalEventStatus, ICalEventTransparency } from 'ical-generator';
 import { httpsUrl } from '../config.ts';
-import type { Feed, FeedEvent } from './model.ts';
+import type { EventFacts, EventNote, Feed, FeedEvent } from './model.ts';
 
-type FeedShape = Pick<Feed, 'id' | 'name' | 'description' | 'sourceName' | 'startLabel' | 'durationHours'>;
+type FeedShape = Pick<Feed, 'id' | 'sourceName' | 'startLabel' | 'durationHours'>;
+
+/** One calendar entry: the event, the feed it came from, and whatever facts and write-up exist for it. */
+export type Entry = { feed: FeedShape; event: FeedEvent; facts: EventFacts | null; note: EventNote | null };
+export type CalendarMeta = { id: string; name: string; description: string };
 
 export const pacific = (iso: string) =>
   new Intl.DateTimeFormat('en-US', {
@@ -15,64 +19,71 @@ export const pacific = (iso: string) =>
     timeZoneName: 'short',
   }).format(new Date(iso));
 
-function describe(feed: FeedShape, e: FeedEvent): string {
+export function describe({ feed, event: e, facts, note }: Entry): string {
   const lines: string[] = [];
   if (e.status === 'cancelled') lines.push(`${feed.sourceName} removed this from its schedule. It may have been cancelled or postponed.`, '');
+  if (facts?.level) lines.push(facts.level, '');
+  if (note && e.status !== 'cancelled') {
+    lines.push('WHY IT MATTERS', note.why, '');
+    if (note.know) lines.push('WORTH KNOWING', note.know, '');
+  }
+  if (facts && facts.lines.length > 0) lines.push('THE FACTS', ...facts.lines.map((l) => `• ${l}`), '');
   if (e.startUtc) {
     lines.push(`${feed.startLabel}: ${pacific(e.startUtc)} (per ${feed.sourceName})`);
-    lines.push(`This entry starts at that time. The end time is a ${feed.durationHours}-hour estimate, not an official time.`);
+    for (const t of e.extraTimes) lines.push(`${t.label}: ${pacific(t.utc)}`);
+    lines.push(`The end time is a ${feed.durationHours}-hour estimate, not an official time.`);
   } else {
     lines.push('The start time has not been published yet. This all-day entry will become a timed one when it is.');
+    for (const t of e.extraTimes) lines.push(`${t.label}: ${pacific(t.utc)}`);
   }
-  for (const t of e.extraTimes) lines.push(`${t.label}: ${pacific(t.utc)}`);
-  lines.push('', 'Times shown in Pacific. Your calendar converts the entry itself to wherever you are.');
-  lines.push(`Source: ${e.url}`);
+  lines.push('Times shown in Pacific. Your calendar converts the entry itself to wherever you are.', '', `Source: ${e.url}`);
+  if (note && e.status !== 'cancelled')
+    lines.push(`The write-up was written by AI from public information and can contain mistakes. Times and facts come from ${feed.sourceName}.`);
   return lines.join('\n');
 }
 
-/** Deterministic: the same events always produce byte-identical output, so unchanged runs do not churn the calendar. */
-export function renderCalendar(feed: FeedShape, events: FeedEvent[]): string {
+const latest = (...isos: (string | null | undefined)[]) => isos.filter((x): x is string => !!x).sort().slice(-1)[0];
+
+/** Deterministic: the same inputs always produce byte-identical output, so unchanged runs do not churn the calendar. */
+export function renderCalendar(meta: CalendarMeta, entries: Entry[]): string {
   const cal = ical({
-    name: feed.name,
-    description: feed.description,
-    prodId: { company: 'jbone707', product: `calendar-feeds-${feed.id}`, language: 'EN' },
+    name: meta.name,
+    description: meta.description,
+    prodId: { company: 'jbone707', product: `calendar-feeds-${meta.id}`, language: 'EN' },
     method: ICalCalendarMethod.PUBLISH,
     ttl: 6 * 3600,
     url: httpsUrl(''),
   });
 
-  for (const e of events) {
+  const sorted = [...entries].sort((a, b) =>
+    (a.event.startUtc ?? a.event.localEventDate ?? '9').localeCompare(b.event.startUtc ?? b.event.localEventDate ?? '9') || a.event.uid.localeCompare(b.event.uid),
+  );
+  for (const entry of sorted) {
+    const { feed, event: e, facts, note } = entry;
     if (!e.localEventDate) continue; // no date at all: nothing honest to publish yet
     const cancelled = e.status === 'cancelled';
+    // Facts and write-ups change the notes without being a schedule change, so they move the timestamps but not SEQUENCE.
+    const touched = new Date(latest(e.lastModified, facts?.updatedAt, note?.generatedAt));
+    const title = `${cancelled ? 'Cancelled: ' : ''}${facts?.badge ? `${facts.badge} ` : ''}${e.title}`;
     const common = {
       id: e.uid,
       sequence: e.sequence,
-      stamp: new Date(e.lastModified),
+      stamp: touched,
       created: new Date(e.createdAt),
-      lastModified: new Date(e.lastModified),
+      lastModified: touched,
       location: e.location ?? undefined,
-      description: describe(feed, e),
+      description: describe(entry),
       url: e.url,
       transparency: ICalEventTransparency.TRANSPARENT,
       status: cancelled ? ICalEventStatus.CANCELLED : ICalEventStatus.CONFIRMED,
     };
     if (e.startUtc) {
       const start = new Date(e.startUtc);
-      cal.createEvent({
-        ...common,
-        summary: `${cancelled ? 'Cancelled: ' : ''}${e.title}`,
-        start,
-        end: new Date(start.getTime() + feed.durationHours * 3_600_000),
-      });
+      cal.createEvent({ ...common, summary: title, start, end: new Date(start.getTime() + feed.durationHours * 3_600_000) });
     } else {
       const day = Date.parse(`${e.localEventDate}T00:00:00Z`);
-      cal.createEvent({
-        ...common,
-        summary: `${cancelled ? 'Cancelled: ' : ''}${e.title} (time TBD)`,
-        allDay: true,
-        start: new Date(day),
-        end: new Date(day + 86_400_000), // DTEND is exclusive for all-day entries: the day after
-      });
+      // DTEND is exclusive for all-day entries: the day after
+      cal.createEvent({ ...common, summary: `${title} (time TBD)`, allDay: true, start: new Date(day), end: new Date(day + 86_400_000) });
     }
   }
   return cal.toString();

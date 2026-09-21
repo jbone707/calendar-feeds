@@ -14,7 +14,9 @@ It qualifies only if all of these hold:
 - Fetching it twice gives the same `UID` for each event, so changes update entries instead of duplicating them.
 - It has no alerts or invitations baked in, or only ones James wants.
 
-If it qualifies, add it to `externalCalendars` in `src/feeds/index.ts`. That puts a subscribe button on the status page. Nothing else is built. The 49ers calendar was added this way.
+If it qualifies and needs nothing added, put it in `externalCalendars` in `src/feeds/index.ts`. That puts a subscribe button on the status page and nothing else is built.
+
+If James wants it inside a combined calendar such as Sports, or wants context added to its entries, build a thin feed that reads that official calendar instead of scraping a page. `src/feeds/niners/` is the model: the team's calendar stays the source of truth for times.
 
 ## Step 2. Choose a Source to Build From
 
@@ -31,6 +33,8 @@ Do not use paid feeds, anything behind a login, or anything that needs a CAPTCHA
 Create `src/feeds/<id>/` with:
 
 - `source.ts`: fetch the page and turn it into `SourceRecord`s (see `src/core/model.ts`). This is where the feed decides what is included and how it is titled.
+- `facts(event, detail)`: rules that turn an event into a badge, a one-line level, and plain-English fact lines for someone new to the sport. Optional `enrich` gathers extra details politely (see `src/feeds/ufc/details.ts`).
+- `writerBrief`: one paragraph telling the write-up step who the readers are and what to explain.
 - `index.ts`: a `Feed` object with the id, names, the label for what the start time means, the duration estimate, the time zone that decides an event's calendar day, the crawl delay, `fetch`, and optionally `checkPage`.
 
 The rules that matter in `source.ts`:
@@ -42,7 +46,7 @@ The rules that matter in `source.ts`:
 - Report anything left out for an unclear reason in `problems`, so it shows on the status page.
 - Without `checkPage`, events are never auto-cancelled. That is the safe default.
 
-Register it in `src/feeds/index.ts`. The engine then gives it identity, change tracking, validation, cancellation rules, retention, the calendar file and a status page section.
+Register it in `src/feeds/index.ts`, and add its id to a `combined` calendar there if it belongs in one. The engine then gives it identity, change tracking, validation, cancellation rules, retention, the calendar file and a status page section.
 
 ## Step 4. Test It
 

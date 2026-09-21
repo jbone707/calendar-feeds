@@ -2,7 +2,7 @@ name: Refresh calendars
 
 on:
   schedule:
-    - cron: '17 */6 * * *' # four times a day, off the top of the hour
+    - cron: '17 13 * * *' # once a day, about 6 AM Pacific, off the top of the hour
   workflow_dispatch:
   push:
     branches: [main]
@@ -20,7 +20,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -38,6 +38,10 @@ jobs:
       - name: Refresh all feeds
         id: refresh
         continue-on-error: true
+        env:
+          # Optional. Without it the calendars still update and entries show facts only.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTES_MODEL: ${{ vars.NOTES_MODEL }}
         run: npm run refresh
 
       - name: Save state when the schedule changed

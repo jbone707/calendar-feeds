@@ -41,7 +41,7 @@ export function reconcileEvents(
   const nowIso = now.toISOString();
   const report: string[] = [];
   const warnings: string[] = [];
-  const events: FeedEvent[] = previous.map((e) => ({ ...e, aliases: [...e.aliases], extraTimes: e.extraTimes.map((t) => ({ ...t })), provenance: { ...e.provenance } }));
+  const events: FeedEvent[] = previous.map(({ lastSeenAt: _legacy, ...e }: FeedEvent & { lastSeenAt?: string }) => ({ ...e, aliases: [...e.aliases], extraTimes: e.extraTimes.map((t) => ({ ...t })), provenance: { ...e.provenance } }));
   const wasKnown = new Set(previous.map((p) => p.uid));
 
   // An official redirect from an old id to a new one is recorded as an alias before matching.
@@ -78,7 +78,6 @@ export function reconcileEvents(
   }
 
   for (const [e, r] of matched) {
-    e.lastSeenAt = nowIso;
     e.missingStrikes = 0;
     const finished = endOfInterest(e);
     if (e.status === 'completed' || (finished !== null && finished < nowMs)) continue; // history is frozen
@@ -117,7 +116,6 @@ export function reconcileEvents(
       sequence: 0,
       createdAt: nowIso,
       lastModified: nowIso,
-      lastSeenAt: nowIso,
     };
     applyTimes(feed, e, r);
     const end = endOfInterest(e);

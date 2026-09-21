@@ -36,7 +36,6 @@ export type FeedEvent = {
   sequence: number;
   createdAt: string;
   lastModified: string; // changes only when something a person would see changes
-  lastSeenAt: string; // bookkeeping, never written into the calendar
 };
 
 export type PageCheck = { kind: 'exists' } | { kind: 'gone' } | { kind: 'moved'; sourceId: string } | { kind: 'unknown'; detail: string };
@@ -63,7 +62,31 @@ export type Feed = {
   fetch: () => Promise<FetchResult>;
   /** Optional: ask whether one event's own page still exists. Without it, events are never auto-cancelled. */
   checkPage?: (sourceId: string) => Promise<PageCheck>;
+  /**
+   * Optional: gather extra details per event (e.g. the bout list) into `details`, keyed by event key.
+   * Must be polite: honour crawlDelayMs and skip anything fetched recently. Returns notes for the status page.
+   */
+  enrich?: (events: FeedEvent[], details: Record<string, unknown>, now: Date) => Promise<string[]>;
+  /** Pure: turn one event plus its stored details into facts. */
+  facts: (event: FeedEvent, detail: unknown) => EventFacts;
+  /** One paragraph telling the write-up step who the readers are and what to explain for this sport. */
+  writerBrief: string;
 };
+
+/** What a feed can say about one event beyond its time and place. Built by rules from the feed's own stored details. */
+export type EventFacts = {
+  badge: string; // short prefix for the title, e.g. an emoji for the sport
+  level: string | null; // one plain line on how big this event is, or null when there is nothing to say
+  lines: string[]; // bullet facts, plain English, for someone new to the sport
+  updatedAt: string | null; // when these facts last changed
+  forWriter: Record<string, unknown>; // structured facts handed to the write-up step
+};
+
+/** A short AI-written explanation for one event. Optional: entries are complete without it. */
+export type EventNote = { why: string; know: string; generatedAt: string; factsHash: string; model: string };
+
+/** A calendar made by merging several feeds, e.g. one "Sports" calendar for the household. */
+export type CombinedCalendar = { id: string; name: string; description: string; feedIds: string[] };
 
 /** A calendar someone else already publishes well. Listed on the status page, nothing is built for it. */
 export type ExternalCalendar = { name: string; note: string; host: string; path: string };

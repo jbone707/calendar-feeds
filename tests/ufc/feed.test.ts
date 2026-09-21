@@ -5,7 +5,7 @@ import { renderCalendar, checkIcs } from '../../src/core/calendar.ts';
 import type { FeedEvent, FetchResult, PageCheck } from '../../src/core/model.ts';
 import { reconcileEvents } from '../../src/core/reconcile.ts';
 import { renderStatusPage } from '../../src/core/status.ts';
-import { externalCalendars, feeds } from '../../src/feeds/index.ts';
+import { combined, externalCalendars, feeds } from '../../src/feeds/index.ts';
 import { classifySlug } from '../../src/feeds/ufc/classify.ts';
 import { ufc } from '../../src/feeds/ufc/index.ts';
 import { parseEventsPage } from '../../src/feeds/ufc/source.ts';
@@ -25,6 +25,7 @@ const BASE = [ufc332, fnOct10, fnOct17, abuDhabi];
 const records = (cards: Card[], past: Card[] = []) => parseEventsPage(pageHtml(cards, past)).records;
 const run = (prev: FeedEvent[], cards: Card[], now = NOW, checks?: Map<string, PageCheck>) => reconcileEvents(ufc, prev, records(cards), now, checks);
 const bySlug = (events: FeedEvent[], slug: string) => events.find((e) => e.aliases.includes(slug))!;
+const render = (events: FeedEvent[]) => renderCalendar(ufc, events.map((event) => ({ feed: ufc, event, facts: null, note: null })));
 const parseIcs = (ics: string) => Object.values(nodeIcal.sync.parseICS(ics)).filter((c: any) => c.type === 'VEVENT') as any[];
 
 test('1. numbered and Fight Night cards are included; other programming is not', () => {
@@ -60,7 +61,10 @@ test('2. the same data twice changes nothing and the feed is byte-identical', ()
   const first = run([], BASE);
   const second = run(first.events, BASE, later(1));
   assert.deepEqual(second.report, []);
-  assert.equal(renderCalendar(ufc, second.events), renderCalendar(ufc, first.events));
+  assert.equal(JSON.stringify(second.events), JSON.stringify(first.events), 'saved state is identical too, so an unchanged run commits nothing');
+  const legacy = first.events.map((e) => ({ ...e, lastSeenAt: NOW.toISOString() }));
+  assert.equal(JSON.stringify(run(legacy, BASE, later(1)).events), JSON.stringify(first.events), 'the old lastSeenAt field is dropped from saved state');
+  assert.equal(render(second.events), render(first.events));
   assert.equal(new Set(second.events.map((e) => e.uid)).size, 4);
   for (const e of second.events) assert.equal(e.sequence, 0);
 });
@@ -98,7 +102,7 @@ test('4. an all-day TBD placeholder becomes a timed event with the same UID', ()
   assert.equal(e1.startUtc, null, 'no time is invented');
   assert.equal(e1.localEventDate, '2026-11-21');
   assert.equal(e1.title, 'UFC Fight Night');
-  const v1 = parseIcs(renderCalendar(ufc, first.events)).find((v) => v.uid === e1.uid);
+  const v1 = parseIcs(render(first.events)).find((v) => v.uid === e1.uid);
   assert.equal(v1.datetype, 'date');
   assert.match(v1.summary, /time TBD/);
   assert.equal((v1.end.getTime() - v1.start.getTime()) / 86_400_000, 1, 'all-day end is exclusive next day');
@@ -111,7 +115,7 @@ test('4. an all-day TBD placeholder becomes a timed event with the same UID', ()
   const e3 = bySlug(timed.events, tbd.slug);
   assert.equal(e3.uid, e1.uid);
   assert.ok(e3.sequence > e1.sequence);
-  const v3 = parseIcs(renderCalendar(ufc, timed.events)).find((v) => v.uid === e1.uid);
+  const v3 = parseIcs(render(timed.events)).find((v) => v.uid === e1.uid);
   assert.equal(v3.datetype, 'date-time');
   assert.equal(v3.start.toISOString(), '2026-11-22T01:00:00.000Z');
 });
@@ -127,7 +131,7 @@ test('5. daylight-saving boundaries and international cards keep the correct ins
   assert.equal(bySlug(r.events, 'ufc-fight-night-october-31-2026').localEventDate, '2026-10-31');
   assert.equal(bySlug(r.events, 'ufc-fight-night-november-07-2026').localEventDate, '2026-11-07');
   assert.equal(bySlug(r.events, 'ufc-335').localEventDate, '2027-02-06');
-  const ics = renderCalendar(ufc, r.events);
+  const ics = render(r.events);
   assert.match(ics, /DTSTART:20261101T000000Z/);
   assert.match(ics, /DTSTART:20261107T220000Z/);
   assert.match(ics, /DTSTART:20261024T180000Z/);
@@ -143,12 +147,12 @@ const fetched = (cards: Card[]): FetchResult => parseEventsPage(pageHtml(cards))
 
 test('6. missing rows, network errors and broken pages keep the prior events and feed', async () => {
   const prev = run([], BASE).events;
-  const feedBefore = renderCalendar(ufc, prev);
+  const feedBefore = render(prev);
 
   // one row missing but its page still exists (rolling window): nothing changes
   const oneMissing = await refresh(prev, async () => fetched([ufc332, fnOct10, fnOct17]));
   assert.equal(oneMissing.ok, true);
-  assert.equal(renderCalendar(ufc, oneMissing.events), feedBefore);
+  assert.equal(render(oneMissing.events), feedBefore);
 
   const network = await refresh(prev, async () => { throw new Error('getaddrinfo ENOTFOUND'); });
   assert.equal(network.ok, false);
@@ -188,7 +192,7 @@ test('7. cancellation needs repeated evidence, is published as cancelled, retain
   const cancelled = bySlug(events, fnOct17.slug);
   assert.equal(cancelled.status, 'cancelled');
   assert.equal(cancelled.uid, uid);
-  const v = parseIcs(renderCalendar(ufc, events)).find((x) => x.uid === uid);
+  const v = parseIcs(render(events)).find((x) => x.uid === uid);
   assert.equal(v.status, 'CANCELLED');
   assert.match(v.summary, /^Cancelled: /);
 
@@ -205,7 +209,7 @@ test('7. cancellation needs repeated evidence, is published as cancelled, retain
 test('8. the feed parses independently with awkward characters, CRLF and folded UTF-8', () => {
   const nasty: Card = { slug: 'ufc-fight-night-december-05-2026', headline: 'Błachowicz vs Procházka; "The Rematch", Part 2', main: unix('2026-12-06T01:00:00Z'), prelims: unix('2026-12-05T22:00:00Z'), venue: 'Arène de Genève, Hall 1; Niveau 2', city: 'Genève', country: 'Suisse' };
   const r = run([], [...BASE, nasty]);
-  const ics = renderCalendar(ufc, r.events);
+  const ics = render(r.events);
   assert.equal(checkIcs(ics, 5), null);
   assert.ok(!/[^\r]\n/.test(ics), 'CRLF only');
   const v = parseIcs(ics).find((x) => x.summary.includes('Błachowicz'));
@@ -251,18 +255,25 @@ test('feeds are isolated and the status page lists every calendar, including one
   const good = run([], BASE).events;
   const broken = await attemptRefresh({ ...ufc, id: 'other', fetch: async () => { throw new Error('boom'); } }, [], { now: () => NOW, delayMs: 0 });
   assert.equal(broken.ok, false);
+  const okMeta = { lastAttemptAt: NOW.toISOString(), lastSuccessAt: NOW.toISOString(), lastError: null, lastChangeReport: [], warnings: [] };
+  const entries = good.map((event) => ({ feed: ufc, event, facts: ufc.facts(event, undefined), note: null }));
   const html = renderStatusPage(
     [
-      { feed: ufc, events: good, meta: { lastAttemptAt: NOW.toISOString(), lastSuccessAt: NOW.toISOString(), lastError: null, lastChangeReport: [], warnings: [] } },
-      { feed: { ...ufc, id: 'other', name: 'Other <Feed>' }, events: [], meta: { lastAttemptAt: NOW.toISOString(), lastSuccessAt: null, lastError: broken.error, lastChangeReport: [], warnings: [] } },
+      { feed: ufc, entries, meta: okMeta },
+      { feed: { ...ufc, id: 'other', name: 'Other <Feed>' }, entries: [], meta: { ...okMeta, lastSuccessAt: null, lastError: broken.error } },
     ],
-    externalCalendars,
+    combined,
+    [{ name: 'Some Team', note: 'Published by the team.', host: 'example.com', path: '/cal.ics' }],
+    { enabled: false, lastWrittenAt: null, lastError: null },
     NOW,
   );
   assert.equal((html.match(/<h1/g) ?? []).length, 1);
   assert.match(html, /webcal:\/\/jbone707\.github\.io\/calendar-feeds\/ufc\.ics/);
   assert.match(html, /webcal:\/\/jbone707\.github\.io\/calendar-feeds\/other\.ics/);
-  assert.match(html, /webcal:\/\/www\.49ers\.com\/api\/addToCalendar\/ag\/s/);
+  assert.match(html, /webcal:\/\/jbone707\.github\.io\/calendar-feeds\/sports\.ics/);
+  assert.match(html, /webcal:\/\/example\.com\/cal\.ics/);
+  assert.match(html, /Write-ups are off/);
+  assert.equal(externalCalendars.length, 0);
   assert.match(html, /Other &lt;Feed&gt;/, 'names are escaped');
   assert.match(html, /UFC 332: Silva vs Wang/);
   assert.match(html, /Could not read UFC\.com: boom/);

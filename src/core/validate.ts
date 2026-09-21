@@ -11,9 +11,12 @@ export function validateUpdate(
   fetched: Pick<FetchResult, 'itemsSeen' | 'itemsRead'>,
   now: Date,
 ): Verdict {
+  // The guards below protect upcoming events. With none on the books (an off-season), an empty source is normal.
+  const nothingToLose = result.stats.previousFuture === 0;
+  if (fetched.itemsSeen === 0 && nothingToLose) return { ok: true };
   if (fetched.itemsSeen === 0) return { ok: false, reason: `${feed.sourceName} returned a page with no events on it (layout change or block page).` };
   if (fetched.itemsRead < fetched.itemsSeen / 2) return { ok: false, reason: `Only ${fetched.itemsRead} of ${fetched.itemsSeen} items could be read.` };
-  if (result.stats.incoming === 0 && previous.length > 0)
+  if (result.stats.incoming === 0 && !nothingToLose)
     return { ok: false, reason: 'None of the events this calendar tracks were found on a page that normally has several.' };
 
   const { previousFuture, previousFutureMissing } = result.stats;
