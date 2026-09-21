@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "key": "niners:5bc68c8d-977b-41fd-9b49-f91f3e8647c9",
+      "uid": "4f82aad4-cac1-4072-bf67-4246556a5573@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "5bc68c8d-977b-41fd-9b49-f91f3e8647c9",
+      "aliases": [
+        "5bc68c8d-977b-41fd-9b49-f91f3e8647c9"
+      ],
+      "title": "49ers vs Dolphins",
+      "matchHint": "Miami Dolphins at San Francisco 49ers",
+      "localEventDate": "2026-09-20",
+      "startUtc": "2026-09-20T20:25:00.000Z",
+      "extraTimes": [],
+      "location": "Levi's® Stadium, Santa Clara",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:ffc6f0b4-6038-4e41-a786-d798ca76c110",
+      "uid": "f75c84e0-aaf1-4262-9d61-ca4b6f1e672a@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "ffc6f0b4-6038-4e41-a786-d798ca76c110",
+      "aliases": [
+        "ffc6f0b4-6038-4e41-a786-d798ca76c110"
+      ],
+      "title": "49ers vs Cardinals",
+      "matchHint": "Arizona Cardinals at San Francisco 49ers",
+      "localEventDate": "2026-09-27",
+      "startUtc": "2026-09-27T20:05:00.000Z",
+      "extraTimes": [],
+      "location": "Levi's® Stadium, Santa Clara",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:eeb4f2bf-19b7-46e7-8c77-9676f8bff5ef",
+      "uid": "65476e3e-e4f9-4fb3-a5c0-3b852455ccfa@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "eeb4f2bf-19b7-46e7-8c77-9676f8bff5ef",
+      "aliases": [
+        "eeb4f2bf-19b7-46e7-8c77-9676f8bff5ef"
+      ],
+      "title": "49ers vs Broncos",
+      "matchHint": "Denver Broncos at San Francisco 49ers",
+      "localEventDate": "2026-10-04",
+      "startUtc": "2026-10-04T20:25:00.000Z",
+      "extraTimes": [],
+      "location": "Levi's® Stadium, Santa Clara",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:7bf80989-09af-45b3-bc5c-87f6c6c8bd66",
+      "uid": "5a58fd06-e8ef-4b11-a524-980603a9b15f@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "7bf80989-09af-45b3-bc5c-87f6c6c8bd66",
+      "aliases": [
+        "7bf80989-09af-45b3-bc5c-87f6c6c8bd66"
+      ],
+      "title": "49ers at Seahawks",
+      "matchHint": "San Francisco 49ers at Seattle Seahawks",
+      "localEventDate": "2026-10-11",
+      "startUtc": "2026-10-11T20:25:00.000Z",
+      "extraTimes": [],
+      "location": "Lumen Field, Seattle",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:7be8955f-de23-4a22-96f6-5b4926e21561",
+      "uid": "a3a64199-919d-4ef2-8fcb-37e2efd0c2b7@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "7be8955f-de23-4a22-96f6-5b4926e21561",
+      "aliases": [
+        "7be8955f-de23-4a22-96f6-5b4926e21561"
+      ],
+      "title": "49ers vs Commanders",
+      "matchHint": "Washington Commanders at San Francisco 49ers",
+      "localEventDate": "2026-10-19",
+      "startUtc": "2026-10-20T00:15:00.000Z",
+      "extraTimes": [],
+      "location": "Levi's® Stadium, Santa Clara",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:0ba3ba51-c540-4a8a-9936-9ee5862b0593",
+      "uid": "59f01b3b-4658-426d-8887-4104af53dfc6@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "0ba3ba51-c540-4a8a-9936-9ee5862b0593",
+      "aliases": [
+        "0ba3ba51-c540-4a8a-9936-9ee5862b0593"
+      ],
+      "title": "49ers at Falcons",
+      "matchHint": "San Francisco 49ers at Atlanta Falcons",
+      "localEventDate": "2026-10-25",
+      "startUtc": "2026-10-25T17:00:00.000Z",
+      "extraTimes": [],
+      "location": "Mercedes-Benz Stadium, Atlanta",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:deb804c1-b3d3-4162-81e8-d5a4daba48b0",
+      "uid": "89e0495f-fe2d-46a6-9588-b813f1ec768e@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "deb804c1-b3d3-4162-81e8-d5a4daba48b0",
+      "aliases": [
+        "deb804c1-b3d3-4162-81e8-d5a4daba48b0"
+      ],
+      "title": "49ers vs Raiders",
+      "matchHint": "Las Vegas Raiders at San Francisco 49ers",
+      "localEventDate": "2026-11-08",
+      "startUtc": "2026-11-08T21:05:00.000Z",
+      "extraTimes": [],
+      "location": "Levi's® Stadium, Santa Clara",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:9fc04969-11d1-4e4d-9ce2-4dcb6759d409",
+      "uid": "b0ab8af8-cb28-465a-aea7-5d32bec5ae19@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "9fc04969-11d1-4e4d-9ce2-4dcb6759d409",
+      "aliases": [
+        "9fc04969-11d1-4e4d-9ce2-4dcb6759d409"
+      ],
+      "title": "49ers at Cowboys",
+      "matchHint": "San Francisco 49ers at Dallas Cowboys",
+      "localEventDate": "2026-11-15",
+      "startUtc": "2026-11-15T21:25:00.000Z",
+      "extraTimes": [],
+      "location": "AT&T Stadium, Arlington",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:55755f6a-8af6-452c-b58f-0b054e86ccca",
+      "uid": "afce88a5-30fa-41f5-be6d-38cadb4fe552@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "55755f6a-8af6-452c-b58f-0b054e86ccca",
+      "aliases": [
+        "55755f6a-8af6-452c-b58f-0b054e86ccca"
+      ],
+      "title": "49ers vs Vikings",
+      "matchHint": "Minnesota Vikings at San Francisco 49ers",
+      "localEventDate": "2026-11-22",
+      "startUtc": "2026-11-23T01:20:00.000Z",
+      "extraTimes": [],
+      "location": "Estadio Banorte, Mexico City",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:dc7d7075-b97e-4211-a092-10761de49ae6",
+      "uid": "dd25dbb7-ff78-4f75-8978-eecf98955d16@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "dc7d7075-b97e-4211-a092-10761de49ae6",
+      "aliases": [
+        "dc7d7075-b97e-4211-a092-10761de49ae6"
+      ],
+      "title": "49ers vs Seahawks",
+      "matchHint": "Seattle Seahawks at San Francisco 49ers",
+      "localEventDate": "2026-11-29",
+      "startUtc": "2026-11-29T21:25:00.000Z",
+      "extraTimes": [],
+      "location": "Levi's® Stadium, Santa Clara",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:a3f0511a-0e8e-43cb-a75f-fdb364c4a153",
+      "uid": "1ff58a32-3481-47fd-906e-e2bb2cdf92f4@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "a3f0511a-0e8e-43cb-a75f-fdb364c4a153",
+      "aliases": [
+        "a3f0511a-0e8e-43cb-a75f-fdb364c4a153"
+      ],
+      "title": "49ers at Giants",
+      "matchHint": "San Francisco 49ers at New York Giants",
+      "localEventDate": "2026-12-06",
+      "startUtc": "2026-12-06T18:00:00.000Z",
+      "extraTimes": [],
+      "location": "MetLife Stadium, East Rutherford",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:83ffc622-69c9-41be-8e33-552fc890bb3a",
+      "uid": "6db52b82-53f5-44fb-97a8-9822191cea27@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "83ffc622-69c9-41be-8e33-552fc890bb3a",
+      "aliases": [
+        "83ffc622-69c9-41be-8e33-552fc890bb3a"
+      ],
+      "title": "49ers vs Rams",
+      "matchHint": "Los Angeles Rams at San Francisco 49ers",
+      "localEventDate": "2026-12-13",
+      "startUtc": "2026-12-13T21:25:00.000Z",
+      "extraTimes": [],
+      "location": "Levi's® Stadium, Santa Clara",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:6b60969f-cc9c-49f0-9aa6-bd32bc7ffddf",
+      "uid": "e4d249ac-55ae-4074-a5a3-5ca4ca5556ac@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "6b60969f-cc9c-49f0-9aa6-bd32bc7ffddf",
+      "aliases": [
+        "6b60969f-cc9c-49f0-9aa6-bd32bc7ffddf"
+      ],
+      "title": "49ers at Chargers",
+      "matchHint": "San Francisco 49ers at Los Angeles Chargers",
+      "localEventDate": "2026-12-17",
+      "startUtc": "2026-12-18T01:15:00.000Z",
+      "extraTimes": [],
+      "location": "SoFi Stadium, Inglewood",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:0824b320-5f27-4f1a-8f9a-f5313f91fa98",
+      "uid": "fb474df8-10f0-4c14-8d0a-9236bc74ff6e@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "0824b320-5f27-4f1a-8f9a-f5313f91fa98",
+      "aliases": [
+        "0824b320-5f27-4f1a-8f9a-f5313f91fa98"
+      ],
+      "title": "49ers at Chiefs",
+      "matchHint": "San Francisco 49ers at Kansas City Chiefs",
+      "localEventDate": "2026-12-27",
+      "startUtc": "2026-12-27T21:25:00.000Z",
+      "extraTimes": [],
+      "location": "Arrowhead Stadium, Kansas City",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    },
+    {
+      "key": "niners:71fe91fb-af7a-4cfd-9e6e-1803b85acf94",
+      "uid": "226d929c-2d77-43ca-9360-62d6fafb6283@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "71fe91fb-af7a-4cfd-9e6e-1803b85acf94",
+      "aliases": [
+        "71fe91fb-af7a-4cfd-9e6e-1803b85acf94"
+      ],
+      "title": "49ers vs Eagles",
+      "matchHint": "Philadelphia Eagles at San Francisco 49ers",
+      "localEventDate": "2027-01-03",
+      "startUtc": "2027-01-04T01:20:00.000Z",
+      "extraTimes": [],
+      "location": "Levi's® Stadium, Santa Clara",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:31:26.542Z"
+    }
+  ]
+}

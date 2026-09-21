@@ -1,0 +1,270 @@
+{
+  "ufc.com:ufc-fight-night-september-26-2026": {
+    "fetchedAt": "2026-09-21T01:29:25.253Z",
+    "changedAt": "2026-09-21T01:29:25.253Z",
+    "bouts": [
+      {
+        "segment": "main",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Raul Rosas Jr.",
+        "blue": "Raoni Barcelos",
+        "redRank": "#12",
+        "blueRank": "#13"
+      },
+      {
+        "segment": "main",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Rodolfo Vieira",
+        "blue": "Robert Bryczek",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "main",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Brady Hiestand",
+        "blue": "Rinya Nakamura",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "main",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Mehemmedeli Osmanli",
+        "blue": "Ilimbek Akylbek",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "main",
+        "weightClass": "Women's Strawweight",
+        "titleBout": false,
+        "red": "Melissa Amaya",
+        "blue": "Valesca Machado",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "main",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Josiah Harrell",
+        "blue": "Elves Brener",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Rodolfo Bellato",
+        "blue": "Christian Edwards",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Montel Jackson",
+        "blue": "Ricky Simon",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "John Castaneda",
+        "blue": "Alatengheili",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Women's Bantamweight",
+        "titleBout": false,
+        "red": "Norma Dumont",
+        "blue": "Ailin Perez",
+        "redRank": "#4",
+        "blueRank": "#5"
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Women's Strawweight",
+        "titleBout": false,
+        "red": "Vanessa Demopoulos",
+        "blue": "Yazmin Jauregui",
+        "redRank": null,
+        "blueRank": null
+      }
+    ]
+  },
+  "numbered:332": {
+    "fetchedAt": "2026-09-21T01:29:25.253Z",
+    "changedAt": "2026-09-21T01:29:25.253Z",
+    "bouts": [
+      {
+        "segment": "main",
+        "weightClass": "Women's Flyweight",
+        "titleBout": true,
+        "red": "Natalia Silva",
+        "blue": "Wang Cong",
+        "redRank": "#1",
+        "blueRank": "#8"
+      },
+      {
+        "segment": "main",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Deiveson Figueiredo",
+        "blue": "Payton Talbott",
+        "redRank": "#9",
+        "blueRank": "#11"
+      },
+      {
+        "segment": "main",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "King Green",
+        "blue": "Esteban Ribovics",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "main",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Roberto Soldic",
+        "blue": "Khaos Williams",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "main",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Ateba Gautier",
+        "blue": "Roman Kopylov",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Flyweight",
+        "titleBout": false,
+        "red": "Imanol Rodriguez",
+        "blue": "Alden Coria",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Damian Pinas",
+        "blue": "Andrey Pulyaev",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Marcus McGhee",
+        "blue": "Benardo Sopaj",
+        "redRank": "#15",
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Heavyweight",
+        "titleBout": false,
+        "red": "Anthony Wint",
+        "blue": "Lucas Armand",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Heavyweight",
+        "titleBout": false,
+        "red": "Johnny Walker",
+        "blue": "Mick Parkin",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Rafael Dos Anjos",
+        "blue": "Alexander Hernandez",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Marvin Vettori",
+        "blue": "Ismail Naurdiev",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Court McGee",
+        "blue": "Eric Nolan",
+        "redRank": null,
+        "blueRank": null
+      }
+    ]
+  },
+  "ufc.com:ufc-fight-night-october-10-2026": {
+    "fetchedAt": "2026-09-21T01:29:25.253Z",
+    "changedAt": "2026-09-21T01:29:25.253Z",
+    "bouts": []
+  },
+  "ufc.com:ufc-fight-night-october-17-2026": {
+    "fetchedAt": "2026-09-21T01:29:25.253Z",
+    "changedAt": "2026-09-21T01:29:25.253Z",
+    "bouts": []
+  },
+  "numbered:333": {
+    "fetchedAt": "2026-09-21T01:29:25.253Z",
+    "changedAt": "2026-09-21T01:29:25.253Z",
+    "bouts": []
+  },
+  "ufc.com:ufc-fight-night-october-31-2026": {
+    "fetchedAt": "2026-09-21T01:29:25.253Z",
+    "changedAt": "2026-09-21T01:29:25.253Z",
+    "bouts": []
+  },
+  "ufc.com:ufc-fight-night-november-07-2026": {
+    "fetchedAt": "2026-09-21T01:29:25.253Z",
+    "changedAt": "2026-09-21T01:29:25.253Z",
+    "bouts": [
+      {
+        "segment": "main",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Gabriel Bonfim",
+        "blue": "Sean Brady",
+        "redRank": "#5",
+        "blueRank": "#6"
+      }
+    ]
+  },
+  "numbered:334": {
+    "fetchedAt": "2026-09-21T01:29:25.253Z",
+    "changedAt": "2026-09-21T01:29:25.253Z",
+    "bouts": []
+  }
+}
