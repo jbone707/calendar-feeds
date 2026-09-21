@@ -29,11 +29,12 @@
     {
       "key": "niners:5bc68c8d-977b-41fd-9b49-f91f3e8647c9",
       "uid": "4f82aad4-cac1-4072-bf67-4246556a5573@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "c26ff3b2-1400-4c99-aba0-50a084e487db",
+      "sourceId": "2026-season-vs-miami-dolphins",
       "aliases": [
         "5bc68c8d-977b-41fd-9b49-f91f3e8647c9",
         "4f4fc63f-a5c2-49df-a607-4d40ac7229e2",
-        "c26ff3b2-1400-4c99-aba0-50a084e487db"
+        "c26ff3b2-1400-4c99-aba0-50a084e487db",
+        "2026-season-vs-miami-dolphins"
       ],
       "title": "49ers vs Dolphins",
       "matchHint": "Miami Dolphins at San Francisco 49ers",
@@ -55,11 +56,12 @@
     {
       "key": "niners:ffc6f0b4-6038-4e41-a786-d798ca76c110",
       "uid": "f75c84e0-aaf1-4262-9d61-ca4b6f1e672a@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "21cd4edf-9df9-4656-ba7b-18e08d18abe3",
+      "sourceId": "2026-season-vs-arizona-cardinals",
       "aliases": [
         "ffc6f0b4-6038-4e41-a786-d798ca76c110",
         "917f381e-bec6-468a-b58e-57104b616b1d",
-        "21cd4edf-9df9-4656-ba7b-18e08d18abe3"
+        "21cd4edf-9df9-4656-ba7b-18e08d18abe3",
+        "2026-season-vs-arizona-cardinals"
       ],
       "title": "49ers vs Cardinals",
       "matchHint": "Arizona Cardinals at San Francisco 49ers",
@@ -81,11 +83,12 @@
     {
       "key": "niners:eeb4f2bf-19b7-46e7-8c77-9676f8bff5ef",
       "uid": "65476e3e-e4f9-4fb3-a5c0-3b852455ccfa@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "d7d873cb-9d53-4525-ae77-6d63f2771efb",
+      "sourceId": "2026-season-vs-denver-broncos",
       "aliases": [
         "eeb4f2bf-19b7-46e7-8c77-9676f8bff5ef",
         "dc58874a-09cc-4504-a9bf-1252455ffad0",
-        "d7d873cb-9d53-4525-ae77-6d63f2771efb"
+        "d7d873cb-9d53-4525-ae77-6d63f2771efb",
+        "2026-season-vs-denver-broncos"
       ],
       "title": "49ers vs Broncos",
       "matchHint": "Denver Broncos at San Francisco 49ers",
@@ -107,11 +110,12 @@
     {
       "key": "niners:7bf80989-09af-45b3-bc5c-87f6c6c8bd66",
       "uid": "5a58fd06-e8ef-4b11-a524-980603a9b15f@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "018d09d2-2a6c-46c9-b0c0-a5f9034bca42",
+      "sourceId": "2026-season-at-seattle-seahawks",
       "aliases": [
         "7bf80989-09af-45b3-bc5c-87f6c6c8bd66",
         "0a4b7480-0dbe-4036-be0d-d16298935b24",
-        "018d09d2-2a6c-46c9-b0c0-a5f9034bca42"
+        "018d09d2-2a6c-46c9-b0c0-a5f9034bca42",
+        "2026-season-at-seattle-seahawks"
       ],
       "title": "49ers at Seahawks",
       "matchHint": "San Francisco 49ers at Seattle Seahawks",
@@ -133,11 +137,12 @@
     {
       "key": "niners:7be8955f-de23-4a22-96f6-5b4926e21561",
       "uid": "a3a64199-919d-4ef2-8fcb-37e2efd0c2b7@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "ce7999b1-6fc4-4fa8-9bfd-49d66ec41339",
+      "sourceId": "2026-season-vs-washington-commanders",
       "aliases": [
         "7be8955f-de23-4a22-96f6-5b4926e21561",
         "99f990c0-41c9-46c7-b8ee-40a061eb4249",
-        "ce7999b1-6fc4-4fa8-9bfd-49d66ec41339"
+        "ce7999b1-6fc4-4fa8-9bfd-49d66ec41339",
+        "2026-season-vs-washington-commanders"
       ],
       "title": "49ers vs Commanders",
       "matchHint": "Washington Commanders at San Francisco 49ers",
@@ -159,11 +164,12 @@
     {
       "key": "niners:0ba3ba51-c540-4a8a-9936-9ee5862b0593",
       "uid": "59f01b3b-4658-426d-8887-4104af53dfc6@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "b24ad590-5d7d-44b4-9bcd-9f1a565809d9",
+      "sourceId": "2026-season-at-atlanta-falcons",
       "aliases": [
         "0ba3ba51-c540-4a8a-9936-9ee5862b0593",
         "b789ca0d-e09f-4fd7-8668-1506db8e45fe",
-        "b24ad590-5d7d-44b4-9bcd-9f1a565809d9"
+        "b24ad590-5d7d-44b4-9bcd-9f1a565809d9",
+        "2026-season-at-atlanta-falcons"
       ],
       "title": "49ers at Falcons",
       "matchHint": "San Francisco 49ers at Atlanta Falcons",
@@ -185,11 +191,12 @@
     {
       "key": "niners:deb804c1-b3d3-4162-81e8-d5a4daba48b0",
       "uid": "89e0495f-fe2d-46a6-9588-b813f1ec768e@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "e329d29f-6346-4ba7-97fd-ca8566b816c0",
+      "sourceId": "2026-season-vs-las-vegas-raiders",
       "aliases": [
         "deb804c1-b3d3-4162-81e8-d5a4daba48b0",
         "5a3a00e2-214d-46f3-9e5f-2bf614dcc092",
-        "e329d29f-6346-4ba7-97fd-ca8566b816c0"
+        "e329d29f-6346-4ba7-97fd-ca8566b816c0",
+        "2026-season-vs-las-vegas-raiders"
       ],
       "title": "49ers vs Raiders",
       "matchHint": "Las Vegas Raiders at San Francisco 49ers",
@@ -211,11 +218,12 @@
     {
       "key": "niners:9fc04969-11d1-4e4d-9ce2-4dcb6759d409",
       "uid": "b0ab8af8-cb28-465a-aea7-5d32bec5ae19@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "204bf557-c4f0-4264-9b5a-c8dade6f275a",
+      "sourceId": "2026-season-at-dallas-cowboys",
       "aliases": [
         "9fc04969-11d1-4e4d-9ce2-4dcb6759d409",
         "3e1a46f3-dc4d-4bdd-be2d-72785b61c90b",
-        "204bf557-c4f0-4264-9b5a-c8dade6f275a"
+        "204bf557-c4f0-4264-9b5a-c8dade6f275a",
+        "2026-season-at-dallas-cowboys"
       ],
       "title": "49ers at Cowboys",
       "matchHint": "San Francisco 49ers at Dallas Cowboys",
@@ -237,11 +245,12 @@
     {
       "key": "niners:55755f6a-8af6-452c-b58f-0b054e86ccca",
       "uid": "afce88a5-30fa-41f5-be6d-38cadb4fe552@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "ee1b0450-a7df-4430-a5c1-81942fa52566",
+      "sourceId": "2026-season-vs-minnesota-vikings",
       "aliases": [
         "55755f6a-8af6-452c-b58f-0b054e86ccca",
         "138e9515-1de8-4fcd-bf52-35e23a45806a",
-        "ee1b0450-a7df-4430-a5c1-81942fa52566"
+        "ee1b0450-a7df-4430-a5c1-81942fa52566",
+        "2026-season-vs-minnesota-vikings"
       ],
       "title": "49ers vs Vikings",
       "matchHint": "Minnesota Vikings at San Francisco 49ers",
@@ -263,11 +272,12 @@
     {
       "key": "niners:dc7d7075-b97e-4211-a092-10761de49ae6",
       "uid": "dd25dbb7-ff78-4f75-8978-eecf98955d16@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "67fff982-3a30-4a45-8fec-dffd1053baeb",
+      "sourceId": "2026-season-vs-seattle-seahawks",
       "aliases": [
         "dc7d7075-b97e-4211-a092-10761de49ae6",
         "4f761da2-5deb-4acf-a2d1-a6d4a1a9fbd4",
-        "67fff982-3a30-4a45-8fec-dffd1053baeb"
+        "67fff982-3a30-4a45-8fec-dffd1053baeb",
+        "2026-season-vs-seattle-seahawks"
       ],
       "title": "49ers vs Seahawks",
       "matchHint": "Seattle Seahawks at San Francisco 49ers",
@@ -289,11 +299,12 @@
     {
       "key": "niners:a3f0511a-0e8e-43cb-a75f-fdb364c4a153",
       "uid": "1ff58a32-3481-47fd-906e-e2bb2cdf92f4@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "1031bc8e-308e-4191-af69-a405b3921999",
+      "sourceId": "2026-season-at-new-york-giants",
       "aliases": [
         "a3f0511a-0e8e-43cb-a75f-fdb364c4a153",
         "fd3604c5-c87c-4fd7-920a-d394e000aefb",
-        "1031bc8e-308e-4191-af69-a405b3921999"
+        "1031bc8e-308e-4191-af69-a405b3921999",
+        "2026-season-at-new-york-giants"
       ],
       "title": "49ers at Giants",
       "matchHint": "San Francisco 49ers at New York Giants",
@@ -315,11 +326,12 @@
     {
       "key": "niners:83ffc622-69c9-41be-8e33-552fc890bb3a",
       "uid": "6db52b82-53f5-44fb-97a8-9822191cea27@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "30986622-1892-4528-aa3e-926f80a6b6f4",
+      "sourceId": "2026-season-vs-los-angeles-rams",
       "aliases": [
         "83ffc622-69c9-41be-8e33-552fc890bb3a",
         "8493ed6e-eb60-4c82-b3b4-a6c606c85dfa",
-        "30986622-1892-4528-aa3e-926f80a6b6f4"
+        "30986622-1892-4528-aa3e-926f80a6b6f4",
+        "2026-season-vs-los-angeles-rams"
       ],
       "title": "49ers vs Rams",
       "matchHint": "Los Angeles Rams at San Francisco 49ers",
@@ -341,10 +353,11 @@
     {
       "key": "niners:425bd481-dcf6-499a-ae9c-eecb2e7f0e2e",
       "uid": "85558ae8-2dfc-402b-83c6-589ef159cda7@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "698026aa-fb23-4ebf-ab44-145dc66e9e26",
+      "sourceId": "2026-season-at-los-angeles-chargers",
       "aliases": [
         "425bd481-dcf6-499a-ae9c-eecb2e7f0e2e",
-        "698026aa-fb23-4ebf-ab44-145dc66e9e26"
+        "698026aa-fb23-4ebf-ab44-145dc66e9e26",
+        "2026-season-at-los-angeles-chargers"
       ],
       "title": "49ers at Chargers",
       "matchHint": "San Francisco 49ers at Los Angeles Chargers",
@@ -366,11 +379,12 @@
     {
       "key": "niners:0824b320-5f27-4f1a-8f9a-f5313f91fa98",
       "uid": "fb474df8-10f0-4c14-8d0a-9236bc74ff6e@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "e403320d-fd83-4b22-a6c2-1c70223ece8f",
+      "sourceId": "2026-season-at-kansas-city-chiefs",
       "aliases": [
         "0824b320-5f27-4f1a-8f9a-f5313f91fa98",
         "ab60ba53-edb0-4ece-b683-02b2ce40b623",
-        "e403320d-fd83-4b22-a6c2-1c70223ece8f"
+        "e403320d-fd83-4b22-a6c2-1c70223ece8f",
+        "2026-season-at-kansas-city-chiefs"
       ],
       "title": "49ers at Chiefs",
       "matchHint": "San Francisco 49ers at Kansas City Chiefs",
@@ -392,11 +406,12 @@
     {
       "key": "niners:71fe91fb-af7a-4cfd-9e6e-1803b85acf94",
       "uid": "226d929c-2d77-43ca-9360-62d6fafb6283@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "54cb266a-464f-4007-87ee-4b8075a77423",
+      "sourceId": "2026-season-vs-philadelphia-eagles",
       "aliases": [
         "71fe91fb-af7a-4cfd-9e6e-1803b85acf94",
         "74e03e39-486c-4ea9-8d74-9dccd56e08e8",
-        "54cb266a-464f-4007-87ee-4b8075a77423"
+        "54cb266a-464f-4007-87ee-4b8075a77423",
+        "2026-season-vs-philadelphia-eagles"
       ],
       "title": "49ers vs Eagles",
       "matchHint": "Philadelphia Eagles at San Francisco 49ers",
