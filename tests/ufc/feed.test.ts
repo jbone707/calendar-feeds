@@ -132,9 +132,18 @@ test('5. daylight-saving boundaries and international cards keep the correct ins
   assert.equal(bySlug(r.events, 'ufc-fight-night-november-07-2026').localEventDate, '2026-11-07');
   assert.equal(bySlug(r.events, 'ufc-335').localEventDate, '2027-02-06');
   const ics = render(r.events);
-  assert.match(ics, /DTSTART:20261101T000000Z/);
-  assert.match(ics, /DTSTART:20261107T220000Z/);
-  assert.match(ics, /DTSTART:20261024T180000Z/);
+  // Written on the household's clock with a declared zone, not in UTC, so Apple Calendar shows one time, not two.
+  assert.match(ics, /DTSTART;TZID=America\/Los_Angeles:20261031T170000\r\n/, '5 PM PDT, the night before clocks change');
+  assert.match(ics, /DTSTART;TZID=America\/Los_Angeles:20261107T140000\r\n/, '2 PM PST, the week after');
+  assert.match(ics, /DTSTART;TZID=America\/Los_Angeles:20261024T110000\r\n/);
+  assert.match(ics, /DTEND;TZID=America\/Los_Angeles:20261031T200000\r\n/);
+  assert.ok(!/^DT(START|END):\d{8}T\d{6}Z/m.test(ics), 'no event time is left in UTC');
+  assert.match(ics, /DTSTAMP:\d{8}T\d{6}Z/, 'bookkeeping stamps stay in UTC as the standard requires');
+  assert.equal((ics.match(/BEGIN:VTIMEZONE/g) ?? []).length, 1);
+  assert.ok(ics.indexOf('BEGIN:VTIMEZONE') < ics.indexOf('BEGIN:VEVENT'));
+  // An independent parser, using the zone rules in the file, lands on the exact same instants.
+  const starts = parseIcs(ics).map((v) => v.start.toISOString()).sort();
+  assert.deepEqual(starts, ['2026-10-24T18:00:00.000Z', '2026-11-01T00:00:00.000Z', '2026-11-07T22:00:00.000Z', '2027-02-07T03:00:00.000Z']);
   const desc = parseIcs(ics).find((v) => v.summary.startsWith('UFC Fight Night: C vs D')).description;
   assert.match(desc, /Main card: Sat, Nov 7, 2:00 PM PST/, 'Pacific rendering after the clock change');
   const before = parseIcs(ics).find((v) => v.summary.startsWith('UFC Fight Night: A vs B')).description;

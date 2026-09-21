@@ -60,6 +60,7 @@ tests/<id>/              failure-mode tests per feed
 ## Rules Every Feed Gets From the Engine
 
 - Each event gets a random UID once. Title, date, venue, time and even the source's own id can change without creating a duplicate.
+- Event times are written in the household's zone (`HOME_TZ` in `src/config.ts`, America/Los_Angeles) with the zone's rules included, not in UTC. Same instants; it stops Apple Calendar printing a second "(1AM GMT)" time on every entry. A phone elsewhere still converts correctly and shows the Pacific time as the second one.
 - `SEQUENCE` and `LAST-MODIFIED` change only when something visible changes. An unchanged run produces a byte-identical calendar.
 - No time is ever invented. An event with a date but no published start is an all-day entry marked "time TBD", and later becomes a timed entry with the same UID.
 - A time or venue that goes blank at the source does not erase what was known.

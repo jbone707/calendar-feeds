@@ -1,5 +1,5 @@
 import ical, { ICalCalendarMethod, ICalEventStatus, ICalEventTransparency } from 'ical-generator';
-import { httpsUrl } from '../config.ts';
+import { HOME_TZ, httpsUrl } from '../config.ts';
 import type { EventFacts, EventNote, Feed, FeedEvent } from './model.ts';
 
 type FeedShape = Pick<Feed, 'id' | 'sourceName' | 'startLabel' | 'durationHours'>;
@@ -86,7 +86,30 @@ export function renderCalendar(meta: CalendarMeta, entries: Entry[]): string {
       cal.createEvent({ ...common, summary: `${title} (time TBD)`, allDay: true, start: new Date(day), end: new Date(day + 86_400_000) });
     }
   }
-  return cal.toString();
+  return inHomeZone(cal.toString());
+}
+
+/** "20261107T220000Z" -> "20261107T140000" on the household's clock. Uses the zone database, not the machine's zone. */
+function wallTime(utcBasic: string): string {
+  const iso = utcBasic.replace(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/, '$1-$2-$3T$4:$5:$6Z');
+  const parts = new Intl.DateTimeFormat('en-US', { timeZone: HOME_TZ.id, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' }).formatToParts(new Date(iso));
+  const g = (t: string) => parts.find((p) => p.type === t)!.value;
+  return `${g('year')}${g('month')}${g('day')}T${g('hour')}${g('minute')}${g('second')}`;
+}
+
+/**
+ * Rewrite event start and end times from UTC into the household's zone, and declare that zone. Same instants,
+ * different spelling: it is what stops Apple Calendar printing a second GMT time on every entry. Bookkeeping
+ * stamps (DTSTAMP, CREATED, LAST-MODIFIED) must stay in UTC and are left alone. All-day dates are untouched.
+ */
+function inHomeZone(ics: string): string {
+  const lines = ics.split('\r\n').map((line) => {
+    const m = /^(DTSTART|DTEND):(\d{8}T\d{6}Z)$/.exec(line);
+    return m ? `${m[1]};TZID=${HOME_TZ.id}:${wallTime(m[2])}` : line;
+  });
+  const at = lines.findIndex((l) => l === 'BEGIN:VEVENT' || l === 'END:VCALENDAR');
+  lines.splice(at, 0, `X-WR-TIMEZONE:${HOME_TZ.id}`, ...HOME_TZ.vtimezone);
+  return lines.join('\r\n');
 }
 
 /** Cheap structural check run before every publish. */
