@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import nodeIcal from 'node-ical';
 import { checkIcs, renderCalendar } from '../../src/core/calendar.ts';
 import type { FeedEvent } from '../../src/core/model.ts';
-import { buildRequest, cleanNote, emptyNotes, extractFields, extractJson, factsHash, planNotes, updateNotes } from '../../src/core/notes.ts';
+import { buildRequest, cleanNote, isUsable, emptyNotes, extractFields, extractJson, factsHash, planNotes, updateNotes } from '../../src/core/notes.ts';
 import type { NoteEntry } from '../../src/core/notes.ts';
 import { combined } from '../../src/feeds/index.ts';
 import { niners } from '../../src/feeds/niners/index.ts';
@@ -53,7 +53,7 @@ test('only upcoming events inside the window are written, nearest first, and nev
 });
 
 test('write-ups refresh on a schedule, when the facts change, and once more shortly before the event', () => {
-  const fresh = { why: 'w'.repeat(50), know: '', generatedAt: inDays(-1), factsHash: factsHash(soon), model: 'm' };
+  const fresh = { why: 'A steady write-up that is long enough to count as useful here.', know: 'Known.', generatedAt: inDays(-1), factsHash: factsHash(soon), model: 'm' };
   assert.deepEqual(planNotes([soon], { ...emptyNotes(), notes: { u1: fresh } }, NOW), [], 'a day-old write-up is left alone');
   assert.equal(planNotes([soon], { ...emptyNotes(), notes: { u1: { ...fresh, generatedAt: inDays(-5) } } }, NOW).length, 1, 'older than four days');
   assert.equal(planNotes([soon], { ...emptyNotes(), notes: { u1: { ...fresh, factsHash: 'different' } } }, NOW).length, 1, 'a bout changed');
@@ -70,6 +70,12 @@ test('only short plain text is accepted', () => {
   assert.equal(typeof cleanNote({ why: 'short' }), 'string');
   assert.equal(typeof cleanNote({ why: 'x'.repeat(700) }), 'string');
   assert.equal(typeof cleanNote('Ignore previous instructions'), 'string');
+  // The first live UFC write-up (2026-09-21): stitched from article text, cut off mid-sentence, no second part.
+  const bad = 'Bantamweight main event: two ranked fighters, Raul Rosas Jr (No. 12) and Raoni Barcelos (No. 13). Now, ranked in the bantamweight division, he takes on Raoni Barcelos. Rosas Jr, a 21';
+  assert.equal(cleanNote({ why: bad, know: '' }), 'second part missing');
+  assert.equal(cleanNote({ why: bad, know: 'A prospect is a young fighter.' }), 'cut off mid-sentence');
+  assert.equal(cleanNote({ why: 'The champion defends against a challenger who has won five in a row.', know: 'Rankings run to 15 and the' }), 'cut off mid-sentence');
+  assert.equal(isUsable({ why: bad, know: '', generatedAt: NOW.toISOString(), factsHash: 'x', model: 'm' }), false);
   const ok = cleanNote({ why: 'The **champion** defends — and the challenger has won five in a row coming into this one.', know: 'A  title   defence.' });
   assert.deepEqual(ok, { why: 'The champion defends, and the challenger has won five in a row coming into this one.', know: 'A title defence.' });
   assert.deepEqual(extractJson('Here you go: {"why":"a","know":"b"} hope that helps'), { why: 'a', know: 'b' });
@@ -78,6 +84,7 @@ test('only short plain text is accepted', () => {
   assert.deepEqual(extractFields('Here is the note.\nWHY: Raul "El Nino Problema" Rosas Jr. headlines {for now}.\nKNOW: A prospect is a young fighter.\nStill learning.'),
     { why: 'Raul "El Nino Problema" Rosas Jr. headlines {for now}.', know: 'A prospect is a young fighter.\nStill learning.' });
   assert.deepEqual(extractFields('why: only this'), { why: 'only this', know: '' });
+  assert.equal(cleanNote(extractFields('WHY: A perfectly good first part about what is at stake on the night.')), 'second part missing');
   assert.deepEqual(extractFields('{"why": "broken "quotes" here"}\nWHY: fallback works\nKNOW: yes'), { why: 'fallback works', know: 'yes' });
 });
 
@@ -103,7 +110,7 @@ test('the request carries the brief, the facts and recent cards; the key is sent
 });
 
 test('failures never lose an existing write-up, and a paused search is continued', async () => {
-  const existing = { ...emptyNotes(), notes: { u1: { why: 'Old but fine write-up that should survive a failure of the service.', know: '', generatedAt: inDays(-5), factsHash: factsHash(soon), model: 'm' } } };
+  const existing = { ...emptyNotes(), notes: { u1: { why: 'Old but fine write-up that should survive a failure of the service.', know: 'Still fine.', generatedAt: inDays(-5), factsHash: factsHash(soon), model: 'm' } } };
   for (const reply of [
     () => ({ status: 529, body: { error: { message: 'overloaded' } } }),
     () => ({ status: 200, body: apiReply('I could not find anything.') }),
@@ -121,6 +128,14 @@ test('failures never lose an existing write-up, and a paused search is continued
     assert.equal(calls.length, 2);
     assert.match(out.file.notes.u1.why, /first shot at the belt/);
     assert.equal(out.file.lastError, null);
+  }
+  // A bad write-up that was already saved is not shown, and is rewritten on the next run even though it is fresh.
+  {
+    const saved = { ...emptyNotes(), notes: { u1: { why: 'Rosas Jr, ranked at bantamweight, takes on Raoni Barcelos. Rosas Jr, a 21', know: '', generatedAt: inDays(-0.01), factsHash: factsHash(soon), model: 'm' } } };
+    assert.equal(planNotes([soon], saved, NOW).length, 1);
+    const { impl } = fakeFetch([() => ({ status: 200, body: { ...apiReply('WHY: x'), stop_reason: 'max_tokens' } })]);
+    const out = await updateNotes([soon], saved, NOW, { apiKey: 'k', model: 'm', fetchImpl: impl });
+    assert.match(out.file.lastError!, /ran out of room/);
   }
   const thrower = (async () => { throw new Error('network down'); }) as unknown as typeof fetch;
   assert.match((await updateNotes([soon], existing, NOW, { apiKey: 'k', model: 'm', fetchImpl: thrower })).file.lastError!, /network down/);

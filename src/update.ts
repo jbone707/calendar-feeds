@@ -6,7 +6,7 @@ import { checkIcs, renderCalendar } from './core/calendar.ts';
 import type { Entry } from './core/calendar.ts';
 import { emptyMeta } from './core/model.ts';
 import type { Feed, FeedEvent, PageCheck, RunMeta } from './core/model.ts';
-import { DEFAULT_MODEL, emptyNotes, updateNotes } from './core/notes.ts';
+import { DEFAULT_MODEL, emptyNotes, isUsable, updateNotes } from './core/notes.ts';
 import type { NoteEntry, NotesFile } from './core/notes.ts';
 import { reconcileEvents } from './core/reconcile.ts';
 import { renderStatusPage } from './core/status.ts';
@@ -71,7 +71,7 @@ export async function attemptRefresh(feed: Feed, previous: FeedEvent[], opts: Ru
 
 /** Pair each event with its feed, its rule-based facts and its write-up, ready to render. */
 export function buildEntries(feed: Feed, events: FeedEvent[], details: Record<string, unknown>, notes: NotesFile): NoteEntry[] {
-  return events.map((event) => ({ feed, event, facts: feed.facts(event, details[event.key]), note: notes.notes[event.uid] ?? null }));
+  return events.map((event) => ({ feed, event, facts: feed.facts(event, details[event.key]), note: isUsable(notes.notes[event.uid]) ? notes.notes[event.uid] : null }));
 }
 
 function publish(file: string, meta: { id: string; name: string; description: string }, entries: Entry[]) {
