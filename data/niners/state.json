@@ -2,11 +2,37 @@
   "version": 1,
   "events": [
     {
+      "key": "niners:6b60969f-cc9c-49f0-9aa6-bd32bc7ffddf",
+      "uid": "e4d249ac-55ae-4074-a5a3-5ca4ca5556ac@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "e05fc796-7757-469d-8d40-2d50f31f3c23",
+      "aliases": [
+        "6b60969f-cc9c-49f0-9aa6-bd32bc7ffddf",
+        "e05fc796-7757-469d-8d40-2d50f31f3c23"
+      ],
+      "title": "49ers at Chargers",
+      "matchHint": "San Francisco 49ers at Los Angeles Chargers",
+      "localEventDate": "2026-08-20",
+      "startUtc": "2026-08-21T02:00:00.000Z",
+      "extraTimes": [],
+      "location": "SoFi Stadium, Inglewood",
+      "url": "https://www.49ers.com/schedule/",
+      "provenance": {
+        "startUtc": "49ers.com, the time it labels \"Kickoff\"",
+        "localEventDate": "date of the start in America/Los_Angeles"
+      },
+      "status": "completed",
+      "missingStrikes": 0,
+      "sequence": 1,
+      "createdAt": "2026-09-21T01:31:26.542Z",
+      "lastModified": "2026-09-21T01:36:46.467Z"
+    },
+    {
       "key": "niners:5bc68c8d-977b-41fd-9b49-f91f3e8647c9",
       "uid": "4f82aad4-cac1-4072-bf67-4246556a5573@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "5bc68c8d-977b-41fd-9b49-f91f3e8647c9",
+      "sourceId": "4f4fc63f-a5c2-49df-a607-4d40ac7229e2",
       "aliases": [
-        "5bc68c8d-977b-41fd-9b49-f91f3e8647c9"
+        "5bc68c8d-977b-41fd-9b49-f91f3e8647c9",
+        "4f4fc63f-a5c2-49df-a607-4d40ac7229e2"
       ],
       "title": "49ers vs Dolphins",
       "matchHint": "Miami Dolphins at San Francisco 49ers",
@@ -28,9 +54,10 @@
     {
       "key": "niners:ffc6f0b4-6038-4e41-a786-d798ca76c110",
       "uid": "f75c84e0-aaf1-4262-9d61-ca4b6f1e672a@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "ffc6f0b4-6038-4e41-a786-d798ca76c110",
+      "sourceId": "917f381e-bec6-468a-b58e-57104b616b1d",
       "aliases": [
-        "ffc6f0b4-6038-4e41-a786-d798ca76c110"
+        "ffc6f0b4-6038-4e41-a786-d798ca76c110",
+        "917f381e-bec6-468a-b58e-57104b616b1d"
       ],
       "title": "49ers vs Cardinals",
       "matchHint": "Arizona Cardinals at San Francisco 49ers",
@@ -52,9 +79,10 @@
     {
       "key": "niners:eeb4f2bf-19b7-46e7-8c77-9676f8bff5ef",
       "uid": "65476e3e-e4f9-4fb3-a5c0-3b852455ccfa@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "eeb4f2bf-19b7-46e7-8c77-9676f8bff5ef",
+      "sourceId": "dc58874a-09cc-4504-a9bf-1252455ffad0",
       "aliases": [
-        "eeb4f2bf-19b7-46e7-8c77-9676f8bff5ef"
+        "eeb4f2bf-19b7-46e7-8c77-9676f8bff5ef",
+        "dc58874a-09cc-4504-a9bf-1252455ffad0"
       ],
       "title": "49ers vs Broncos",
       "matchHint": "Denver Broncos at San Francisco 49ers",
@@ -76,9 +104,10 @@
     {
       "key": "niners:7bf80989-09af-45b3-bc5c-87f6c6c8bd66",
       "uid": "5a58fd06-e8ef-4b11-a524-980603a9b15f@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "7bf80989-09af-45b3-bc5c-87f6c6c8bd66",
+      "sourceId": "0a4b7480-0dbe-4036-be0d-d16298935b24",
       "aliases": [
-        "7bf80989-09af-45b3-bc5c-87f6c6c8bd66"
+        "7bf80989-09af-45b3-bc5c-87f6c6c8bd66",
+        "0a4b7480-0dbe-4036-be0d-d16298935b24"
       ],
       "title": "49ers at Seahawks",
       "matchHint": "San Francisco 49ers at Seattle Seahawks",
@@ -100,9 +129,10 @@
     {
       "key": "niners:7be8955f-de23-4a22-96f6-5b4926e21561",
       "uid": "a3a64199-919d-4ef2-8fcb-37e2efd0c2b7@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "7be8955f-de23-4a22-96f6-5b4926e21561",
+      "sourceId": "99f990c0-41c9-46c7-b8ee-40a061eb4249",
       "aliases": [
-        "7be8955f-de23-4a22-96f6-5b4926e21561"
+        "7be8955f-de23-4a22-96f6-5b4926e21561",
+        "99f990c0-41c9-46c7-b8ee-40a061eb4249"
       ],
       "title": "49ers vs Commanders",
       "matchHint": "Washington Commanders at San Francisco 49ers",
@@ -124,9 +154,10 @@
     {
       "key": "niners:0ba3ba51-c540-4a8a-9936-9ee5862b0593",
       "uid": "59f01b3b-4658-426d-8887-4104af53dfc6@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "0ba3ba51-c540-4a8a-9936-9ee5862b0593",
+      "sourceId": "b789ca0d-e09f-4fd7-8668-1506db8e45fe",
       "aliases": [
-        "0ba3ba51-c540-4a8a-9936-9ee5862b0593"
+        "0ba3ba51-c540-4a8a-9936-9ee5862b0593",
+        "b789ca0d-e09f-4fd7-8668-1506db8e45fe"
       ],
       "title": "49ers at Falcons",
       "matchHint": "San Francisco 49ers at Atlanta Falcons",
@@ -148,9 +179,10 @@
     {
       "key": "niners:deb804c1-b3d3-4162-81e8-d5a4daba48b0",
       "uid": "89e0495f-fe2d-46a6-9588-b813f1ec768e@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "deb804c1-b3d3-4162-81e8-d5a4daba48b0",
+      "sourceId": "5a3a00e2-214d-46f3-9e5f-2bf614dcc092",
       "aliases": [
-        "deb804c1-b3d3-4162-81e8-d5a4daba48b0"
+        "deb804c1-b3d3-4162-81e8-d5a4daba48b0",
+        "5a3a00e2-214d-46f3-9e5f-2bf614dcc092"
       ],
       "title": "49ers vs Raiders",
       "matchHint": "Las Vegas Raiders at San Francisco 49ers",
@@ -172,9 +204,10 @@
     {
       "key": "niners:9fc04969-11d1-4e4d-9ce2-4dcb6759d409",
       "uid": "b0ab8af8-cb28-465a-aea7-5d32bec5ae19@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "9fc04969-11d1-4e4d-9ce2-4dcb6759d409",
+      "sourceId": "3e1a46f3-dc4d-4bdd-be2d-72785b61c90b",
       "aliases": [
-        "9fc04969-11d1-4e4d-9ce2-4dcb6759d409"
+        "9fc04969-11d1-4e4d-9ce2-4dcb6759d409",
+        "3e1a46f3-dc4d-4bdd-be2d-72785b61c90b"
       ],
       "title": "49ers at Cowboys",
       "matchHint": "San Francisco 49ers at Dallas Cowboys",
@@ -196,9 +229,10 @@
     {
       "key": "niners:55755f6a-8af6-452c-b58f-0b054e86ccca",
       "uid": "afce88a5-30fa-41f5-be6d-38cadb4fe552@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "55755f6a-8af6-452c-b58f-0b054e86ccca",
+      "sourceId": "138e9515-1de8-4fcd-bf52-35e23a45806a",
       "aliases": [
-        "55755f6a-8af6-452c-b58f-0b054e86ccca"
+        "55755f6a-8af6-452c-b58f-0b054e86ccca",
+        "138e9515-1de8-4fcd-bf52-35e23a45806a"
       ],
       "title": "49ers vs Vikings",
       "matchHint": "Minnesota Vikings at San Francisco 49ers",
@@ -220,9 +254,10 @@
     {
       "key": "niners:dc7d7075-b97e-4211-a092-10761de49ae6",
       "uid": "dd25dbb7-ff78-4f75-8978-eecf98955d16@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "dc7d7075-b97e-4211-a092-10761de49ae6",
+      "sourceId": "4f761da2-5deb-4acf-a2d1-a6d4a1a9fbd4",
       "aliases": [
-        "dc7d7075-b97e-4211-a092-10761de49ae6"
+        "dc7d7075-b97e-4211-a092-10761de49ae6",
+        "4f761da2-5deb-4acf-a2d1-a6d4a1a9fbd4"
       ],
       "title": "49ers vs Seahawks",
       "matchHint": "Seattle Seahawks at San Francisco 49ers",
@@ -244,9 +279,10 @@
     {
       "key": "niners:a3f0511a-0e8e-43cb-a75f-fdb364c4a153",
       "uid": "1ff58a32-3481-47fd-906e-e2bb2cdf92f4@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "a3f0511a-0e8e-43cb-a75f-fdb364c4a153",
+      "sourceId": "fd3604c5-c87c-4fd7-920a-d394e000aefb",
       "aliases": [
-        "a3f0511a-0e8e-43cb-a75f-fdb364c4a153"
+        "a3f0511a-0e8e-43cb-a75f-fdb364c4a153",
+        "fd3604c5-c87c-4fd7-920a-d394e000aefb"
       ],
       "title": "49ers at Giants",
       "matchHint": "San Francisco 49ers at New York Giants",
@@ -268,9 +304,10 @@
     {
       "key": "niners:83ffc622-69c9-41be-8e33-552fc890bb3a",
       "uid": "6db52b82-53f5-44fb-97a8-9822191cea27@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "83ffc622-69c9-41be-8e33-552fc890bb3a",
+      "sourceId": "8493ed6e-eb60-4c82-b3b4-a6c606c85dfa",
       "aliases": [
-        "83ffc622-69c9-41be-8e33-552fc890bb3a"
+        "83ffc622-69c9-41be-8e33-552fc890bb3a",
+        "8493ed6e-eb60-4c82-b3b4-a6c606c85dfa"
       ],
       "title": "49ers vs Rams",
       "matchHint": "Los Angeles Rams at San Francisco 49ers",
@@ -290,11 +327,11 @@
       "lastModified": "2026-09-21T01:31:26.542Z"
     },
     {
-      "key": "niners:6b60969f-cc9c-49f0-9aa6-bd32bc7ffddf",
-      "uid": "e4d249ac-55ae-4074-a5a3-5ca4ca5556ac@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "6b60969f-cc9c-49f0-9aa6-bd32bc7ffddf",
+      "key": "niners:425bd481-dcf6-499a-ae9c-eecb2e7f0e2e",
+      "uid": "85558ae8-2dfc-402b-83c6-589ef159cda7@niners.calendar-feeds.jbone707.github.io",
+      "sourceId": "425bd481-dcf6-499a-ae9c-eecb2e7f0e2e",
       "aliases": [
-        "6b60969f-cc9c-49f0-9aa6-bd32bc7ffddf"
+        "425bd481-dcf6-499a-ae9c-eecb2e7f0e2e"
       ],
       "title": "49ers at Chargers",
       "matchHint": "San Francisco 49ers at Los Angeles Chargers",
@@ -310,15 +347,16 @@
       "status": "scheduled",
       "missingStrikes": 0,
       "sequence": 0,
-      "createdAt": "2026-09-21T01:31:26.542Z",
-      "lastModified": "2026-09-21T01:31:26.542Z"
+      "createdAt": "2026-09-21T01:36:46.467Z",
+      "lastModified": "2026-09-21T01:36:46.467Z"
     },
     {
       "key": "niners:0824b320-5f27-4f1a-8f9a-f5313f91fa98",
       "uid": "fb474df8-10f0-4c14-8d0a-9236bc74ff6e@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "0824b320-5f27-4f1a-8f9a-f5313f91fa98",
+      "sourceId": "ab60ba53-edb0-4ece-b683-02b2ce40b623",
       "aliases": [
-        "0824b320-5f27-4f1a-8f9a-f5313f91fa98"
+        "0824b320-5f27-4f1a-8f9a-f5313f91fa98",
+        "ab60ba53-edb0-4ece-b683-02b2ce40b623"
       ],
       "title": "49ers at Chiefs",
       "matchHint": "San Francisco 49ers at Kansas City Chiefs",
@@ -340,9 +378,10 @@
     {
       "key": "niners:71fe91fb-af7a-4cfd-9e6e-1803b85acf94",
       "uid": "226d929c-2d77-43ca-9360-62d6fafb6283@niners.calendar-feeds.jbone707.github.io",
-      "sourceId": "71fe91fb-af7a-4cfd-9e6e-1803b85acf94",
+      "sourceId": "74e03e39-486c-4ea9-8d74-9dccd56e08e8",
       "aliases": [
-        "71fe91fb-af7a-4cfd-9e6e-1803b85acf94"
+        "71fe91fb-af7a-4cfd-9e6e-1803b85acf94",
+        "74e03e39-486c-4ea9-8d74-9dccd56e08e8"
       ],
       "title": "49ers vs Eagles",
       "matchHint": "Philadelphia Eagles at San Francisco 49ers",
