@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import nodeIcal from 'node-ical';
 import { checkIcs, renderCalendar } from '../../src/core/calendar.ts';
 import type { FeedEvent } from '../../src/core/model.ts';
-import { buildRequest, cleanNote, emptyNotes, extractJson, factsHash, planNotes, updateNotes } from '../../src/core/notes.ts';
+import { buildRequest, cleanNote, emptyNotes, extractFields, extractJson, factsHash, planNotes, updateNotes } from '../../src/core/notes.ts';
 import type { NoteEntry } from '../../src/core/notes.ts';
 import { combined } from '../../src/feeds/index.ts';
 import { niners } from '../../src/feeds/niners/index.ts';
@@ -74,6 +74,11 @@ test('only short plain text is accepted', () => {
   assert.deepEqual(ok, { why: 'The champion defends, and the challenger has won five in a row coming into this one.', know: 'A title defence.' });
   assert.deepEqual(extractJson('Here you go: {"why":"a","know":"b"} hope that helps'), { why: 'a', know: 'b' });
   assert.equal(extractJson('no json here'), null);
+  // The labelled form survives what breaks JSON: quotation marks in a nickname, and a preamble.
+  assert.deepEqual(extractFields('Here is the note.\nWHY: Raul "El Nino Problema" Rosas Jr. headlines {for now}.\nKNOW: A prospect is a young fighter.\nStill learning.'),
+    { why: 'Raul "El Nino Problema" Rosas Jr. headlines {for now}.', know: 'A prospect is a young fighter.\nStill learning.' });
+  assert.deepEqual(extractFields('why: only this'), { why: 'only this', know: '' });
+  assert.deepEqual(extractFields('{"why": "broken "quotes" here"}\nWHY: fallback works\nKNOW: yes'), { why: 'fallback works', know: 'yes' });
 });
 
 test('the request carries the brief, the facts and recent cards; the key is sent only as a header', async () => {
@@ -108,6 +113,14 @@ test('failures never lose an existing write-up, and a paused search is continued
     const out = await updateNotes([soon], existing, NOW, { apiKey: 'k', model: 'm', fetchImpl: impl });
     assert.equal(out.file.notes.u1.why, existing.notes.u1.why);
     assert.match(out.file.lastError!, /UFC 332/);
+  }
+  // A badly shaped reply gets one more ask; a good second reply is used.
+  {
+    const { impl, calls } = fakeFetch([() => ({ status: 200, body: apiReply('Sorry, here are my thoughts in prose.') }), () => ({ status: 200, body: apiReply('WHY: ' + JSON.parse(GOOD).why + '\nKNOW: ' + JSON.parse(GOOD).know) })]);
+    const out = await updateNotes([soon], emptyNotes(), NOW, { apiKey: 'k', model: 'm', fetchImpl: impl });
+    assert.equal(calls.length, 2);
+    assert.match(out.file.notes.u1.why, /first shot at the belt/);
+    assert.equal(out.file.lastError, null);
   }
   const thrower = (async () => { throw new Error('network down'); }) as unknown as typeof fetch;
   assert.match((await updateNotes([soon], existing, NOW, { apiKey: 'k', model: 'm', fetchImpl: thrower })).file.lastError!, /network down/);
