@@ -56,6 +56,36 @@ test('a flexed kickoff updates the same entry; a regenerated upstream id does no
   assert.equal(find(third, 'brand-new-id').uid, uid);
 });
 
+test('a preseason and a season visit to the same team stay two entries, run after run', () => {
+  // 2026 really is like this: at the Chargers in August, then at the Chargers again in December. 49ers.com
+  // reissues every event id on every request, so both runs fall back to matching on the hint.
+  const twice: G[] = [
+    { uid: 'pre-chargers', summary: 'San Francisco 49ers at Los Angeles Chargers', start: '20260821T020000Z', location: 'SoFi Stadium, Inglewood' },
+    ...GAMES.slice(1),
+    { uid: 'reg-chargers', summary: 'San Francisco 49ers at Los Angeles Chargers', start: '20261218T011500Z', location: 'SoFi Stadium, Inglewood' },
+  ];
+  const parsed = parseTeamCalendar(teamIcs(twice));
+  const hints = parsed.records.map((r) => r.matchHint);
+  assert.equal(new Set(hints).size, hints.length, 'no two games share a match hint');
+
+  const first = reconcileEvents(niners, [], parsed.records, NOW).events;
+  const december = first.filter((e) => e.title === '49ers at Chargers');
+  assert.equal(december.length, 1, 'the August game is already played, so only the December one is added');
+  assert.equal(december[0].localEventDate, '2026-12-17');
+  const uid = december[0].uid;
+
+  // Every id regenerated, as 49ers.com does on each request.
+  const reissued = twice.map((g, i) => ({ ...g, uid: `fresh-${i}` }));
+  let events = first;
+  for (let run = 1; run <= 3; run++) {
+    events = reconcileEvents(niners, events, parseTeamCalendar(teamIcs(reissued)).records, new Date(`2026-09-2${run}T12:00:00Z`)).events;
+    const chargers = events.filter((e) => e.title === '49ers at Chargers');
+    assert.equal(chargers.length, 1, `run ${run}: the December game is not duplicated`);
+    assert.equal(chargers[0].uid, uid, `run ${run}: the December game keeps its UID`);
+    assert.equal(chargers[0].localEventDate, '2026-12-17', `run ${run}: the August game never overwrites the December one`);
+  }
+});
+
 test('rules: division rival, prime time, home and away, preseason, all explained for a newcomer', () => {
   const events = reconcileEvents(niners, [], parseTeamCalendar(teamIcs(GAMES)).records, new Date('2026-08-01T00:00:00Z')).events;
   const cards = ninersFacts(find(events, 'g-cards'));

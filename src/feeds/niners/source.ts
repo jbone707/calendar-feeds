@@ -11,7 +11,7 @@ export type Matchup = { opponent: string; home: boolean };
 
 /** "Miami Dolphins at San Francisco 49ers" -> opponent Dolphins, home game. */
 export function parseMatchup(summary: string): Matchup | null {
-  const m = /^(.+?)\s+(?:at|vs\.?|@)\s+(.+)$/i.exec(summary.trim());
+  const m = /^(.+?)\s+(?:at|vs\.?|@)\s+(.+?)(?:\s*\(preseason\))?$/i.exec(summary.trim());
   if (!m) return null;
   const [away, home] = [m[1].trim(), m[2].trim()];
   if (home === TEAM) return { opponent: away, home: true };
@@ -20,6 +20,18 @@ export function parseMatchup(summary: string): Matchup | null {
 }
 
 const nickname = (team: string) => team.split(' ').slice(-1)[0];
+
+const pacificMonth = (iso: string) => Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', month: 'numeric' }).format(new Date(iso)));
+
+/**
+ * 49ers.com issues a fresh id for every event on every request, so the match hint is what actually identifies a
+ * game from one run to the next, and two games must never share one. A team can be visited twice in a year, once
+ * in preseason and once in the season (in 2026, at the Chargers in August and again in December), and both read
+ * "San Francisco 49ers at Los Angeles Chargers". August games are preseason, so saying so keeps the hints apart.
+ */
+export function matchHintFor(summary: string, startIso: string | null): string {
+  return startIso && pacificMonth(startIso) === 8 ? `${summary} (preseason)` : summary;
+}
 
 export function parseTeamCalendar(ics: string): FetchResult {
   const problems: string[] = [];
@@ -50,7 +62,7 @@ export function parseTeamCalendar(ics: string): FetchResult {
       key: `niners:${uid}`,
       sourceId: uid,
       title: m.home ? `49ers vs ${nickname(m.opponent)}` : `49ers at ${nickname(m.opponent)}`,
-      matchHint: summary, // home and away meetings with the same team read differently, so this stays unique
+      matchHint: matchHintFor(summary, start ? start.toISOString() : null),
       startUtc: start && !allDay ? start.toISOString() : null,
       fallbackDate: start && allDay ? start.toISOString().slice(0, 10) : null,
       extraTimes: [],
