@@ -4,7 +4,7 @@ import { USER_AGENT } from '../../config.ts';
 import type { EventFacts, FeedEvent } from '../../core/model.ts';
 
 export type Bout = {
-  segment: 'main' | 'prelims' | 'early';
+  segment: 'main' | 'prelims' | 'early' | 'card'; // 'card' until UFC splits the bouts into segments
   weightClass: string; // e.g. "Women's Flyweight"
   titleBout: boolean;
   red: string;
@@ -19,17 +19,16 @@ const REFETCH_AFTER_MS = 20 * 3_600_000; // at most about once a day per card
 const MAX_FETCHES_PER_RUN = 10;
 const clean = (s: string) => s.replace(/\s+/g, ' ').trim();
 
-/** Parse one event page's bout list. Order on the page is top of the card first, so the first main-card bout is the main event. */
+/**
+ * Parse one event page's bout list. Order on the page is top of the card first, so the first bout is the main event.
+ * UFC labels the three segments only once it has assigned them. A card it has not split yet is a single "Fight Card"
+ * list with none of those ids, so that list is read whole and every bout is marked 'card'.
+ */
 export function parseEventPage(html: string): Bout[] {
   const $ = cheerio.load(html);
   const bouts: Bout[] = [];
-  const segments: [string, Bout['segment']][] = [
-    ['#main-card', 'main'],
-    ['#prelims-card', 'prelims'],
-    ['#early-prelims', 'early'],
-  ];
-  for (const [sel, segment] of segments) {
-    $(`${sel} .c-listing-fight`).each((_, el) => {
+  const read = (selector: string, segment: Bout['segment']) => {
+    $(selector).each((_, el) => {
       const f = $(el);
       const red = clean(f.find('.c-listing-fight__corner-name--red').first().text());
       const blue = clean(f.find('.c-listing-fight__corner-name--blue').first().text());
@@ -52,7 +51,11 @@ export function parseEventPage(html: string): Bout[] {
         blueRank: rank(ranks[1]),
       });
     });
-  }
+  };
+  read('#main-card .c-listing-fight', 'main');
+  read('#prelims-card .c-listing-fight', 'prelims');
+  read('#early-prelims .c-listing-fight', 'early');
+  if (bouts.length === 0) read('.c-listing-fight', 'card');
   return bouts;
 }
 
@@ -104,8 +107,10 @@ export function ufcFacts(event: FeedEvent, detail: unknown): EventFacts {
   const numbered = event.key.startsWith('numbered:');
   const bouts = d?.bouts ?? [];
   const titleBouts = bouts.filter((b) => b.titleBout);
-  const main = bouts.find((b) => b.segment === 'main');
-  const coMain = bouts.filter((b) => b.segment === 'main')[1];
+  // The top of the card, whether or not UFC has split the segments yet.
+  const topOfCard = bouts.filter((b) => b.segment === 'main' || b.segment === 'card');
+  const main = topOfCard[0];
+  const coMain = topOfCard[1];
   const rankedVsRanked = bouts.filter((b) => b.redRank && b.blueRank);
   const anyRanked = bouts.filter((b) => b.redRank || b.blueRank);
   const topFive = main ? Math.max(rankNum(main.redRank), rankNum(main.blueRank)) <= 5 : false;
@@ -130,7 +135,13 @@ export function ufcFacts(event: FeedEvent, detail: unknown): EventFacts {
   if (main && !main.titleBout) lines.push(`Main event: ${matchup(main)}, ${main.weightClass}.${main.redRank && main.blueRank ? ' Both are ranked, so the winner moves closer to a title shot.' : ''}`);
   if (coMain && !coMain.titleBout) lines.push(`Co-main event: ${matchup(coMain)}, ${coMain.weightClass}.`);
   if (rankedVsRanked.length > 0) lines.push(`${rankedVsRanked.length} ${rankedVsRanked.length === 1 ? 'fight has' : 'fights have'} two ranked fighters. Rankings run from champion, then #1 down to #15 in each weight class.`);
-  if (bouts.length > 0) lines.push(`${bouts.length} fights in total, ${bouts.filter((b) => b.segment === 'main').length} on the main card.`);
+  const onMainCard = bouts.filter((b) => b.segment === 'main').length;
+  if (bouts.length > 0)
+    lines.push(
+      onMainCard > 0
+        ? `${bouts.length} fights in total, ${onMainCard} on the main card.`
+        : `${bouts.length} ${bouts.length === 1 ? 'fight' : 'fights'} announced so far. UFC has not said yet which are on the main card.`,
+    );
   lines.push(numbered ? 'Numbered event: UFC saves these for its biggest cards, usually with a title fight.' : 'Fight Night: a regular weekly card, often a chance to spot rising fighters.');
 
   return {

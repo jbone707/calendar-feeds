@@ -18,6 +18,13 @@ const page = (main: B[], prelims: B[] = [], early: B[] = []) => `<html><body><di
 <div id="prelims-card" class="fight-card-prelims"><ul>${prelims.map(fight).join('')}</ul></div>
 <div id="early-prelims" class="fight-card-prelims-early"><ul>${early.map(fight).join('')}</ul></div></div></body></html>`;
 
+// A card UFC has not split into segments yet: one "Fight Card" list, none of the three segment ids.
+// Markup copied from https://www.ufc.com/event/ufc-333 on 2026-09-20.
+const unsplitPage = (all: B[]) => `<html><body><div class="l-main__content"><div class="view view-event-fights">
+<h3 class="l-listing__title">Fight Card</h3>
+<section class="l-listing--stacked--full-width"><ul class="l-listing__group--bordered">${all.map(fight).join('')}</ul></section>
+</div></div></body></html>`;
+
 const event = (key: string, title: string): FeedEvent => ({
   key, uid: `${key}@x`, sourceId: key, aliases: [key], title, matchHint: '', localEventDate: '2026-10-03', startUtc: '2026-10-04T00:00:00.000Z',
   extraTimes: [], location: null, url: 'https://www.ufc.com/event/x', provenance: {}, status: 'scheduled', missingStrikes: 0, sequence: 0,
@@ -77,4 +84,29 @@ test('facts explain the night in plain words and rank nights differently', () =>
   const unknown = ufcFacts(event('numbered:334', 'UFC 334'), undefined);
   assert.match(unknown.level!, /Fights not announced yet/);
   assert.equal(unknown.updatedAt, null);
+});
+
+test('a card UFC has not split into segments yet is still read, in card order', () => {
+  const bouts = parseEventPage(
+    unsplitPage([
+      { red: 'Alexander Volkanovski', blue: 'Movsar Evloev', cls: 'Featherweight Title Bout', ranks: ['C', '#1'] },
+      { red: 'Petr Yan', blue: 'Merab Dvalishvili', cls: 'Bantamweight Title Bout', ranks: ['C', '#1'] },
+      { red: 'Arnold Allen', blue: 'Aaron Pico', cls: 'Featherweight Bout', ranks: ['#7', '#12'] },
+    ]),
+  );
+  assert.equal(bouts.length, 3, 'a page with no segment ids is not read as an empty card');
+  assert.deepEqual(
+    bouts.map((b) => b.segment),
+    ['card', 'card', 'card'],
+  );
+  assert.deepEqual(bouts[0], { segment: 'card', weightClass: 'Featherweight', titleBout: true, red: 'Alexander Volkanovski', blue: 'Movsar Evloev', redRank: 'C', blueRank: '#1' });
+
+  const facts = ufcFacts(event('numbered:333', 'UFC 333: Volkanovski vs Evloev'), detail(bouts));
+  assert.equal(facts.badge, '🏆');
+  assert.equal(facts.level, 'Huge night: 2 title fights');
+  assert.match(facts.lines[0], /Featherweight title fight: Alexander Volkanovski \(champion\) vs Movsar Evloev \(#1\)\. The champion is defending the belt\./);
+  // The top of the list is the main event, so it is not repeated as a separate main-event line.
+  assert.ok(!facts.lines.some((l) => /^Main event:/.test(l)));
+  assert.ok(facts.lines.some((l) => /3 fights announced so far\. UFC has not said yet which are on the main card\./.test(l)));
+  assert.ok(!facts.lines.some((l) => /on the main card\.$/.test(l) && /fights in total/.test(l)));
 });
