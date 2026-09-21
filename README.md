@@ -88,7 +88,7 @@ What is included is decided from the structure of UFC's page address (`src/feeds
 
 ## 49ers Feed
 
-Source: `https://www.49ers.com/api/addToCalendar/ag/s`, the subscription calendar the team publishes. One request per run. Kickoff times, including flexed ones, follow the team. A game the league has not scheduled yet (usually the final week) is absent until the team lists it. If the team ever reissues its event ids, games are matched by matchup so they do not duplicate. An empty calendar in the off-season is treated as normal.
+Source: `https://www.49ers.com/api/addToCalendar/ag/s`, the subscription calendar the team publishes. One request per run. Kickoff times, including flexed ones, follow the team. A game the league has not scheduled yet (usually the final week) is absent until the team lists it. 49ers.com issues a fresh id for every event on every request (seen 2026-09-21), so its ids are ignored. A game is identified by season, phase (preseason, season, playoffs), home or away, and opponent, which is what keeps its UID stable and the saved state from growing. An empty calendar in the off-season is treated as normal.
 
 ## Commands
 

@@ -24,7 +24,10 @@ const GAMES: G[] = [
   { uid: 'g-commanders', summary: 'Washington Commanders at San Francisco 49ers', start: '20261020T001500Z' },
   { uid: 'g-falcons', summary: 'San Francisco 49ers at Atlanta Falcons', start: '20261025T170000Z', location: 'Mercedes-Benz Stadium, Atlanta' },
 ];
-const find = (events: FeedEvent[], uid: string) => events.find((e) => e.sourceId === uid)!;
+const SUMMARY: Record<string, string> = Object.fromEntries(GAMES.map((g) => [g.uid, g.summary]));
+SUMMARY['brand-new-id'] = SUMMARY['g-falcons'];
+/** Look a game up by the label used in GAMES. Upstream ids are throwaway, so events are found by what they are. */
+const find = (events: FeedEvent[], uid: string) => events.find((e) => e.matchHint === SUMMARY[uid] || e.matchHint === `${SUMMARY[uid]} (preseason)`)!;
 
 test('reads the team calendar: titles, home and away, location, exact kickoff instants', () => {
   const r = parseTeamCalendar(teamIcs(GAMES));
@@ -125,4 +128,31 @@ test('the entry reads well in a calendar', () => {
   assert.match(ics, /SUMMARY:🏈 49ers at Seahawks/);
   assert.match(ics.replace(/\r\n /g, ''), /Division rival game\\n\\nTHE FACTS\\n• Away game at the Seattle Seahawks\./);
   assert.match(ics.replace(/\r\n /g, ''), /Kickoff: Sun\\, Oct 11\\, 1:25 PM PDT \(per 49ers\.com\)/);
+});
+
+test('games are identified by what they are: reissued upstream ids never grow the saved state or move a published UID', async () => {
+  const { readFileSync } = await import('node:fs');
+  const { gameId, seasonPhase } = await import('../../src/feeds/niners/source.ts');
+  // The real state published on 2026-09-21, saved when ids were still taken from 49ers.com.
+  const published = JSON.parse(readFileSync(new URL('./published-2026-09-21.json', import.meta.url), 'utf8')).events as FeedEvent[];
+  const upcoming = published.filter((e) => e.status === 'scheduled');
+  let n = 0;
+  const reissue = () => teamIcs(upcoming.map((e) => ({ uid: `fresh-${n++}`, summary: e.matchHint, start: e.startUtc!.replace(/[-:]|\.000/g, ''), location: e.location ?? undefined })));
+
+  let events = published;
+  const snapshots: string[] = [];
+  for (let day = 1; day <= 3; day++) {
+    events = reconcileEvents(niners, events, parseTeamCalendar(reissue()).records, new Date(`2026-09-2${day}T13:17:00Z`)).events;
+    snapshots.push(JSON.stringify(events));
+  }
+  assert.equal(events.length, published.length, 'no game added or lost');
+  for (const p of published) assert.equal(events.find((e) => e.title === p.title && e.startUtc === p.startUtc)?.uid, p.uid, `${p.title} keeps its UID`);
+  assert.equal(snapshots[1], snapshots[2], 'from the second run on, an unchanged schedule saves nothing');
+  assert.ok(events.every((e) => e.sequence === published.find((p) => p.uid === e.uid)!.sequence), 'and nothing visible changed');
+
+  assert.deepEqual(seasonPhase('2026-08-21T02:00:00Z'), { season: 2026, phase: 'preseason' });
+  assert.deepEqual(seasonPhase('2027-01-04T01:20:00Z'), { season: 2026, phase: 'season' });
+  assert.deepEqual(seasonPhase('2027-01-17T21:30:00Z'), { season: 2026, phase: 'playoffs' });
+  assert.equal(gameId({ opponent: 'Los Angeles Chargers', home: false }, '2026-12-18T01:15:00Z'), '2026-season-at-los-angeles-chargers');
+  assert.notEqual(gameId({ opponent: 'Seattle Seahawks', home: false }, '2026-10-11T20:25:00Z'), gameId({ opponent: 'Seattle Seahawks', home: false }, '2027-01-17T21:30:00Z'), 'a playoff rematch is its own game');
 });

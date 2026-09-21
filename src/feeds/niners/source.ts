@@ -21,16 +21,39 @@ export function parseMatchup(summary: string): Matchup | null {
 
 const nickname = (team: string) => team.split(' ').slice(-1)[0];
 
-const pacificMonth = (iso: string) => Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', month: 'numeric' }).format(new Date(iso)));
+const pacificDate = (iso: string) => {
+  const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', year: 'numeric', month: 'numeric', day: 'numeric' }).formatToParts(new Date(iso));
+  const n = (t: string) => Number(parts.find((p) => p.type === t)?.value);
+  return { year: n('year'), month: n('month'), day: n('day') };
+};
+
+export type Phase = 'preseason' | 'season' | 'playoffs';
+
+/** Which part of which season a date falls in. August is preseason; from mid-January to February is the playoffs. */
+export function seasonPhase(iso: string): { season: number; phase: Phase } {
+  const d = pacificDate(iso);
+  const season = d.month <= 2 ? d.year - 1 : d.year;
+  const phase: Phase = d.month === 8 ? 'preseason' : d.month === 2 || (d.month === 1 && d.day >= 12) ? 'playoffs' : 'season';
+  return { season, phase };
+}
 
 /**
- * 49ers.com issues a fresh id for every event on every request, so the match hint is what actually identifies a
- * game from one run to the next, and two games must never share one. A team can be visited twice in a year, once
- * in preseason and once in the season (in 2026, at the Chargers in August and again in December), and both read
- * "San Francisco 49ers at Los Angeles Chargers". August games are preseason, so saying so keeps the hints apart.
+ * 49ers.com issues a fresh id for every event on every request, so its ids are useless for telling one game from
+ * another across runs. A game is identified by what it is instead: season, phase, home or away, and opponent.
+ * Within one phase of one season the 49ers never play the same team at the same place twice, but across phases
+ * they can (in 2026, at the Chargers in August and again in December), so the phase is part of the identity.
  */
+export function gameId(m: Matchup, startIso: string): string {
+  const { season, phase } = seasonPhase(startIso);
+  const opp = m.opponent.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return `${season}-${phase}-${m.home ? 'vs' : 'at'}-${opp}`;
+}
+
+/** Kept in the form already saved for 2026 games, so entries published before gameId existed are matched, not re-added. */
 export function matchHintFor(summary: string, startIso: string | null): string {
-  return startIso && pacificMonth(startIso) === 8 ? `${summary} (preseason)` : summary;
+  if (!startIso) return summary;
+  const { phase } = seasonPhase(startIso);
+  return phase === 'season' ? summary : `${summary} (${phase})`;
 }
 
 export function parseTeamCalendar(ics: string): FetchResult {
@@ -57,14 +80,19 @@ export function parseTeamCalendar(ics: string): FetchResult {
       problems.push(`Left out "${summary}": it does not look like a game.`);
       continue;
     }
+    if (!start) {
+      problems.push(`Left out "${summary}": it has no date yet, so it cannot be told apart from other games.`);
+      continue;
+    }
     const allDay = item.datetype === 'date';
+    const id = gameId(m, start.toISOString());
     records.push({
-      key: `niners:${uid}`,
-      sourceId: uid,
+      key: `niners:${id}`,
+      sourceId: id,
       title: m.home ? `49ers vs ${nickname(m.opponent)}` : `49ers at ${nickname(m.opponent)}`,
-      matchHint: matchHintFor(summary, start ? start.toISOString() : null),
-      startUtc: start && !allDay ? start.toISOString() : null,
-      fallbackDate: start && allDay ? start.toISOString().slice(0, 10) : null,
+      matchHint: matchHintFor(summary, start.toISOString()),
+      startUtc: !allDay ? start.toISOString() : null,
+      fallbackDate: allDay ? start.toISOString().slice(0, 10) : null,
       extraTimes: [],
       location: item.location ? String(item.location).trim() : null,
       url: 'https://www.49ers.com/schedule/',
