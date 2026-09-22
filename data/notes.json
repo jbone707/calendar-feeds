@@ -8,13 +8,13 @@
       "model": "claude-sonnet-5"
     },
     "75b7b5e8-6b02-4eee-a2ca-0ce91d9bc037@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Main event: bantamweight prospect Rosas Jr. ranked No. 12, faces No. 13 Raoni Barcelos, a veteran winner of five straight fights including victories over former UFC bantamweight champ Cody Garbrandt; the winner edges closer to a title shot. Also huge: No. 2-ranked Dumont faces No. 4-ranked Perez, two top contenders fighting for position near champion Kayla Harrison.",
-      "know": "Barcelos already beat two men who now fight each other on tonight's prelims: Ricky Simon and Montel Jackson, extending his win streak. In the UFC, official rankings run from champion down through #1-#15 in each weight class, and beating a ranked opponent is how fighters climb toward a title shot.",
-      "generatedAt": "2026-09-21T03:13:35.951Z",
-      "factsHash": "5bd94e9183d1f072",
+      "why": "The main event pits ranked bantamweights, with rising prospect Raul Rosas Jr. (#12) facing veteran black belt Raoni Barcelos (#13); the matchup will massively impact both men's bantamweight trajectories. Elsewhere, ranked contenders Norma Dumont (#4) and Ailin Perez (#5) clash in a heated Brazil-Argentina rivalry, and with both athletes positioned inside the top five, the winner could take a significant step toward a future title opportunity.",
+      "know": "Rosas Jr. is a 21-year-old prospect currently on a five-fight win streak, having most recently beaten veteran Rob Font via unanimous decision at UFC 326, a card not on this calendar. Barcelos, by contrast, is a 39-year-old combat sports veteran who has also won five straight, using jiu-jitsu grappling. Fighters are ranked #1-15 below the champion; climbing that ladder by beating other ranked names is how title shots get earned.",
+      "generatedAt": "2026-09-22T17:41:52.869Z",
+      "factsHash": "317021ae747cf590",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-09-21T03:13:35.951Z",
+  "lastWrittenAt": "2026-09-22T17:41:52.869Z",
   "lastError": null
 }
