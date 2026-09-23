@@ -1,6 +1,6 @@
 {
   "ufc.com:ufc-fight-night-september-26-2026": {
-    "fetchedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-23T17:52:44.187Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
@@ -114,7 +114,7 @@
     ]
   },
   "numbered:332": {
-    "fetchedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-23T17:52:44.187Z",
     "changedAt": "2026-09-21T01:29:25.253Z",
     "bouts": [
       {
@@ -237,11 +237,11 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-10-2026": {
-    "fetchedAt": "2026-09-22T17:39:51.826Z",
-    "changedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-23T17:52:44.187Z",
+    "changedAt": "2026-09-23T17:52:44.187Z",
     "bouts": [
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Brendan Allen",
@@ -252,8 +252,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-17-2026": {
-    "fetchedAt": "2026-09-22T17:39:51.826Z",
-    "changedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-23T17:52:44.187Z",
+    "changedAt": "2026-09-23T17:52:44.187Z",
     "bouts": [
       {
         "segment": "main",
@@ -284,15 +284,6 @@
       },
       {
         "segment": "main",
-        "weightClass": "Lightweight",
-        "titleBout": false,
-        "red": "Mandel Nallo",
-        "blue": "Nate Landwehr",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "main",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Louis Jourdain",
@@ -301,38 +292,11 @@
         "blueRank": null
       },
       {
-        "segment": "prelims",
-        "weightClass": "Bantamweight",
+        "segment": "main",
+        "weightClass": "Lightweight",
         "titleBout": false,
-        "red": "Cody Chovancek",
-        "blue": "SuYoung You",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "prelims",
-        "weightClass": "Heavyweight",
-        "titleBout": false,
-        "red": "Javad Mahjoub",
-        "blue": "Louie Sutherland",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "prelims",
-        "weightClass": "Bantamweight",
-        "titleBout": false,
-        "red": "Chad Anheliger",
-        "blue": "Steven Koslow",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "prelims",
-        "weightClass": "Women's Flyweight",
-        "titleBout": false,
-        "red": "Jamey-Lyn Horth",
-        "blue": "Katlyn Cerminara",
+        "red": "Mandel Nallo",
+        "blue": "Nate Landwehr",
         "redRank": null,
         "blueRank": null
       },
@@ -347,6 +311,42 @@
       },
       {
         "segment": "prelims",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Julien Leblanc",
+        "blue": "Gilbert Urbina",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Heavyweight",
+        "titleBout": false,
+        "red": "Javad Mahjoub",
+        "blue": "Louie Sutherland",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Women's Flyweight",
+        "titleBout": false,
+        "red": "Jamey-Lyn Horth",
+        "blue": "Katlyn Cerminara",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Chad Anheliger",
+        "blue": "Steven Koslow",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
         "weightClass": "Women's Bantamweight",
         "titleBout": false,
         "red": "Melissa Croden",
@@ -356,17 +356,17 @@
       },
       {
         "segment": "prelims",
-        "weightClass": "Middleweight",
+        "weightClass": "Bantamweight",
         "titleBout": false,
-        "red": "Julien Leblanc",
-        "blue": "Gilbert Urbina",
+        "red": "Cody Chovancek",
+        "blue": "SuYoung You",
         "redRank": null,
         "blueRank": null
       }
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-23T17:52:44.187Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
@@ -453,7 +453,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-23T17:52:44.187Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
@@ -486,7 +486,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-23T17:52:44.187Z",
     "changedAt": "2026-09-21T01:29:25.253Z",
     "bouts": [
       {
@@ -501,7 +501,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-23T17:52:44.187Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
