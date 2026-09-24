@@ -1,7 +1,7 @@
 {
   "ufc.com:ufc-fight-night-september-26-2026": {
-    "fetchedAt": "2026-09-23T17:52:44.187Z",
-    "changedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-24T17:53:04.741Z",
+    "changedAt": "2026-09-24T17:53:04.741Z",
     "bouts": [
       {
         "segment": "main",
@@ -25,7 +25,7 @@
         "segment": "main",
         "weightClass": "Bantamweight",
         "titleBout": false,
-        "red": "Mehemmedeli Osmanli",
+        "red": "Mahammadali Osmanli",
         "blue": "Ilimbek Akylbek",
         "redRank": null,
         "blueRank": null
@@ -114,7 +114,7 @@
     ]
   },
   "numbered:332": {
-    "fetchedAt": "2026-09-23T17:52:44.187Z",
+    "fetchedAt": "2026-09-24T17:53:04.741Z",
     "changedAt": "2026-09-21T01:29:25.253Z",
     "bouts": [
       {
@@ -237,7 +237,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-10-2026": {
-    "fetchedAt": "2026-09-23T17:52:44.187Z",
+    "fetchedAt": "2026-09-24T17:53:04.741Z",
     "changedAt": "2026-09-23T17:52:44.187Z",
     "bouts": [
       {
@@ -252,7 +252,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-17-2026": {
-    "fetchedAt": "2026-09-23T17:52:44.187Z",
+    "fetchedAt": "2026-09-24T17:53:04.741Z",
     "changedAt": "2026-09-23T17:52:44.187Z",
     "bouts": [
       {
@@ -366,11 +366,11 @@
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-09-23T17:52:44.187Z",
-    "changedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-09-24T17:53:04.741Z",
+    "changedAt": "2026-09-24T17:53:04.741Z",
     "bouts": [
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Featherweight",
         "titleBout": true,
         "red": "Alexander Volkanovski",
@@ -379,7 +379,7 @@
         "blueRank": "#1"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Bantamweight",
         "titleBout": true,
         "red": "Petr Yan",
@@ -388,25 +388,7 @@
         "blueRank": "#1"
       },
       {
-        "segment": "card",
-        "weightClass": "Featherweight",
-        "titleBout": false,
-        "red": "Arnold Allen",
-        "blue": "Aaron Pico",
-        "redRank": "#7",
-        "blueRank": "#12"
-      },
-      {
-        "segment": "card",
-        "weightClass": "Light Heavyweight",
-        "titleBout": false,
-        "red": "Azamat Murzakanov",
-        "blue": "Dominick Reyes",
-        "redRank": "#8",
-        "blueRank": "#10"
-      },
-      {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Flyweight",
         "titleBout": false,
         "red": "Lone’er Kavanagh",
@@ -415,16 +397,7 @@
         "blueRank": "#10"
       },
       {
-        "segment": "card",
-        "weightClass": "Light Heavyweight",
-        "titleBout": false,
-        "red": "Nikita Krylov",
-        "blue": "Abdul Rakhman Yakhyaev",
-        "redRank": "#15",
-        "blueRank": null
-      },
-      {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Heavyweight",
         "titleBout": false,
         "red": "Alexander Volkov",
@@ -433,7 +406,34 @@
         "blueRank": "#7"
       },
       {
-        "segment": "card",
+        "segment": "main",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Arnold Allen",
+        "blue": "Aaron Pico",
+        "redRank": "#7",
+        "blueRank": "#12"
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Azamat Murzakanov",
+        "blue": "Dominick Reyes",
+        "redRank": "#8",
+        "blueRank": "#10"
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Nikita Krylov",
+        "blue": "Abdul Rakhman Yakhyaev",
+        "redRank": "#15",
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Abus Magomedov",
@@ -442,7 +442,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Grant Dawson",
@@ -453,7 +453,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-09-23T17:52:44.187Z",
+    "fetchedAt": "2026-09-24T17:53:04.741Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
@@ -486,7 +486,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-09-23T17:52:44.187Z",
+    "fetchedAt": "2026-09-24T17:53:04.741Z",
     "changedAt": "2026-09-21T01:29:25.253Z",
     "bouts": [
       {
@@ -501,7 +501,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-09-23T17:52:44.187Z",
+    "fetchedAt": "2026-09-24T17:53:04.741Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
