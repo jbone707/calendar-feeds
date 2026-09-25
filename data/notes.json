@@ -1,20 +1,20 @@
 {
   "notes": {
     "f75c84e0-aaf1-4262-9d61-ca4b6f1e672a@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are off to a 2-0 start, outscoring both the Rams and Dolphins by big margins and sitting atop the NFC West. Arizona is a division rival that just lost badly to Seattle, so this is a good chance for San Francisco to build an early cushion in the division standings. It is only week three, so nothing is clinched or lost here, but a win would keep the 49ers unbeaten and add to their divisional tiebreaker edge.",
-      "know": "A division game means these two teams share the NFC West and play twice a year; those results matter extra later for tiebreakers and who wins the division. Watch running back Christian McCaffrey, who just reached 100 career touchdowns and is a focal point of the offense, and quarterback Brock Purdy, who has been sharp and mistake-free through two games.",
-      "generatedAt": "2026-09-21T02:57:05.827Z",
+      "why": "San Francisco enters 2-0 and alone atop the NFC West, while Arizona is rebuilding under new coach Mike LaFleur after Kyler Murray is gone, Jacoby Brissett is the starting quarterback. A win keeps the 49ers unbeaten and moving toward a 3-0 start for the fourth time in Kyle Shanahan's reign; a loss would be a rare stumble but changes little this early. Nobody clinches a playoff spot or gets eliminated at Week 3.",
+      "know": "A \"division game\" counts extra because the division winner is guaranteed a playoff spot, so these matchups shape tiebreakers all year. Watch QB Brock Purdy, who has led San Francisco with a near-perfect two weeks, becoming the fifth QB in NFL history to post multiple 90% completion games. Also watch Cardinals TE Trey McBride, coming off a 1,000-yard campaign as Arizona's top target.",
+      "generatedAt": "2026-09-25T18:01:10.098Z",
       "factsHash": "9a9353c9323748e6",
       "model": "claude-sonnet-5"
     },
     "75b7b5e8-6b02-4eee-a2ca-0ce91d9bc037@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Ranked No. 12 and No. 13 in the UFC rankings, Raul Rosas Jr. and Raoni Barcelos enter this pivotal matchup riding five-fight winning streaks, with a potential Top-10 position at stake in a five-round bantamweight main event. Below that, Norma Dumont and Ailin Perez will finally face off inside the Octagon in a pivotal clash in the women's bantamweight division, and both know victory is essential if they want to force their way into championship contention by the end of 2026.",
-      "know": "A ranked win here can push a fighter toward a title shot, a chance to fight for the belt. Rosas Jr. is just 21 and already one of the most dangerous grapplers in the division, with six submission wins built on relentless wrestling and top control, while Barcelos is a 39-year-old veteran and one of the division's most technically complete fighters, showing the sport's mix of young grapplers and seasoned strikers.",
-      "generatedAt": "2026-09-24T17:55:05.585Z",
-      "factsHash": "de1068457e9604a4",
+      "why": "Ranked No. 12 and No. 13, Raul Rosas Jr. and Raoni Barcelos enter this pivotal matchup riding five-fight winning streaks, with a potential Top-10 position at stake. In the co-main, both Norma Dumont and Ailin Perez know that victory is essential if they want to force their way into championship contention by the end of 2026. The rivalry between the two women's bantamweight contenders has organically developed after years of back-and-forth online.",
+      "know": "At just 21, Rosas Jr. is one of the most dangerous grapplers in the division, built around wrestling pressure and scrambling. Barcelos, 39, is a technically complete veteran who may be the most experienced opponent of Rosas' career. This is also the first scheduled five-round bout for both fighters, a longer format normally reserved for the most important fights on a card.",
+      "generatedAt": "2026-09-25T18:01:10.098Z",
+      "factsHash": "e464dd8c4f5b0311",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-09-24T17:55:05.585Z",
+  "lastWrittenAt": "2026-09-25T18:01:10.098Z",
   "lastError": null
 }

@@ -1,7 +1,7 @@
 {
   "ufc.com:ufc-fight-night-september-26-2026": {
-    "fetchedAt": "2026-09-24T17:53:04.741Z",
-    "changedAt": "2026-09-24T17:53:04.741Z",
+    "fetchedAt": "2026-09-25T17:59:08.985Z",
+    "changedAt": "2026-09-25T17:59:08.985Z",
     "bouts": [
       {
         "segment": "main",
@@ -14,10 +14,19 @@
       },
       {
         "segment": "main",
-        "weightClass": "Middleweight",
+        "weightClass": "Women's Bantamweight",
         "titleBout": false,
-        "red": "Rodolfo Vieira",
-        "blue": "Robert Bryczek",
+        "red": "Norma Dumont",
+        "blue": "Ailin Perez",
+        "redRank": "#4",
+        "blueRank": "#5"
+      },
+      {
+        "segment": "main",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Luis Hernandez",
+        "blue": "Sedriques Dumas",
         "redRank": null,
         "blueRank": null
       },
@@ -40,11 +49,20 @@
         "blueRank": null
       },
       {
-        "segment": "main",
+        "segment": "prelims",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Brady Hiestand",
         "blue": "Rinya Nakamura",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Rodolfo Vieira",
+        "blue": "Robert Bryczek",
         "redRank": null,
         "blueRank": null
       },
@@ -77,28 +95,10 @@
       },
       {
         "segment": "prelims",
-        "weightClass": "Women's Bantamweight",
-        "titleBout": false,
-        "red": "Norma Dumont",
-        "blue": "Ailin Perez",
-        "redRank": "#4",
-        "blueRank": "#5"
-      },
-      {
-        "segment": "prelims",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "John Castaneda",
         "blue": "Alatengheili",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "prelims",
-        "weightClass": "Middleweight",
-        "titleBout": false,
-        "red": "Mickey Gall",
-        "blue": "Sedriques Dumas",
         "redRank": null,
         "blueRank": null
       },
@@ -114,7 +114,7 @@
     ]
   },
   "numbered:332": {
-    "fetchedAt": "2026-09-24T17:53:04.741Z",
+    "fetchedAt": "2026-09-25T17:59:08.985Z",
     "changedAt": "2026-09-21T01:29:25.253Z",
     "bouts": [
       {
@@ -237,7 +237,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-10-2026": {
-    "fetchedAt": "2026-09-24T17:53:04.741Z",
+    "fetchedAt": "2026-09-25T17:59:08.985Z",
     "changedAt": "2026-09-23T17:52:44.187Z",
     "bouts": [
       {
@@ -252,8 +252,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-17-2026": {
-    "fetchedAt": "2026-09-24T17:53:04.741Z",
-    "changedAt": "2026-09-23T17:52:44.187Z",
+    "fetchedAt": "2026-09-25T17:59:08.985Z",
+    "changedAt": "2026-09-25T17:59:08.985Z",
     "bouts": [
       {
         "segment": "main",
@@ -272,6 +272,15 @@
         "blue": "Jasmine Jasudavicius",
         "redRank": "#4",
         "blueRank": "#7"
+      },
+      {
+        "segment": "main",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Kyle Nelson",
+        "blue": "Cristian Perez Gonzalez",
+        "redRank": null,
+        "blueRank": null
       },
       {
         "segment": "main",
@@ -366,8 +375,8 @@
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-09-24T17:53:04.741Z",
-    "changedAt": "2026-09-24T17:53:04.741Z",
+    "fetchedAt": "2026-09-25T17:59:08.985Z",
+    "changedAt": "2026-09-25T17:59:08.985Z",
     "bouts": [
       {
         "segment": "main",
@@ -412,7 +421,7 @@
         "red": "Arnold Allen",
         "blue": "Aaron Pico",
         "redRank": "#7",
-        "blueRank": "#12"
+        "blueRank": "#11"
       },
       {
         "segment": "prelims",
@@ -453,7 +462,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-09-24T17:53:04.741Z",
+    "fetchedAt": "2026-09-25T17:59:08.985Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
@@ -486,7 +495,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-09-24T17:53:04.741Z",
+    "fetchedAt": "2026-09-25T17:59:08.985Z",
     "changedAt": "2026-09-21T01:29:25.253Z",
     "bouts": [
       {
@@ -501,7 +510,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-09-24T17:53:04.741Z",
+    "fetchedAt": "2026-09-25T17:59:08.985Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
