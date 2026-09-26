@@ -13,8 +13,15 @@
       "generatedAt": "2026-09-25T18:01:10.098Z",
       "factsHash": "e464dd8c4f5b0311",
       "model": "claude-sonnet-5"
+    },
+    "1d50a2bd-0890-4b61-9474-b92435185adb@ufc.calendar-feeds.jbone707.github.io": {
+      "why": "The vacant women's flyweight title headlines, after champion Valentina Shevchenko was sidelined roughly a year by injury. Top contender Natalia Silva, an 8-0 UFC striker, faces surging striker Wang Cong, who owns a kickboxing win over Shevchenko and could set up a rematch if she wins. Either winner earns her first UFC title.",
+      "know": "A number like \"UFC 332\" marks a flagship pay-per-view style card, reserved for title fights and top names, unlike smaller weekly \"Fight Night\" events. In the co-main, former two-time flyweight champion Deiveson Figueiredo tests rising unbeaten prospect Payton Talbott at bantamweight, a classic veteran-versus-prospect gatekeeper matchup that can launch a newcomer into title contention.",
+      "generatedAt": "2026-09-26T17:17:51.583Z",
+      "factsHash": "54df5ba1fa275219",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-09-25T18:01:10.098Z",
+  "lastWrittenAt": "2026-09-26T17:17:51.583Z",
   "lastError": null
 }
