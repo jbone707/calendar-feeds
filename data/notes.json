@@ -1,17 +1,10 @@
 {
   "notes": {
     "f75c84e0-aaf1-4262-9d61-ca4b6f1e672a@niners.calendar-feeds.jbone707.github.io": {
-      "why": "San Francisco enters 2-0 and alone atop the NFC West, while Arizona is rebuilding under new coach Mike LaFleur after Kyler Murray is gone, Jacoby Brissett is the starting quarterback. A win keeps the 49ers unbeaten and moving toward a 3-0 start for the fourth time in Kyle Shanahan's reign; a loss would be a rare stumble but changes little this early. Nobody clinches a playoff spot or gets eliminated at Week 3.",
-      "know": "A \"division game\" counts extra because the division winner is guaranteed a playoff spot, so these matchups shape tiebreakers all year. Watch QB Brock Purdy, who has led San Francisco with a near-perfect two weeks, becoming the fifth QB in NFL history to post multiple 90% completion games. Also watch Cardinals TE Trey McBride, coming off a 1,000-yard campaign as Arizona's top target.",
-      "generatedAt": "2026-09-25T18:01:10.098Z",
+      "why": "The 49ers are 2-0 and lead the NFC West, hosting a shaky 1-1 Arizona Cardinals team that ranks near the bottom of the league in scoring. A win keeps San Francisco unbeaten and tightens their grip on first place, but it is only week three, so nothing is decided yet, just early positioning for the season ahead.",
+      "know": "A \"division game\" like this counts extra because head-to-head results can decide tiebreakers for the playoffs later on. Worth watching: new 49ers receiver Mike Evans, a big, reliable deep threat, and Cardinals tight end Trey McBride, one of the league's best pass catchers at his position.",
+      "generatedAt": "2026-09-27T17:50:13.323Z",
       "factsHash": "9a9353c9323748e6",
-      "model": "claude-sonnet-5"
-    },
-    "75b7b5e8-6b02-4eee-a2ca-0ce91d9bc037@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Ranked No. 12 and No. 13, Raul Rosas Jr. and Raoni Barcelos enter this pivotal matchup riding five-fight winning streaks, with a potential Top-10 position at stake. In the co-main, both Norma Dumont and Ailin Perez know that victory is essential if they want to force their way into championship contention by the end of 2026. The rivalry between the two women's bantamweight contenders has organically developed after years of back-and-forth online.",
-      "know": "At just 21, Rosas Jr. is one of the most dangerous grapplers in the division, built around wrestling pressure and scrambling. Barcelos, 39, is a technically complete veteran who may be the most experienced opponent of Rosas' career. This is also the first scheduled five-round bout for both fighters, a longer format normally reserved for the most important fights on a card.",
-      "generatedAt": "2026-09-25T18:01:10.098Z",
-      "factsHash": "e464dd8c4f5b0311",
       "model": "claude-sonnet-5"
     },
     "1d50a2bd-0890-4b61-9474-b92435185adb@ufc.calendar-feeds.jbone707.github.io": {
@@ -20,8 +13,15 @@
       "generatedAt": "2026-09-26T17:17:51.583Z",
       "factsHash": "54df5ba1fa275219",
       "model": "claude-sonnet-5"
+    },
+    "65476e3e-e4f9-4fb3-a5c0-3b852455ccfa@niners.calendar-feeds.jbone707.github.io": {
+      "why": "The 49ers are 2-0 this season, hosting a Denns Broncos team that enters at 1-1 after making the AFC Championship Game last season. It's only Week 4, so nothing is clinched or lost yet, but a win keeps San Francisco unbeaten and builds momentum before tougher division tests ahead.",
+      "know": "NFC West is San Francisco's four-team division, which matters more for playoff seeding later in the year. Right now, watch trends: Nick Bosa is expected to miss the game after straining his calf in practice, testing a defense that must lean even more on quarterback Brock Purdy, who is topping the NFL charts, to keep winning close games.",
+      "generatedAt": "2026-09-27T17:50:13.323Z",
+      "factsHash": "85c49ced598b5c31",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-09-26T17:17:51.583Z",
+  "lastWrittenAt": "2026-09-27T17:50:13.323Z",
   "lastError": null
 }

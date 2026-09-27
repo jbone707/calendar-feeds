@@ -57,7 +57,7 @@
         "startUtc": "UFC.com, the time it labels \"Main card\"",
         "localEventDate": "date of the start in America/New_York"
       },
-      "status": "scheduled",
+      "status": "completed",
       "missingStrikes": 0,
       "sequence": 0,
       "createdAt": "2026-09-20T06:04:51.207Z",
