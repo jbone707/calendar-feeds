@@ -1,12 +1,5 @@
 {
   "notes": {
-    "f75c84e0-aaf1-4262-9d61-ca4b6f1e672a@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are 2-0 and lead the NFC West, hosting a shaky 1-1 Arizona Cardinals team that ranks near the bottom of the league in scoring. A win keeps San Francisco unbeaten and tightens their grip on first place, but it is only week three, so nothing is decided yet, just early positioning for the season ahead.",
-      "know": "A \"division game\" like this counts extra because head-to-head results can decide tiebreakers for the playoffs later on. Worth watching: new 49ers receiver Mike Evans, a big, reliable deep threat, and Cardinals tight end Trey McBride, one of the league's best pass catchers at his position.",
-      "generatedAt": "2026-09-27T17:50:13.323Z",
-      "factsHash": "9a9353c9323748e6",
-      "model": "claude-sonnet-5"
-    },
     "1d50a2bd-0890-4b61-9474-b92435185adb@ufc.calendar-feeds.jbone707.github.io": {
       "why": "The vacant women's flyweight title headlines, after champion Valentina Shevchenko was sidelined roughly a year by injury. Top contender Natalia Silva, an 8-0 UFC striker, faces surging striker Wang Cong, who owns a kickboxing win over Shevchenko and could set up a rematch if she wins. Either winner earns her first UFC title.",
       "know": "A number like \"UFC 332\" marks a flagship pay-per-view style card, reserved for title fights and top names, unlike smaller weekly \"Fight Night\" events. In the co-main, former two-time flyweight champion Deiveson Figueiredo tests rising unbeaten prospect Payton Talbott at bantamweight, a classic veteran-versus-prospect gatekeeper matchup that can launch a newcomer into title contention.",
@@ -23,5 +16,5 @@
     }
   },
   "lastWrittenAt": "2026-09-27T17:50:13.323Z",
-  "lastError": null
+  "lastError": "UFC 332: Silva vs Wang: write-up rejected (too long)"
 }

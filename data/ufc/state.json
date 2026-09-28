@@ -277,6 +277,35 @@
       "sequence": 1,
       "createdAt": "2026-09-20T06:04:51.207Z",
       "lastModified": "2026-09-22T17:39:51.805Z"
+    },
+    {
+      "key": "ufc.com:ufc-fight-night-november-21-2026",
+      "uid": "fe74ebe2-bd22-454c-bd51-783a4e7a50cf@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-fight-night-november-21-2026",
+      "aliases": [
+        "ufc-fight-night-november-21-2026"
+      ],
+      "title": "UFC Fight Night",
+      "matchHint": "",
+      "localEventDate": "2026-11-21",
+      "startUtc": "2026-11-21T22:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-11-21T20:00:00.000Z"
+        }
+      ],
+      "location": "ABHA Arena, Doha, Qatar",
+      "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-09-28T20:09:02.388Z",
+      "lastModified": "2026-09-28T20:09:02.388Z"
     }
   ]
 }
