@@ -114,8 +114,8 @@
     ]
   },
   "numbered:332": {
-    "fetchedAt": "2026-09-28T20:09:02.408Z",
-    "changedAt": "2026-09-28T20:09:02.408Z",
+    "fetchedAt": "2026-09-29T18:41:21.415Z",
+    "changedAt": "2026-09-29T18:41:21.415Z",
     "bouts": [
       {
         "segment": "main",
@@ -229,6 +229,15 @@
         "segment": "early",
         "weightClass": "Welterweight",
         "titleBout": false,
+        "red": "Jacobe Smith",
+        "blue": "Bruce Whitehead",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Welterweight",
+        "titleBout": false,
         "red": "Court McGee",
         "blue": "Eric Nolan",
         "redRank": null,
@@ -237,7 +246,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-10-2026": {
-    "fetchedAt": "2026-09-28T20:09:02.408Z",
+    "fetchedAt": "2026-09-29T18:41:21.415Z",
     "changedAt": "2026-09-23T17:52:44.187Z",
     "bouts": [
       {
@@ -252,7 +261,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-17-2026": {
-    "fetchedAt": "2026-09-28T20:09:02.408Z",
+    "fetchedAt": "2026-09-29T18:41:21.415Z",
     "changedAt": "2026-09-25T17:59:08.985Z",
     "bouts": [
       {
@@ -375,7 +384,7 @@
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-09-28T20:09:02.408Z",
+    "fetchedAt": "2026-09-29T18:41:21.415Z",
     "changedAt": "2026-09-25T17:59:08.985Z",
     "bouts": [
       {
@@ -462,7 +471,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-09-28T20:09:02.408Z",
+    "fetchedAt": "2026-09-29T18:41:21.415Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
@@ -495,7 +504,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-09-28T20:09:02.408Z",
+    "fetchedAt": "2026-09-29T18:41:21.415Z",
     "changedAt": "2026-09-21T01:29:25.253Z",
     "bouts": [
       {
@@ -510,7 +519,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-09-28T20:09:02.408Z",
+    "fetchedAt": "2026-09-29T18:41:21.415Z",
     "changedAt": "2026-09-22T17:39:51.826Z",
     "bouts": [
       {
@@ -624,8 +633,54 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-09-28T20:09:02.408Z",
-    "changedAt": "2026-09-28T20:09:02.408Z",
-    "bouts": []
+    "fetchedAt": "2026-09-29T18:41:21.415Z",
+    "changedAt": "2026-09-29T18:41:21.415Z",
+    "bouts": [
+      {
+        "segment": "card",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Ikram Aliskerov",
+        "blue": "Jared Cannonier",
+        "redRank": "#13",
+        "blueRank": "#11"
+      },
+      {
+        "segment": "card",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Jake Matthews",
+        "blue": "Tahir Abdullayev",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Aleksandre Topuria",
+        "blue": "Santiago Luna",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Flyweight",
+        "titleBout": false,
+        "red": "Asu Almabayev",
+        "blue": "Kyoji Horiguchi",
+        "redRank": "#7",
+        "blueRank": "#5"
+      },
+      {
+        "segment": "card",
+        "weightClass": "Flyweight",
+        "titleBout": false,
+        "red": "Amir Albazi",
+        "blue": "Alessandro Costa",
+        "redRank": "#9",
+        "blueRank": null
+      }
+    ]
   }
 }
