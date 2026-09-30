@@ -285,14 +285,14 @@
       "aliases": [
         "ufc-fight-night-november-21-2026"
       ],
-      "title": "UFC Fight Night",
-      "matchHint": "",
+      "title": "UFC Fight Night: Prochazka vs Stirling",
+      "matchHint": "Prochazka vs Stirling",
       "localEventDate": "2026-11-21",
-      "startUtc": "2026-11-21T22:00:00.000Z",
+      "startUtc": "2026-11-21T18:00:00.000Z",
       "extraTimes": [
         {
           "label": "Prelims",
-          "utc": "2026-11-21T20:00:00.000Z"
+          "utc": "2026-11-21T15:00:00.000Z"
         }
       ],
       "location": "ABHA Arena, Doha, Qatar",
@@ -303,9 +303,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 0,
+      "sequence": 1,
       "createdAt": "2026-09-28T20:09:02.388Z",
-      "lastModified": "2026-09-28T20:09:02.388Z"
+      "lastModified": "2026-09-30T18:28:38.079Z"
     }
   ]
 }
