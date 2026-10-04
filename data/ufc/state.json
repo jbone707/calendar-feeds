@@ -90,7 +90,7 @@
         "startUtc": "UFC.com, the time it labels \"Main card\"",
         "localEventDate": "date of the start in America/New_York"
       },
-      "status": "scheduled",
+      "status": "completed",
       "missingStrikes": 0,
       "sequence": 0,
       "createdAt": "2026-09-20T06:04:51.207Z",
@@ -306,6 +306,39 @@
       "sequence": 1,
       "createdAt": "2026-09-28T20:09:02.388Z",
       "lastModified": "2026-09-30T18:28:38.079Z"
+    },
+    {
+      "key": "numbered:335",
+      "uid": "cfb4d30c-f808-4595-91b2-81079b4841ea@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-335",
+      "aliases": [
+        "ufc-335"
+      ],
+      "title": "UFC 335",
+      "matchHint": "",
+      "localEventDate": "2026-12-12",
+      "startUtc": "2026-12-13T02:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-12-13T00:00:00.000Z"
+        },
+        {
+          "label": "Early prelims",
+          "utc": "2026-12-12T22:00:00.000Z"
+        }
+      ],
+      "location": "T-Mobile Arena, Las Vegas, NV, United States",
+      "url": "https://www.ufc.com/event/ufc-335",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-10-04T17:39:10.170Z",
+      "lastModified": "2026-10-04T17:39:10.170Z"
     }
   ]
 }

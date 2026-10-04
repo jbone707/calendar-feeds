@@ -1,16 +1,9 @@
 {
   "notes": {
-    "1d50a2bd-0890-4b61-9474-b92435185adb@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "The women's flyweight title is vacant because champion Valentina Shevchenko withdrew with a serious injury that is expected to sideline her a year, so #1 contender Natalia Silva finally gets a first title shot against #8 Wang Cong, a hard hitting former kickboxer. The co-main pits former flyweight champion Deiveson Figueiredo against surging prospect Payton Talbott, who is unbeaten since his only career loss and just beat former two division champ Henry Cejudo.",
-      "know": "A vacant title fight means no current champion is involved, so the winner becomes champion outright. UFC ranks fighters #1 to #15 in each weight class below the champ, and a numbered event like this one is reserved for the promotion's biggest cards, almost always built around a title fight.",
-      "generatedAt": "2026-10-03T17:27:26.705Z",
-      "factsHash": "6750f6bb11d4b15d",
-      "model": "claude-sonnet-5"
-    },
     "65476e3e-e4f9-4fb3-a5c0-3b852455ccfa@niners.calendar-feeds.jbone707.github.io": {
-      "why": "San Francisco is off to a 3-0 start and sits first in the NFC West, while Denver is 2-1 and riding a two-game win streak after beating the Rams. It is only Week 4, so this game will not clinch or eliminate anything, but a win would keep the 49ers unbeaten and show they can beat a quality opponent despite missing key defenders.",
-      "know": "The 49ers are without star pass rusher Nick Bosa and fellow edge rusher Mykel Williams, both injured, which weakens their ability to pressure the quarterback. Watch running back Christian McCaffrey, a dual run-and-catch threat who is healthy and full go, and quarterback Brock Purdy, who may exploit a Broncos defense while San Francisco's own pass rush is shorthanded.",
-      "generatedAt": "2026-10-03T17:27:26.705Z",
+      "why": "The 49ers are off to a perfect 3-0 start and sit atop the NFC West, hosting a tough Denver Broncos squad that's 2-1 and riding a two-game win streak. This early in the season no single game clinches or ends anything, but a win would keep San Francisco's undefeated run alive and show they can beat a quality opponent while missing key defenders.",
+      "know": "NFC West is the 49ers' division; winning it matters for playoff seeding later in the season. Watch quarterback Brock Purdy, who's been in excellent form, and running back Christian McCaffrey, facing Denver for the first time in his career. Star pass rusher Nick Bosa is out injured, which could make it easier for Denver's offense to move the ball.",
+      "generatedAt": "2026-10-04T17:41:11.099Z",
       "factsHash": "85c49ced598b5c31",
       "model": "claude-sonnet-5"
     },
@@ -20,8 +13,15 @@
       "generatedAt": "2026-10-03T17:27:26.705Z",
       "factsHash": "13535cff78d661fa",
       "model": "claude-sonnet-5"
+    },
+    "5a58fd06-e8ef-4b11-a524-980603a9b15f@niners.calendar-feeds.jbone707.github.io": {
+      "why": "The 49ers are off to a perfect 3-0 start and sit first in the NFC West, while the Seahawks are 2-1 and the defending Super Bowl champions, sitting second. This is an early division matchup, so a win would keep San Francisco atop the West and add to their unbeaten start, while a loss would be their first blemish and tighten the race, but nothing is decided yet this early.",
+      "know": "It's only week five, so no single game clinches or eliminates anyone from the playoffs this soon. Division games count extra because they affect tiebreakers used later to decide who wins the NFC West and its automatic playoff spot. Watch George Kittle, San Francisco's top pass catcher, and Jaxon Smith-Njigba, Seattle's leading receiver, who often decide these close division battles.",
+      "generatedAt": "2026-10-04T17:41:11.099Z",
+      "factsHash": "d26a2e65c27d068f",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-03T17:27:26.705Z",
+  "lastWrittenAt": "2026-10-04T17:41:11.099Z",
   "lastError": null
 }
