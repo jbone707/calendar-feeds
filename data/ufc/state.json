@@ -314,8 +314,8 @@
       "aliases": [
         "ufc-335"
       ],
-      "title": "UFC 335",
-      "matchHint": "",
+      "title": "UFC 335: Oliveira vs Lopes",
+      "matchHint": "Oliveira vs Lopes",
       "localEventDate": "2026-12-12",
       "startUtc": "2026-12-13T02:00:00.000Z",
       "extraTimes": [
@@ -336,9 +336,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 0,
+      "sequence": 1,
       "createdAt": "2026-10-04T17:39:10.170Z",
-      "lastModified": "2026-10-04T17:39:10.170Z"
+      "lastModified": "2026-10-05T21:13:33.794Z"
     }
   ]
 }
