@@ -246,8 +246,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-10-2026": {
-    "fetchedAt": "2026-10-05T21:13:33.822Z",
-    "changedAt": "2026-09-30T18:28:38.106Z",
+    "fetchedAt": "2026-10-06T18:56:20.399Z",
+    "changedAt": "2026-10-06T18:56:20.399Z",
     "bouts": [
       {
         "segment": "main",
@@ -287,19 +287,19 @@
       },
       {
         "segment": "main",
-        "weightClass": "Light Heavyweight",
-        "titleBout": false,
-        "red": "Julius Walker",
-        "blue": "Gerald Meerschaert",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "main",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Malcolm Wellmaker",
         "blue": "Otari Tanzilovi",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Julius Walker",
+        "blue": "Gerald Meerschaert",
         "redRank": null,
         "blueRank": null
       },
@@ -346,7 +346,7 @@
         "red": "Alice Pereira",
         "blue": "Daria Zhelezniakova",
         "redRank": null,
-        "blueRank": null
+        "blueRank": "#15"
       },
       {
         "segment": "prelims",
@@ -360,8 +360,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-17-2026": {
-    "fetchedAt": "2026-10-05T21:13:33.822Z",
-    "changedAt": "2026-09-25T17:59:08.985Z",
+    "fetchedAt": "2026-10-06T18:56:20.399Z",
+    "changedAt": "2026-10-06T18:56:20.399Z",
     "bouts": [
       {
         "segment": "main",
@@ -379,7 +379,7 @@
         "red": "Erin Blanchfield",
         "blue": "Jasmine Jasudavicius",
         "redRank": "#4",
-        "blueRank": "#7"
+        "blueRank": "#6"
       },
       {
         "segment": "main",
@@ -468,7 +468,7 @@
         "titleBout": false,
         "red": "Melissa Croden",
         "blue": "Chelsea Chandler",
-        "redRank": "#15",
+        "redRank": "#14",
         "blueRank": null
       },
       {
@@ -483,8 +483,8 @@
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-10-05T21:13:33.822Z",
-    "changedAt": "2026-09-25T17:59:08.985Z",
+    "fetchedAt": "2026-10-06T18:56:20.399Z",
+    "changedAt": "2026-10-06T18:56:20.399Z",
     "bouts": [
       {
         "segment": "main",
@@ -537,8 +537,8 @@
         "titleBout": false,
         "red": "Azamat Murzakanov",
         "blue": "Dominick Reyes",
-        "redRank": "#8",
-        "blueRank": "#10"
+        "redRank": "#7",
+        "blueRank": "#8"
       },
       {
         "segment": "prelims",
@@ -570,7 +570,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-10-05T21:13:33.822Z",
+    "fetchedAt": "2026-10-06T18:56:20.399Z",
     "changedAt": "2026-09-30T18:28:38.106Z",
     "bouts": [
       {
@@ -675,7 +675,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-10-05T21:13:33.822Z",
+    "fetchedAt": "2026-10-06T18:56:20.399Z",
     "changedAt": "2026-09-30T18:28:38.106Z",
     "bouts": [
       {
@@ -798,8 +798,8 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-10-05T21:13:33.822Z",
-    "changedAt": "2026-09-22T17:39:51.826Z",
+    "fetchedAt": "2026-10-06T18:56:20.399Z",
+    "changedAt": "2026-10-06T18:56:20.399Z",
     "bouts": [
       {
         "segment": "card",
@@ -888,7 +888,7 @@
         "titleBout": false,
         "red": "Macy Chiasson",
         "blue": "Bia Mesquita",
-        "redRank": "#8",
+        "redRank": "#9",
         "blueRank": "#11"
       },
       {
@@ -912,7 +912,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-10-05T21:13:33.822Z",
+    "fetchedAt": "2026-10-06T18:56:20.399Z",
     "changedAt": "2026-09-30T18:28:38.106Z",
     "bouts": [
       {
@@ -999,7 +999,7 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-10-05T21:13:33.822Z",
+    "fetchedAt": "2026-10-06T18:56:20.399Z",
     "changedAt": "2026-10-05T21:13:33.822Z",
     "bouts": [
       {

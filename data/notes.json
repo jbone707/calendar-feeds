@@ -1,10 +1,10 @@
 {
   "notes": {
     "ab41077e-e70a-4d09-8c09-b56ecfd59743@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "In the main event, the pair are ranked #4 and #10 in the UFC's official middleweight rankings, so the winner pushes closer to a title shot. Allen has won his last three fights, picking up two Fight of the Night bonuses in the process, while the fight will also mark a career first for Duncan, as the former Cage Warriors middleweight champion has never previously headlined a UFC event. In the co-main, Loopy Godinez will look to bounce back against the surging Ketlen Souza.",
-      "know": "UFC rankings run from the champion down through number one to fifteen in each weight class, so a fight between two ranked men like Allen and Duncan carries real title-picture weight. A Fight Night card has no championship bout, but it is where rising fighters build the resumes that can eventually earn them a shot at gold.",
-      "generatedAt": "2026-10-03T17:27:26.705Z",
-      "factsHash": "13535cff78d661fa",
+      "why": "Brendan Allen (#4 middleweight) meets Christian Leroy Duncan (#10) in a clash of winning streaks, with the winner moving closer to a 185-pound title shot. Allen has rattled off three straight wins after back-to-back losses, while Duncan, unbeaten in over two years, lands his first UFC main event off a big win over former title challenger Jared Cannonier.",
+      "know": "Main events get five rounds instead of the usual three, a bigger test of stamina and skill. UFC rankings run from champion down to #15 per weight class, so a matchup between two ranked fighters like this one carries real title implications rather than just being a showcase bout.",
+      "generatedAt": "2026-10-06T18:58:21.679Z",
+      "factsHash": "1325cf35d5d53574",
       "model": "claude-sonnet-5"
     },
     "5a58fd06-e8ef-4b11-a524-980603a9b15f@niners.calendar-feeds.jbone707.github.io": {
@@ -15,6 +15,6 @@
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-04T17:41:11.099Z",
+  "lastWrittenAt": "2026-10-06T18:58:21.679Z",
   "lastError": null
 }
