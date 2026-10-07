@@ -226,11 +226,11 @@
       "title": "UFC Fight Night: Bonfim vs Brady",
       "matchHint": "Bonfim vs Brady",
       "localEventDate": "2026-11-07",
-      "startUtc": "2026-11-07T22:00:00.000Z",
+      "startUtc": "2026-11-08T01:00:00.000Z",
       "extraTimes": [
         {
           "label": "Prelims",
-          "utc": "2026-11-07T20:00:00.000Z"
+          "utc": "2026-11-07T22:00:00.000Z"
         }
       ],
       "location": "Meta APEX, Las Vegas, NV, United States",
@@ -241,9 +241,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 0,
+      "sequence": 1,
       "createdAt": "2026-09-20T06:04:51.207Z",
-      "lastModified": "2026-09-20T06:04:51.207Z"
+      "lastModified": "2026-10-07T19:23:23.997Z"
     },
     {
       "key": "numbered:334",
