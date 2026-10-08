@@ -8,13 +8,13 @@
       "model": "claude-sonnet-5"
     },
     "5a58fd06-e8ef-4b11-a524-980603a9b15f@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are off to a perfect 3-0 start and sit first in the NFC West, while the Seahawks are 2-1 and the defending Super Bowl champions, sitting second. This is an early division matchup, so a win would keep San Francisco atop the West and add to their unbeaten start, while a loss would be their first blemish and tighten the race, but nothing is decided yet this early.",
-      "know": "It's only week five, so no single game clinches or eliminates anyone from the playoffs this soon. Division games count extra because they affect tiebreakers used later to decide who wins the NFC West and its automatic playoff spot. Watch George Kittle, San Francisco's top pass catcher, and Jaxon Smith-Njigba, Seattle's leading receiver, who often decide these close division battles.",
-      "generatedAt": "2026-10-04T17:41:11.099Z",
+      "why": "The 49ers are off to a perfect 4-0 start and lead the NFC West, while Seattle sits right behind at 3-1 as the defending Super Bowl champion. This is a division game, which counts extra toward tiebreakers used to decide who wins the NFC West later. A win keeps San Francisco undefeated and atop the standings; a loss would hand Seattle a share of first place, but it is only Week 6, so nothing is clinched or eliminated yet.",
+      "know": "Early in the season, teams focus on building a good record and point differential rather than any single \"must win\" game. Watch quarterback Brock Purdy, who has been sharp running San Francisco's offense, and Seattle receiver Jaxon Smith-Njigba, a key weapon for the Seahawks' passing game. Division games matter extra because they directly affect head-to-head tiebreakers used in the standings.",
+      "generatedAt": "2026-10-08T19:20:56.963Z",
       "factsHash": "d26a2e65c27d068f",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-06T18:58:21.679Z",
+  "lastWrittenAt": "2026-10-08T19:20:56.963Z",
   "lastError": null
 }
