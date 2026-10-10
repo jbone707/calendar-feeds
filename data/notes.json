@@ -8,13 +8,20 @@
       "model": "claude-sonnet-5"
     },
     "5a58fd06-e8ef-4b11-a524-980603a9b15f@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are off to a perfect 4-0 start and lead the NFC West, while Seattle sits right behind at 3-1 as the defending Super Bowl champion. This is a division game, which counts extra toward tiebreakers used to decide who wins the NFC West later. A win keeps San Francisco undefeated and atop the standings; a loss would hand Seattle a share of first place, but it is only Week 6, so nothing is clinched or eliminated yet.",
-      "know": "Early in the season, teams focus on building a good record and point differential rather than any single \"must win\" game. Watch quarterback Brock Purdy, who has been sharp running San Francisco's offense, and Seattle receiver Jaxon Smith-Njigba, a key weapon for the Seahawks' passing game. Division games matter extra because they directly affect head-to-head tiebreakers used in the standings.",
-      "generatedAt": "2026-10-08T19:20:56.963Z",
+      "why": "San Francisco is 4-0 and 1st in the NFC West, while Seattle sits right behind at 3-1 in second place, and the Seahawks own a current win streak of 2 (2026, present) in this rivalry. This is a division game, so a 49ers win would stretch their lead, while a loss would let Seattle close the gap. It's only Week 5, so nothing is clinched or eliminated here, just an early signal of who controls the division race.",
+      "know": "A division game matters extra because these results often settle tiebreakers for final standings, and winning the division guarantees a playoff spot. Watch QB Brock Purdy, who has completed 79 of 113 passes for 1,007 yards, 11 touchdowns and one interception this season, as he tries to crack a tough Seattle defense. Edge rusher Nick Bosa (knee, calf) is out for San Francisco, which could open things up for Seattle's offense.",
+      "generatedAt": "2026-10-10T17:56:39.018Z",
       "factsHash": "d26a2e65c27d068f",
+      "model": "claude-sonnet-5"
+    },
+    "c9169700-4653-416e-ba05-3467ddbfe696@ufc.calendar-feeds.jbone707.github.io": {
+      "why": "Buckley (#10) meets Malott (#13) in a welterweight main event where the winner pushes toward the division's top five. Buckley is trying to snap a two-fight skid, while home-country favorite Malott is riding a four-fight win streak and seeking his first top-10 win. In the co-main, Blanchfield (#4) battles Jasudavicius (#6) at flyweight, with the winner moving closer to a title shot now that Natalia Silva holds that belt after UFC 332.",
+      "know": "UFC rankings run from champion down to #15 in each weight class and shift after big wins or losses, so beating a ranked foe matters a lot for positioning. A fight can end by decision (judges score it) or by finish, meaning knockout (KO), technical knockout (TKO), or submission before time runs out. The main event and co-main are simply the top two, highest-stakes bouts on the card.",
+      "generatedAt": "2026-10-10T17:56:39.018Z",
+      "factsHash": "abd33647f0dd1dc6",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-09T18:54:11.673Z",
+  "lastWrittenAt": "2026-10-10T17:56:39.018Z",
   "lastError": null
 }
