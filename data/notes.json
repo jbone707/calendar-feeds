@@ -1,16 +1,9 @@
 {
   "notes": {
-    "ab41077e-e70a-4d09-8c09-b56ecfd59743@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "No. 4-ranked contender Brendan Allen puts his three-fight winning streak on the line against surging British standout Christian Leroy Duncan, who enters as a No. 10-ranked middleweight on a five-fight winning streak and makes his first UFC main event appearance. A win pushes either man toward a middleweight title shot. In the co-main, Godinez is coming off a submission loss to Tatiana Suarez at UFC 327 in April and looks to bounce back against streaking Ketlen Souza.",
-      "know": "Allen is one of the most battle-tested grapplers in the middleweight division, meaning he wins by controlling and submitting opponents, while Duncan relies more on striking. Souza has won two-straight, including a 94-second knockout of Ariane Carnelossi in her previous outing, showing finishing power even without a ranking yet. UFC ranks the top 15 in each division; climbing that list is how fighters earn title shots.",
-      "generatedAt": "2026-10-09T18:54:11.673Z",
-      "factsHash": "1325cf35d5d53574",
-      "model": "claude-sonnet-5"
-    },
     "5a58fd06-e8ef-4b11-a524-980603a9b15f@niners.calendar-feeds.jbone707.github.io": {
-      "why": "San Francisco is 4-0 and 1st in the NFC West, while Seattle sits right behind at 3-1 in second place, and the Seahawks own a current win streak of 2 (2026, present) in this rivalry. This is a division game, so a 49ers win would stretch their lead, while a loss would let Seattle close the gap. It's only Week 5, so nothing is clinched or eliminated here, just an early signal of who controls the division race.",
-      "know": "A division game matters extra because these results often settle tiebreakers for final standings, and winning the division guarantees a playoff spot. Watch QB Brock Purdy, who has completed 79 of 113 passes for 1,007 yards, 11 touchdowns and one interception this season, as he tries to crack a tough Seattle defense. Edge rusher Nick Bosa (knee, calf) is out for San Francisco, which could open things up for Seattle's offense.",
-      "generatedAt": "2026-10-10T17:56:39.018Z",
+      "why": "San Francisco is a perfect 4-0 and sits first in the NFC West, while Seattle is right behind at 3-1. It's only Week 5, so nothing is clinched or lost tonight, but a 49ers win keeps them unbeaten and builds a tiebreaker edge over their closest rival, while a loss would tighten the division race and end their undefeated run.",
+      "know": "This is a \"division game,\" meaning the two teams play twice a season and head-to-head results often break ties for playoff seeding later; the division winner is guaranteed a playoff spot. Watch Christian McCaffrey, San Francisco's do-it-all running back, and Seattle's Jaxon Smith-Njigba, who leads the NFL with six touchdown catches. The 49ers are also missing star pass rusher Nick Bosa, which could hurt their defense.",
+      "generatedAt": "2026-10-11T18:11:41.760Z",
       "factsHash": "d26a2e65c27d068f",
       "model": "claude-sonnet-5"
     },
@@ -22,6 +15,6 @@
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-10T17:56:39.018Z",
+  "lastWrittenAt": "2026-10-11T18:11:41.760Z",
   "lastError": null
 }
