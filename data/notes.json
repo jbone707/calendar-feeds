@@ -1,20 +1,20 @@
 {
   "notes": {
-    "5a58fd06-e8ef-4b11-a524-980603a9b15f@niners.calendar-feeds.jbone707.github.io": {
-      "why": "San Francisco is a perfect 4-0 and sits first in the NFC West, while Seattle is right behind at 3-1. It's only Week 5, so nothing is clinched or lost tonight, but a 49ers win keeps them unbeaten and builds a tiebreaker edge over their closest rival, while a loss would tighten the division race and end their undefeated run.",
-      "know": "This is a \"division game,\" meaning the two teams play twice a season and head-to-head results often break ties for playoff seeding later; the division winner is guaranteed a playoff spot. Watch Christian McCaffrey, San Francisco's do-it-all running back, and Seattle's Jaxon Smith-Njigba, who leads the NFL with six touchdown catches. The 49ers are also missing star pass rusher Nick Bosa, which could hurt their defense.",
-      "generatedAt": "2026-10-11T18:11:41.760Z",
-      "factsHash": "d26a2e65c27d068f",
-      "model": "claude-sonnet-5"
-    },
     "c9169700-4653-416e-ba05-3467ddbfe696@ufc.calendar-feeds.jbone707.github.io": {
       "why": "Buckley (#10) meets Malott (#13) in a welterweight main event where the winner pushes toward the division's top five. Buckley is trying to snap a two-fight skid, while home-country favorite Malott is riding a four-fight win streak and seeking his first top-10 win. In the co-main, Blanchfield (#4) battles Jasudavicius (#6) at flyweight, with the winner moving closer to a title shot now that Natalia Silva holds that belt after UFC 332.",
       "know": "UFC rankings run from champion down to #15 in each weight class and shift after big wins or losses, so beating a ranked foe matters a lot for positioning. A fight can end by decision (judges score it) or by finish, meaning knockout (KO), technical knockout (TKO), or submission before time runs out. The main event and co-main are simply the top two, highest-stakes bouts on the card.",
       "generatedAt": "2026-10-10T17:56:39.018Z",
       "factsHash": "abd33647f0dd1dc6",
       "model": "claude-sonnet-5"
+    },
+    "a3a64199-919d-4ef2-8fcb-37e2efd0c2b7@niners.calendar-feeds.jbone707.github.io": {
+      "why": "The 49ers are off to a 5-0 start and sit first in the NFC West, while the Commanders are a shaky 1-3-1 and coming off a tie. It is only Week 6, so this game will not clinch or eliminate anyone, but a win keeps San Francisco unbeaten and builds a cushion before tougher division matchups ahead.",
+      "know": "NFC West is San Francisco's division group; teams there are its main playoff rivals. This is a non-division game against an NFC East team, shown on Monday Night Football, the NFL's weekly national showcase slot for marquee matchups. Watch tight end George Kittle for San Francisco, a key target in big games, and Washington's Jayden Daniels, a quarterback who can both pass and run for big plays.",
+      "generatedAt": "2026-10-12T21:48:50.172Z",
+      "factsHash": "268b81af51a0a8fd",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-11T18:11:41.760Z",
+  "lastWrittenAt": "2026-10-12T21:48:50.172Z",
   "lastError": null
 }

@@ -368,6 +368,35 @@
       "sequence": 1,
       "createdAt": "2026-10-04T17:39:10.170Z",
       "lastModified": "2026-10-05T21:13:33.794Z"
+    },
+    {
+      "key": "ufc.com:ufc-fight-night-february-06-2027",
+      "uid": "13c23f29-971e-466f-89fa-f9bc0c41a1f9@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-fight-night-february-06-2027",
+      "aliases": [
+        "ufc-fight-night-february-06-2027"
+      ],
+      "title": "UFC Fight Night",
+      "matchHint": "",
+      "localEventDate": "2027-02-06",
+      "startUtc": "2027-02-06T22:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2027-02-06T20:00:00.000Z"
+        }
+      ],
+      "location": "Afterpay Arena, Sydney Olympic Park, NSW, Australia",
+      "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-10-12T21:46:18.817Z",
+      "lastModified": "2026-10-12T21:46:18.817Z"
     }
   ]
 }
