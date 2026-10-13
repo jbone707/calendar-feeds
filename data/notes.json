@@ -1,10 +1,10 @@
 {
   "notes": {
     "c9169700-4653-416e-ba05-3467ddbfe696@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Buckley (#10) meets Malott (#13) in a welterweight main event where the winner pushes toward the division's top five. Buckley is trying to snap a two-fight skid, while home-country favorite Malott is riding a four-fight win streak and seeking his first top-10 win. In the co-main, Blanchfield (#4) battles Jasudavicius (#6) at flyweight, with the winner moving closer to a title shot now that Natalia Silva holds that belt after UFC 332.",
-      "know": "UFC rankings run from champion down to #15 in each weight class and shift after big wins or losses, so beating a ranked foe matters a lot for positioning. A fight can end by decision (judges score it) or by finish, meaning knockout (KO), technical knockout (TKO), or submission before time runs out. The main event and co-main are simply the top two, highest-stakes bouts on the card.",
-      "generatedAt": "2026-10-10T17:56:39.018Z",
-      "factsHash": "abd33647f0dd1dc6",
+      "why": "Joaquin Buckley (#10) tries to snap a two-fight skid against hometown favorite Mike Malott (#13), who is riding a four-fight win streak; the winner edges closer to a welterweight title shot. In the co-main, #4 Erin Blanchfield meets #6 Jasmine Jasudavicius, a clash of ranked flyweight contenders with big positioning stakes near the title picture.",
+      "know": "UFC rankings run from champion down through #1-#15 in each weight class; beating a ranked opponent moves a fighter up that ladder toward a title shot. A \"Fight Night\" card has no title bout, making it a good spot to watch prospects rise. Buckley is known for highlight-reel knockout power, Malott for well-rounded striking and grappling.",
+      "generatedAt": "2026-10-13T19:56:11.207Z",
+      "factsHash": "4d31cbb986fe6698",
       "model": "claude-sonnet-5"
     },
     "a3a64199-919d-4ef2-8fcb-37e2efd0c2b7@niners.calendar-feeds.jbone707.github.io": {
@@ -15,6 +15,6 @@
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-12T21:48:50.172Z",
+  "lastWrittenAt": "2026-10-13T19:56:11.207Z",
   "lastError": null
 }
