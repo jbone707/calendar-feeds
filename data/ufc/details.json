@@ -360,7 +360,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-17-2026": {
-    "fetchedAt": "2026-10-13T19:53:54.717Z",
+    "fetchedAt": "2026-10-14T18:03:43.947Z",
     "changedAt": "2026-10-13T19:53:54.717Z",
     "bouts": [
       {
@@ -483,8 +483,8 @@
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-10-13T19:53:54.717Z",
-    "changedAt": "2026-10-13T19:53:54.717Z",
+    "fetchedAt": "2026-10-14T18:03:43.947Z",
+    "changedAt": "2026-10-14T18:03:43.947Z",
     "bouts": [
       {
         "segment": "main",
@@ -529,7 +529,7 @@
         "red": "Aaron Pico",
         "blue": "Losene Keita",
         "redRank": "#11",
-        "blueRank": "#11"
+        "blueRank": null
       },
       {
         "segment": "prelims",
@@ -566,11 +566,29 @@
         "blue": "Nurullo Aliev",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Abubakar Vagaev",
+        "blue": "Jacob Malkoun",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Colby Thicknesse",
+        "blue": "Asaf Chopurov",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-10-13T19:53:54.717Z",
+    "fetchedAt": "2026-10-14T18:03:43.947Z",
     "changedAt": "2026-09-30T18:28:38.106Z",
     "bouts": [
       {
@@ -675,7 +693,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-10-13T19:53:54.717Z",
+    "fetchedAt": "2026-10-14T18:03:43.947Z",
     "changedAt": "2026-10-07T19:23:24.013Z",
     "bouts": [
       {
@@ -798,7 +816,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-10-13T19:53:54.717Z",
+    "fetchedAt": "2026-10-14T18:03:43.947Z",
     "changedAt": "2026-10-06T18:56:20.399Z",
     "bouts": [
       {
@@ -912,7 +930,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-10-13T19:53:54.717Z",
+    "fetchedAt": "2026-10-14T18:03:43.947Z",
     "changedAt": "2026-09-30T18:28:38.106Z",
     "bouts": [
       {
@@ -999,8 +1017,8 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-10-13T19:53:54.717Z",
-    "changedAt": "2026-10-10T17:54:23.194Z",
+    "fetchedAt": "2026-10-14T18:03:43.947Z",
+    "changedAt": "2026-10-14T18:03:43.947Z",
     "bouts": [
       {
         "segment": "card",
@@ -1037,6 +1055,15 @@
         "blue": "Charles Johnson",
         "redRank": "#8",
         "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Women's Flyweight",
+        "titleBout": false,
+        "red": "Maycee Barber",
+        "blue": "Carli Judice",
+        "redRank": "#6",
+        "blueRank": null
       }
     ]
   },
@@ -1046,7 +1073,7 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-10-13T19:53:54.717Z",
+    "fetchedAt": "2026-10-14T18:03:43.947Z",
     "changedAt": "2026-10-12T21:46:34.020Z",
     "bouts": []
   }
