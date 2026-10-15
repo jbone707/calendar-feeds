@@ -360,8 +360,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-17-2026": {
-    "fetchedAt": "2026-10-14T18:03:43.947Z",
-    "changedAt": "2026-10-13T19:53:54.717Z",
+    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
         "segment": "main",
@@ -468,7 +468,7 @@
         "titleBout": false,
         "red": "Melissa Croden",
         "blue": "Chelsea Chandler",
-        "redRank": "#14",
+        "redRank": "#15",
         "blueRank": null
       },
       {
@@ -483,8 +483,8 @@
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-10-14T18:03:43.947Z",
-    "changedAt": "2026-10-14T18:03:43.947Z",
+    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
         "segment": "main",
@@ -569,30 +569,30 @@
       },
       {
         "segment": "early",
-        "weightClass": "Middleweight",
-        "titleBout": false,
-        "red": "Abubakar Vagaev",
-        "blue": "Jacob Malkoun",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "early",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Colby Thicknesse",
         "blue": "Asaf Chopurov",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Abubakar Vagaev",
+        "blue": "Jacob Malkoun",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-10-14T18:03:43.947Z",
-    "changedAt": "2026-09-30T18:28:38.106Z",
+    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Renato Moicano",
@@ -601,7 +601,7 @@
         "blueRank": "#14"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Randy Brown",
@@ -610,16 +610,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
-        "weightClass": "Women's Flyweight",
-        "titleBout": false,
-        "red": "Lucia Szabova",
-        "blue": "Tainara Lisboa",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Women's Bantamweight",
         "titleBout": false,
         "red": "Yana Santos",
@@ -628,34 +619,7 @@
         "blueRank": "#7"
       },
       {
-        "segment": "card",
-        "weightClass": "Women's Strawweight",
-        "titleBout": false,
-        "red": "Talita Alencar",
-        "blue": "Piera Rodriguez",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
-        "weightClass": "Middleweight",
-        "titleBout": false,
-        "red": "Nick Klein",
-        "blue": "Joseph Kropschot",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
-        "weightClass": "Welterweight",
-        "titleBout": false,
-        "red": "Rodrigo Sezinando",
-        "blue": "Theodor Berggren",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Jean-Paul Lebosnoyani",
@@ -664,7 +628,16 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Francis Marshall",
+        "blue": "Gaston Bolanos",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Azamat Bekoev",
@@ -673,7 +646,16 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Rodrigo Sezinando",
+        "blue": "Theodor Berggren",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
         "weightClass": "Featherweight",
         "titleBout": false,
         "red": "Julian Erosa",
@@ -682,22 +664,40 @@
         "blueRank": null
       },
       {
-        "segment": "card",
-        "weightClass": "Featherweight",
+        "segment": "prelims",
+        "weightClass": "Middleweight",
         "titleBout": false,
-        "red": "Francis Marshall",
-        "blue": "Gaston Bolanos",
+        "red": "Nick Klein",
+        "blue": "Joseph Kropschot",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Women's Strawweight",
+        "titleBout": false,
+        "red": "Talita Alencar",
+        "blue": "Piera Rodriguez",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Women's Flyweight",
+        "titleBout": false,
+        "red": "Lucia Szabova",
+        "blue": "Tainara Lisboa",
         "redRank": null,
         "blueRank": null
       }
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-10-14T18:03:43.947Z",
-    "changedAt": "2026-10-07T19:23:24.013Z",
+    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Gabriel Bonfim",
@@ -706,7 +706,7 @@
         "blueRank": "#6"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Women's Strawweight",
         "titleBout": false,
         "red": "Tatiana Suarez",
@@ -715,70 +715,7 @@
         "blueRank": "#3"
       },
       {
-        "segment": "card",
-        "weightClass": "Middleweight",
-        "titleBout": false,
-        "red": "Mantas Kondratavičius",
-        "blue": "Wes Schultz",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
-        "weightClass": "Light Heavyweight",
-        "titleBout": false,
-        "red": "Billy Elekana",
-        "blue": "Lucas Fernando",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
-        "weightClass": "Featherweight",
-        "titleBout": false,
-        "red": "Austin Bashi",
-        "blue": "Lucas Brennan",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
-        "weightClass": "Women's Flyweight",
-        "titleBout": false,
-        "red": "Karine Silva",
-        "blue": "Gabriella Fernandes",
-        "redRank": "#11",
-        "blueRank": "#15"
-      },
-      {
-        "segment": "card",
-        "weightClass": "Featherweight",
-        "titleBout": false,
-        "red": "Keiichiro Nakamura",
-        "blue": "Ollie Schmid",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
-        "weightClass": "Welterweight",
-        "titleBout": false,
-        "red": "Seokhyeon Ko",
-        "blue": "Wellington Turman",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
-        "weightClass": "Welterweight",
-        "titleBout": false,
-        "red": "Jonny Parsons",
-        "blue": "José Souza",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Davey Grant",
@@ -787,16 +724,34 @@
         "blueRank": null
       },
       {
-        "segment": "card",
-        "weightClass": "Featherweight",
+        "segment": "main",
+        "weightClass": "Welterweight",
         "titleBout": false,
-        "red": "Jose Delano",
-        "blue": "Murtazali Magomedov",
+        "red": "Seokhyeon Ko",
+        "blue": "Wellington Turman",
         "redRank": null,
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "main",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Billy Elekana",
+        "blue": "Lucas Fernando",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "main",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Mantas Kondratavičius",
+        "blue": "Wes Schultz",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
         "weightClass": "Heavyweight",
         "titleBout": false,
         "red": "Gabriel Lorenco",
@@ -805,22 +760,67 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
+        "weightClass": "Women's Flyweight",
+        "titleBout": false,
+        "red": "Karine Silva",
+        "blue": "Gabriella Fernandes",
+        "redRank": "#11",
+        "blueRank": "#15"
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Jose Delano",
+        "blue": "Murtazali Magomedov",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Keiichiro Nakamura",
+        "blue": "Ollie Schmid",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Austin Bashi",
+        "blue": "Lucas Brennan",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
         "weightClass": "Women's Bantamweight",
         "titleBout": false,
         "red": "Priscila Cachoeira",
         "blue": "Nina Milošević",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Jonny Parsons",
+        "blue": "José Souza",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-10-14T18:03:43.947Z",
-    "changedAt": "2026-10-06T18:56:20.399Z",
+    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Heavyweight",
         "titleBout": true,
         "red": "Ciryl Gane",
@@ -829,7 +829,7 @@
         "blueRank": "#4"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Women's Bantamweight",
         "titleBout": true,
         "red": "Kayla Harrison",
@@ -838,7 +838,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Caio Borralho",
@@ -847,7 +847,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Uroš Medić",
@@ -856,7 +856,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Flyweight",
         "titleBout": false,
         "red": "Bilal Hasan",
@@ -865,16 +865,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
-        "weightClass": "Lightweight",
-        "titleBout": false,
-        "red": "Drew Dober",
-        "blue": "Chris Duncan",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Stephen Thompson",
@@ -883,16 +874,16 @@
         "blueRank": null
       },
       {
-        "segment": "card",
-        "weightClass": "Middleweight",
+        "segment": "prelims",
+        "weightClass": "Lightweight",
         "titleBout": false,
-        "red": "Donte Johnson",
-        "blue": "Baisangur Susurkaev",
+        "red": "Drew Dober",
+        "blue": "Chris Duncan",
         "redRank": null,
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Jim Miller",
@@ -901,7 +892,16 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Donte Johnson",
+        "blue": "Baisangur Susurkaev",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
         "weightClass": "Women's Bantamweight",
         "titleBout": false,
         "red": "Macy Chiasson",
@@ -910,7 +910,7 @@
         "blueRank": "#11"
       },
       {
-        "segment": "card",
+        "segment": "early",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Adrian Yanez",
@@ -919,7 +919,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "early",
         "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Nazim Sadykhov",
@@ -930,7 +930,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-10-14T18:03:43.947Z",
+    "fetchedAt": "2026-10-15T17:48:26.569Z",
     "changedAt": "2026-09-30T18:28:38.106Z",
     "bouts": [
       {
@@ -1017,8 +1017,8 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-10-14T18:03:43.947Z",
-    "changedAt": "2026-10-14T18:03:43.947Z",
+    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
         "segment": "card",
@@ -1064,6 +1064,15 @@
         "blue": "Carli Judice",
         "redRank": "#6",
         "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Quentin Pasley",
+        "blue": "Junior Tafa",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
@@ -1073,7 +1082,7 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-10-14T18:03:43.947Z",
+    "fetchedAt": "2026-10-15T17:48:26.569Z",
     "changedAt": "2026-10-12T21:46:34.020Z",
     "bouts": []
   }
