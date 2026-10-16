@@ -360,7 +360,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-17-2026": {
-    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-16T17:30:58.470Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -483,7 +483,7 @@
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-16T17:30:58.470Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -588,7 +588,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-16T17:30:58.470Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -693,7 +693,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-16T17:30:58.470Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -816,7 +816,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-16T17:30:58.470Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -930,7 +930,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-16T17:30:58.470Z",
     "changedAt": "2026-09-30T18:28:38.106Z",
     "bouts": [
       {
@@ -1017,8 +1017,8 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-10-15T17:48:26.569Z",
-    "changedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-16T17:30:58.470Z",
+    "changedAt": "2026-10-16T17:30:58.470Z",
     "bouts": [
       {
         "segment": "card",
@@ -1040,29 +1040,11 @@
       },
       {
         "segment": "card",
-        "weightClass": "Middleweight",
-        "titleBout": false,
-        "red": "Joe Pyfer",
-        "blue": "Bo Nickal",
-        "redRank": "#6",
-        "blueRank": "#14"
-      },
-      {
-        "segment": "card",
         "weightClass": "Flyweight",
         "titleBout": false,
         "red": "Brandon Moreno",
         "blue": "Charles Johnson",
         "redRank": "#8",
-        "blueRank": null
-      },
-      {
-        "segment": "card",
-        "weightClass": "Women's Flyweight",
-        "titleBout": false,
-        "red": "Maycee Barber",
-        "blue": "Carli Judice",
-        "redRank": "#6",
         "blueRank": null
       },
       {
@@ -1073,6 +1055,15 @@
         "blue": "Junior Tafa",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Joe Pyfer",
+        "blue": "Bo Nickal",
+        "redRank": "#6",
+        "blueRank": "#14"
       }
     ]
   },
@@ -1082,7 +1073,7 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-16T17:30:58.470Z",
     "changedAt": "2026-10-12T21:46:34.020Z",
     "bouts": []
   }

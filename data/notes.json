@@ -1,10 +1,10 @@
 {
   "notes": {
     "c9169700-4653-416e-ba05-3467ddbfe696@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Joaquin Buckley (#10) tries to snap a two-fight skid against hometown favorite Mike Malott (#13), who is riding a four-fight win streak; the winner edges closer to a welterweight title shot. In the co-main, #4 Erin Blanchfield meets #6 Jasmine Jasudavicius, a clash of ranked flyweight contenders with big positioning stakes near the title picture.",
-      "know": "UFC rankings run from champion down through #1-#15 in each weight class; beating a ranked opponent moves a fighter up that ladder toward a title shot. A \"Fight Night\" card has no title bout, making it a good spot to watch prospects rise. Buckley is known for highlight-reel knockout power, Malott for well-rounded striking and grappling.",
-      "generatedAt": "2026-10-13T19:56:11.207Z",
-      "factsHash": "4d31cbb986fe6698",
+      "why": "Top-10 welterweights Joaquin Buckley and Mike Malott headline, with the winner moving closer to a title shot; Buckley, who holds notable wins over Colby Covington and Stephen Thompson, is on a two-fight skid and fighting for his ranking, while Malott, a Canadian on a four-fight win streak, headlines at home. The co-main sees No. 4 Erin Blanchfield face No. 6 Jasmine Jasudavicius, a flyweight clash Blanchfield says could put her next in line for a title shot.",
+      "know": "UFC rankings run from the champion down through number one to fifteen in each weight class, so two ranked fighters meeting (as in both headliners here) usually decides who climbs toward a title shot. A Fight Night card has no title on the line itself, but strong performances can still push winners into contention, which is why these matchups matter even without a belt at stake.",
+      "generatedAt": "2026-10-16T17:33:15.058Z",
+      "factsHash": "9ac2927307c5cca0",
       "model": "claude-sonnet-5"
     },
     "a3a64199-919d-4ef2-8fcb-37e2efd0c2b7@niners.calendar-feeds.jbone707.github.io": {
@@ -15,6 +15,6 @@
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-13T19:56:11.207Z",
-  "lastError": "UFC Fight Night: Buckley vs Malott: write-up rejected (too long)"
+  "lastWrittenAt": "2026-10-16T17:33:15.058Z",
+  "lastError": null
 }
