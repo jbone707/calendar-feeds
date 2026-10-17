@@ -8,13 +8,20 @@
       "model": "claude-sonnet-5"
     },
     "a3a64199-919d-4ef2-8fcb-37e2efd0c2b7@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are off to a 5-0 start and sit first in the NFC West, while the Commanders are a shaky 1-3-1 and coming off a tie. It is only Week 6, so this game will not clinch or eliminate anyone, but a win keeps San Francisco unbeaten and builds a cushion before tougher division matchups ahead.",
-      "know": "NFC West is San Francisco's division group; teams there are its main playoff rivals. This is a non-division game against an NFC East team, shown on Monday Night Football, the NFL's weekly national showcase slot for marquee matchups. Watch tight end George Kittle for San Francisco, a key target in big games, and Washington's Jayden Daniels, a quarterback who can both pass and run for big plays.",
-      "generatedAt": "2026-10-12T21:48:50.172Z",
+      "why": "The 49ers are off to a perfect start this season and enter Week 6 with a two-game lead in the NFC West, sitting atop the division. It's only the midpoint of the year, so this single game won't decide any playoff spot yet, but it's a chance to pad their lead on national TV. A win keeps the unbeaten run alive; a loss would be their first blemish, not a crisis.",
+      "know": "The Commanders have had a rough year, leaning on backup quarterbacks while star QB Jayden Daniels has dealt with a dislocated elbow suffered against the Cowboys, with Daniels considered week-to-week. Watch 49ers QB Brock Purdy for continuing a hot streak, and Daniels (if he plays) as a test of Washington's comeback hopes. \"Division lead\" just means being ahead of the other teams you play twice a year for a guaranteed playoff spot.",
+      "generatedAt": "2026-10-17T16:32:00.743Z",
       "factsHash": "268b81af51a0a8fd",
+      "model": "claude-sonnet-5"
+    },
+    "47814a54-1ab1-4c59-87a4-3b6d2a74a937@ufc.calendar-feeds.jbone707.github.io": {
+      "why": "Two belts are on the line. Featherweight champion Alexander Volkanovski puts his title against unbeaten #1 contender Movsar Evloev, who is trying to hand him his first finish and become a new champ. Movsar Evloev has won every UFC fight by decision, but he plans to change that when he meets Alexander Volkanovski for the featherweight title. In the co-main, bantamweight champ Petr Yan defends against former champion Merab Dvalishvili in a trilogy decider after splitting their first two meetings.",
+      "know": "A trilogy fight means two rivals meet a third time after a 1-1 series, here Dvalishvili won their first bout in 2023 before Yan reclaimed the belt by beating him in December 2025. Yan became a UFC champion in 2020 but lost the belt in 2021 in a defeat by disqualification to Aljamain Sterling. Volkanovski is a two-time champion, meaning he lost and later won back his title, a rare feat that shows his longevity in a stacked division.",
+      "generatedAt": "2026-10-17T16:32:00.743Z",
+      "factsHash": "6195ba2f8bdfd1ae",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-16T17:33:15.058Z",
+  "lastWrittenAt": "2026-10-17T16:32:00.743Z",
   "lastError": null
 }
