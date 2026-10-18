@@ -148,7 +148,7 @@
         "startUtc": "UFC.com, the time it labels \"Main card\"",
         "localEventDate": "date of the start in America/New_York"
       },
-      "status": "scheduled",
+      "status": "completed",
       "missingStrikes": 0,
       "sequence": 0,
       "createdAt": "2026-09-20T06:04:51.207Z",
@@ -368,6 +368,35 @@
       "sequence": 1,
       "createdAt": "2026-10-04T17:39:10.170Z",
       "lastModified": "2026-10-05T21:13:33.794Z"
+    },
+    {
+      "key": "numbered:336",
+      "uid": "a8020fb7-1b2b-44d6-97cb-ba12a61ca9cd@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-336",
+      "aliases": [
+        "ufc-336"
+      ],
+      "title": "UFC 336",
+      "matchHint": "",
+      "localEventDate": "2027-01-30",
+      "startUtc": "2027-01-30T22:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2027-01-30T20:00:00.000Z"
+        }
+      ],
+      "location": "Scotiabank Arena, Toronto, ON, Canada",
+      "url": "https://www.ufc.com/event/ufc-336",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-10-18T16:35:39.148Z",
+      "lastModified": "2026-10-18T16:35:39.148Z"
     },
     {
       "key": "ufc.com:ufc-fight-night-february-06-2027",

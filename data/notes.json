@@ -1,16 +1,9 @@
 {
   "notes": {
-    "c9169700-4653-416e-ba05-3467ddbfe696@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Top-10 welterweights Joaquin Buckley and Mike Malott headline, with the winner moving closer to a title shot; Buckley, who holds notable wins over Colby Covington and Stephen Thompson, is on a two-fight skid and fighting for his ranking, while Malott, a Canadian on a four-fight win streak, headlines at home. The co-main sees No. 4 Erin Blanchfield face No. 6 Jasmine Jasudavicius, a flyweight clash Blanchfield says could put her next in line for a title shot.",
-      "know": "UFC rankings run from the champion down through number one to fifteen in each weight class, so two ranked fighters meeting (as in both headliners here) usually decides who climbs toward a title shot. A Fight Night card has no title on the line itself, but strong performances can still push winners into contention, which is why these matchups matter even without a belt at stake.",
-      "generatedAt": "2026-10-16T17:33:15.058Z",
-      "factsHash": "9ac2927307c5cca0",
-      "model": "claude-sonnet-5"
-    },
     "a3a64199-919d-4ef2-8fcb-37e2efd0c2b7@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are off to a perfect start this season and enter Week 6 with a two-game lead in the NFC West, sitting atop the division. It's only the midpoint of the year, so this single game won't decide any playoff spot yet, but it's a chance to pad their lead on national TV. A win keeps the unbeaten run alive; a loss would be their first blemish, not a crisis.",
-      "know": "The Commanders have had a rough year, leaning on backup quarterbacks while star QB Jayden Daniels has dealt with a dislocated elbow suffered against the Cowboys, with Daniels considered week-to-week. Watch 49ers QB Brock Purdy for continuing a hot streak, and Daniels (if he plays) as a test of Washington's comeback hopes. \"Division lead\" just means being ahead of the other teams you play twice a year for a guaranteed playoff spot.",
-      "generatedAt": "2026-10-17T16:32:00.743Z",
+      "why": "The 49ers are 5-0 and lead the NFC West by two games, while Washington is 1-3-1 and struggling. It's only week six, so this game won't clinch or end anyone's season, but a win would extend San Francisco's perfect start and build their cushion atop the division before tougher games ahead.",
+      "know": "Watch quarterback Jayden Daniels, who is dangerous running the ball himself and can carry Washington's offense even while playing through an elbow injury. For the 49ers, defensive end Nick Bosa remains out with a calf injury, which weakens their pass rush. NFC West just means their division grouping; division record often decides playoff seeding later in the season.",
+      "generatedAt": "2026-10-18T16:38:11.363Z",
       "factsHash": "268b81af51a0a8fd",
       "model": "claude-sonnet-5"
     },
@@ -20,8 +13,15 @@
       "generatedAt": "2026-10-17T16:32:00.743Z",
       "factsHash": "6195ba2f8bdfd1ae",
       "model": "claude-sonnet-5"
+    },
+    "59f01b3b-4658-426d-8887-4104af53dfc6@niners.calendar-feeds.jbone707.github.io": {
+      "why": "The 49ers are off to a perfect 5-0 start and sit atop the NFC West, while the Falcons are a middling 2-2 team in the NFC South. This is not a division game, so it will not shift the West standings directly, but a win would extend San Francisco's unbeaten run and strengthen their position for a possible first-round playoff bye later on.",
+      "know": "It is only Week 7, so no game clinches or eliminates anyone yet; what matters now is building a winning record and staying healthy for the stretch run. Watch running back Christian McCaffrey, a dual threat who can win games on the ground and through the air, and tight end George Kittle, one of the league's best at his position. For Atlanta, running back Bijan Robinson is the engine of their offense.",
+      "generatedAt": "2026-10-18T16:38:11.363Z",
+      "factsHash": "81d45d22f2dcfa04",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-17T16:32:00.743Z",
+  "lastWrittenAt": "2026-10-18T16:38:11.363Z",
   "lastError": null
 }
