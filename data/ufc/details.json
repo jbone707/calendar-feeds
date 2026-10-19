@@ -483,8 +483,8 @@
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-10-18T16:35:54.383Z",
-    "changedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-19T19:22:25.350Z",
+    "changedAt": "2026-10-19T19:22:25.350Z",
     "bouts": [
       {
         "segment": "main",
@@ -584,11 +584,38 @@
         "blue": "Jacob Malkoun",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Bolaji Oki",
+        "blue": "Daniel Santos",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Kody Steele",
+        "blue": "Noah Gugnon",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Women's Strawweight",
+        "titleBout": false,
+        "red": "Iasmin Lucindo",
+        "blue": "Nicolle Caliari",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-10-18T16:35:54.383Z",
+    "fetchedAt": "2026-10-19T19:22:25.350Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -693,7 +720,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-10-18T16:35:54.383Z",
+    "fetchedAt": "2026-10-19T19:22:25.350Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -816,7 +843,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-10-18T16:35:54.383Z",
+    "fetchedAt": "2026-10-19T19:22:25.350Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -930,9 +957,18 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-10-18T16:35:54.383Z",
-    "changedAt": "2026-10-18T16:35:54.383Z",
+    "fetchedAt": "2026-10-19T19:22:25.350Z",
+    "changedAt": "2026-10-19T19:22:25.350Z",
     "bouts": [
+      {
+        "segment": "card",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Jiří Procházka",
+        "blue": "Navajo Stirling",
+        "redRank": "#2",
+        "blueRank": "#5"
+      },
       {
         "segment": "card",
         "weightClass": "Featherweight",
@@ -1008,7 +1044,7 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-10-18T16:35:54.383Z",
+    "fetchedAt": "2026-10-19T19:22:25.350Z",
     "changedAt": "2026-10-16T17:30:58.470Z",
     "bouts": [
       {
@@ -1064,12 +1100,12 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-10-18T16:35:54.383Z",
+    "fetchedAt": "2026-10-19T19:22:25.350Z",
     "changedAt": "2026-10-12T21:46:34.020Z",
     "bouts": []
   },
   "numbered:336": {
-    "fetchedAt": "2026-10-18T16:35:54.383Z",
+    "fetchedAt": "2026-10-19T19:22:25.350Z",
     "changedAt": "2026-10-18T16:35:54.383Z",
     "bouts": []
   }
