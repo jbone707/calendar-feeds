@@ -379,11 +379,11 @@
       "title": "UFC 336",
       "matchHint": "",
       "localEventDate": "2027-01-30",
-      "startUtc": "2027-01-30T22:00:00.000Z",
+      "startUtc": "2027-01-31T02:00:00.000Z",
       "extraTimes": [
         {
           "label": "Prelims",
-          "utc": "2027-01-30T20:00:00.000Z"
+          "utc": "2027-01-31T00:00:00.000Z"
         }
       ],
       "location": "Scotiabank Arena, Toronto, ON, Canada",
@@ -394,9 +394,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 0,
+      "sequence": 1,
       "createdAt": "2026-10-18T16:35:39.148Z",
-      "lastModified": "2026-10-18T16:35:39.148Z"
+      "lastModified": "2026-10-20T18:01:10.749Z"
     },
     {
       "key": "ufc.com:ufc-fight-night-february-06-2027",
