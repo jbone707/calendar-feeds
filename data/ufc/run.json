@@ -1,12 +1,11 @@
 {
-  "lastAttemptAt": "2026-10-21T18:07:08.079Z",
-  "lastSuccessAt": "2026-10-21T18:07:08.079Z",
+  "lastAttemptAt": "2026-10-22T18:02:22.819Z",
+  "lastSuccessAt": "2026-10-22T18:02:22.819Z",
   "lastError": null,
   "lastChangeReport": [
     "Updated UFC 336."
   ],
   "warnings": [
-    "UFC 176 is off the UFC.com list and its page could not be checked (HTTP 403). Left unchanged.",
     "Could not read the bout list for UFC 176 (HTTP 403). Kept what was known."
   ]
 }
