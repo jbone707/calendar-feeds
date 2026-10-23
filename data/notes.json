@@ -1,9 +1,9 @@
 {
   "notes": {
     "47814a54-1ab1-4c59-87a4-3b6d2a74a937@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Featherweight champion Alexander Volkanovski defends his belt against unbeaten Movsar Evloev, looking to hand the #1 contender his first pro loss. Co-main, bantamweight champion Petr Yan puts his title on the line in a trilogy bout with Merab Dvalishvili, seeking his first defense since reclaiming the belt from him in December, with the rivalry now tied 1-1.",
-      "know": "A title fight means a championship belt changes hands only here, not in regular bouts. A decision means judges scored every round because no knockout or submission ended the fight. Yan is only the third fighter to win the UFC bantamweight title twice, after Dominick Cruz and TJ Dillashaw, showing how rare repeat title reigns are.",
-      "generatedAt": "2026-10-19T19:24:41.257Z",
+      "why": "Featherweight champ Alexander Volkanovski defends his belt against unbeaten #1 contender Movsar Evloev, a pure grappler, in the night's biggest test. The co-main is the decider of a trilogy: bantamweight champ Petr Yan defends against former champ Merab Dvalishvili, who is trying to reclaim the belt he lost to Yan last December after their series split 1-1.",
+      "know": "Numbered UFC events like this one usually carry the promotion's biggest cards and title fights. A \"trilogy\" means two fighters meeting for a third time, here with one win apiece deciding who truly has the edge. Rankings run from the champion down through #1-#15 in each weight class, showing how contenders stack up for a future title shot.",
+      "generatedAt": "2026-10-23T17:56:23.732Z",
       "factsHash": "5281cf0912a4d76d",
       "model": "claude-sonnet-5"
     },
@@ -15,6 +15,6 @@
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-22T18:04:54.199Z",
+  "lastWrittenAt": "2026-10-23T17:56:23.732Z",
   "lastError": null
 }
