@@ -8,13 +8,13 @@
       "model": "claude-sonnet-5"
     },
     "59f01b3b-4658-426d-8887-4104af53dfc6@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are off to a 6-0 start, the NFL's only unbeaten team, and sit comfortably atop the NFC West. The Falcons are a shaky 2-4 and struggling on defense, so this looks like a good chance for San Francisco to keep rolling before a Week 8 bye. It is still too early for the game to clinch or end any postseason hopes; what matters now is simply padding the win total and staying healthy.",
-      "know": "In the NFL, teams play 17 games, so after just seven weeks no single result decides who makes the playoffs. Watch quarterback Brock Purdy, who is playing at an MVP level for San Francisco, and Falcons running back Bijan Robinson, Atlanta's best chance to move the ball against a tough 49ers defense.",
-      "generatedAt": "2026-10-22T18:04:54.199Z",
+      "why": "The 49ers are off to a perfect 6-0 start, 1st in NFC West, holding a three-game lead over the Seahawks and four-game leads over the Cardinals and Rams. Atlanta is scuffling at 2-4, coming off back-to-back home losses to Baltimore and Chicago. It's still early, so nothing is clinched or lost here, but a win keeps San Francisco's hot start intact heading into their bye.",
+      "know": "Winning your division guarantees a home playoff game later, which is why early records matter even in week 7. Watch RB Christian McCaffrey, who is more important than ever with so many 49ers receivers out and will be asked to pick up slack as a pass-catcher. Also note star pass rusher Nick Bosa (knee, calf) is out for San Francisco, a big loss for their defense.",
+      "generatedAt": "2026-10-24T16:44:07.486Z",
       "factsHash": "81d45d22f2dcfa04",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-23T17:56:23.732Z",
-  "lastError": null
+  "lastWrittenAt": "2026-10-24T16:44:07.486Z",
+  "lastError": "UFC Fight Night: Moicano vs Nolan: write-up rejected (too long)"
 }

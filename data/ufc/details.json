@@ -483,7 +483,7 @@
     ]
   },
   "numbered:333": {
-    "fetchedAt": "2026-10-23T17:54:07.258Z",
+    "fetchedAt": "2026-10-24T16:41:51.445Z",
     "changedAt": "2026-10-19T19:22:25.350Z",
     "bouts": [
       {
@@ -615,11 +615,11 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-10-23T17:54:07.258Z",
-    "changedAt": "2026-10-23T17:54:07.258Z",
+    "fetchedAt": "2026-10-24T16:41:51.445Z",
+    "changedAt": "2026-10-24T16:41:51.445Z",
     "bouts": [
       {
-        "segment": "main",
+        "segment": "card",
         "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Renato Moicano",
@@ -628,16 +628,16 @@
         "blueRank": "#14"
       },
       {
-        "segment": "main",
+        "segment": "card",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Randy Brown",
-        "blue": "Carlos Leal",
+        "blue": "Jacobe Smith",
         "redRank": null,
         "blueRank": null
       },
       {
-        "segment": "main",
+        "segment": "card",
         "weightClass": "Women's Bantamweight",
         "titleBout": false,
         "red": "Yana Santos",
@@ -646,7 +646,25 @@
         "blueRank": "#7"
       },
       {
-        "segment": "main",
+        "segment": "card",
+        "weightClass": "Flyweight",
+        "titleBout": false,
+        "red": "Ode' Osbourne",
+        "blue": "Cody Durden",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Zachary Reese",
+        "blue": "Mickey Gall",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Jean-Paul Lebosnoyani",
@@ -655,25 +673,16 @@
         "blueRank": null
       },
       {
-        "segment": "prelims",
+        "segment": "card",
         "weightClass": "Featherweight",
         "titleBout": false,
         "red": "Francis Marshall",
-        "blue": "Gaston Bolanos",
+        "blue": "Dakota Hope",
         "redRank": null,
         "blueRank": null
       },
       {
-        "segment": "prelims",
-        "weightClass": "Middleweight",
-        "titleBout": false,
-        "red": "Azamat Bekoev",
-        "blue": "Andre Petroski",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "prelims",
+        "segment": "card",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Rodrigo Sezinando",
@@ -682,7 +691,7 @@
         "blueRank": null
       },
       {
-        "segment": "prelims",
+        "segment": "card",
         "weightClass": "Featherweight",
         "titleBout": false,
         "red": "Julian Erosa",
@@ -691,7 +700,7 @@
         "blueRank": null
       },
       {
-        "segment": "prelims",
+        "segment": "card",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Nick Klein",
@@ -700,7 +709,7 @@
         "blueRank": null
       },
       {
-        "segment": "prelims",
+        "segment": "card",
         "weightClass": "Women's Strawweight",
         "titleBout": false,
         "red": "Talita Alencar",
@@ -709,7 +718,7 @@
         "blueRank": null
       },
       {
-        "segment": "prelims",
+        "segment": "card",
         "weightClass": "Women's Flyweight",
         "titleBout": false,
         "red": "Lucia Szabova",
@@ -720,8 +729,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-10-23T17:54:07.258Z",
-    "changedAt": "2026-10-20T18:01:26.095Z",
+    "fetchedAt": "2026-10-24T16:41:51.445Z",
+    "changedAt": "2026-10-24T16:41:51.445Z",
     "bouts": [
       {
         "segment": "main",
@@ -761,19 +770,19 @@
       },
       {
         "segment": "main",
-        "weightClass": "Light Heavyweight",
+        "weightClass": "Middleweight",
         "titleBout": false,
-        "red": "Billy Elekana",
-        "blue": "Lucas Fernando",
+        "red": "Mantas Kondratavičius",
+        "blue": "Andre Petroski",
         "redRank": null,
         "blueRank": null
       },
       {
         "segment": "main",
-        "weightClass": "Middleweight",
+        "weightClass": "Light Heavyweight",
         "titleBout": false,
-        "red": "Mantas Kondratavičius",
-        "blue": "Wes Schultz",
+        "red": "Billy Elekana",
+        "blue": "Lucas Fernando",
         "redRank": null,
         "blueRank": null
       },
@@ -843,7 +852,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-10-23T17:54:07.258Z",
+    "fetchedAt": "2026-10-24T16:41:51.445Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -957,7 +966,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-10-23T17:54:07.258Z",
+    "fetchedAt": "2026-10-24T16:41:51.445Z",
     "changedAt": "2026-10-19T19:22:25.350Z",
     "bouts": [
       {
@@ -1044,7 +1053,7 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-10-23T17:54:07.258Z",
+    "fetchedAt": "2026-10-24T16:41:51.445Z",
     "changedAt": "2026-10-16T17:30:58.470Z",
     "bouts": [
       {
@@ -1100,12 +1109,12 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-10-23T17:54:07.258Z",
+    "fetchedAt": "2026-10-24T16:41:51.445Z",
     "changedAt": "2026-10-12T21:46:34.020Z",
     "bouts": []
   },
   "numbered:336": {
-    "fetchedAt": "2026-10-23T17:54:07.258Z",
+    "fetchedAt": "2026-10-24T16:41:51.445Z",
     "changedAt": "2026-10-18T16:35:54.383Z",
     "bouts": []
   }
