@@ -615,7 +615,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-10-24T16:41:51.445Z",
+    "fetchedAt": "2026-10-25T17:06:00.825Z",
     "changedAt": "2026-10-24T16:41:51.445Z",
     "bouts": [
       {
@@ -729,7 +729,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-10-24T16:41:51.445Z",
+    "fetchedAt": "2026-10-25T17:06:00.825Z",
     "changedAt": "2026-10-24T16:41:51.445Z",
     "bouts": [
       {
@@ -852,7 +852,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-10-24T16:41:51.445Z",
+    "fetchedAt": "2026-10-25T17:06:00.825Z",
     "changedAt": "2026-10-15T17:48:26.569Z",
     "bouts": [
       {
@@ -966,7 +966,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-10-24T16:41:51.445Z",
+    "fetchedAt": "2026-10-25T17:06:00.825Z",
     "changedAt": "2026-10-19T19:22:25.350Z",
     "bouts": [
       {
@@ -1053,7 +1053,7 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-10-24T16:41:51.445Z",
+    "fetchedAt": "2026-10-25T17:06:00.825Z",
     "changedAt": "2026-10-16T17:30:58.470Z",
     "bouts": [
       {
@@ -1109,13 +1109,37 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-10-24T16:41:51.445Z",
+    "fetchedAt": "2026-10-25T17:06:00.825Z",
     "changedAt": "2026-10-12T21:46:34.020Z",
     "bouts": []
   },
   "numbered:336": {
-    "fetchedAt": "2026-10-24T16:41:51.445Z",
-    "changedAt": "2026-10-18T16:35:54.383Z",
+    "fetchedAt": "2026-10-25T17:06:00.825Z",
+    "changedAt": "2026-10-25T17:06:00.825Z",
+    "bouts": [
+      {
+        "segment": "card",
+        "weightClass": "",
+        "titleBout": false,
+        "red": "Joshua Van",
+        "blue": "Manel Kape",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "",
+        "titleBout": false,
+        "red": "Carlos Prates",
+        "blue": "Michael Morales",
+        "redRank": null,
+        "blueRank": null
+      }
+    ]
+  },
+  "ufc.com:ufc-fight-night-january-16-2027": {
+    "fetchedAt": "2026-10-25T17:06:00.825Z",
+    "changedAt": "2026-10-25T17:06:00.825Z",
     "bouts": []
   }
 }

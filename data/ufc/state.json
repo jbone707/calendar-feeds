@@ -181,7 +181,7 @@
         "startUtc": "UFC.com, the time it labels \"Main card\"",
         "localEventDate": "date of the start in America/New_York"
       },
-      "status": "scheduled",
+      "status": "completed",
       "missingStrikes": 0,
       "sequence": 0,
       "createdAt": "2026-09-20T06:04:51.207Z",
@@ -371,14 +371,43 @@
       "lastModified": "2026-10-05T21:13:33.794Z"
     },
     {
+      "key": "ufc.com:ufc-fight-night-january-16-2027",
+      "uid": "3a4450fe-a673-4c69-b16b-1d3ebb801bcf@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-fight-night-january-16-2027",
+      "aliases": [
+        "ufc-fight-night-january-16-2027"
+      ],
+      "title": "UFC Fight Night",
+      "matchHint": "",
+      "localEventDate": "2027-01-16",
+      "startUtc": "2027-01-17T01:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2027-01-16T22:00:00.000Z"
+        }
+      ],
+      "location": "American Airlines Center, Dallas, TX, United States",
+      "url": "https://www.ufc.com/event/ufc-fight-night-january-16-2027",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-10-25T17:05:45.760Z",
+      "lastModified": "2026-10-25T17:05:45.760Z"
+    },
+    {
       "key": "numbered:336",
       "uid": "a8020fb7-1b2b-44d6-97cb-ba12a61ca9cd@ufc.calendar-feeds.jbone707.github.io",
       "sourceId": "ufc-336",
       "aliases": [
         "ufc-336"
       ],
-      "title": "UFC 336",
-      "matchHint": "",
+      "title": "UFC 336: Van vs Kape",
+      "matchHint": "Van vs Kape",
       "localEventDate": "2027-01-30",
       "startUtc": "2027-01-31T02:00:00.000Z",
       "extraTimes": [
@@ -395,9 +424,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 1,
+      "sequence": 2,
       "createdAt": "2026-10-18T16:35:39.148Z",
-      "lastModified": "2026-10-20T18:01:10.749Z"
+      "lastModified": "2026-10-25T17:05:45.760Z"
     },
     {
       "key": "ufc.com:ufc-fight-night-february-06-2027",

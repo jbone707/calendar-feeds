@@ -1,20 +1,20 @@
 {
   "notes": {
-    "47814a54-1ab1-4c59-87a4-3b6d2a74a937@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Featherweight champ Alexander Volkanovski defends his belt against unbeaten #1 contender Movsar Evloev, a pure grappler, in the night's biggest test. The co-main is the decider of a trilogy: bantamweight champ Petr Yan defends against former champ Merab Dvalishvili, who is trying to reclaim the belt he lost to Yan last December after their series split 1-1.",
-      "know": "Numbered UFC events like this one usually carry the promotion's biggest cards and title fights. A \"trilogy\" means two fighters meeting for a third time, here with one win apiece deciding who truly has the edge. Rankings run from the champion down through #1-#15 in each weight class, showing how contenders stack up for a future title shot.",
-      "generatedAt": "2026-10-23T17:56:23.732Z",
-      "factsHash": "5281cf0912a4d76d",
-      "model": "claude-sonnet-5"
-    },
     "59f01b3b-4658-426d-8887-4104af53dfc6@niners.calendar-feeds.jbone707.github.io": {
       "why": "The 49ers are off to a perfect 6-0 start, 1st in NFC West, holding a three-game lead over the Seahawks and four-game leads over the Cardinals and Rams. Atlanta is scuffling at 2-4, coming off back-to-back home losses to Baltimore and Chicago. It's still early, so nothing is clinched or lost here, but a win keeps San Francisco's hot start intact heading into their bye.",
       "know": "Winning your division guarantees a home playoff game later, which is why early records matter even in week 7. Watch RB Christian McCaffrey, who is more important than ever with so many 49ers receivers out and will be asked to pick up slack as a pass-catcher. Also note star pass rusher Nick Bosa (knee, calf) is out for San Francisco, a big loss for their defense.",
       "generatedAt": "2026-10-24T16:44:07.486Z",
       "factsHash": "81d45d22f2dcfa04",
       "model": "claude-sonnet-5"
+    },
+    "e030adce-d3d6-4638-b92a-11f6ff7fb67f@ufc.calendar-feeds.jbone707.github.io": {
+      "why": "The main event pits two ranked lightweights, Renato Moicano (#12) against Tom Nolan (#14), with the winner moving closer to a title shot. The co-feature has Yana Santos (#6) meeting Luana Santos (#7) in a ranked women's bantamweight clash that also affects the title picture. On the undercard, Mickey Gall returns from a four fight losing streak and a medical withdrawal to debut at middleweight against Zachary Reese, who is also trying to snap his own skid.",
+      "know": "In the UFC, numbered rankings run from the champion down through #1 to #15 in each division; wins over ranked opponents help fighters climb toward a title shot. A Fight Night card has no championship bout, but it is often where prospects and veterans fighting to save their roster spot make their mark, as with Gall's weight class move after injury setbacks.",
+      "generatedAt": "2026-10-25T17:08:17.063Z",
+      "factsHash": "ae1af0836cd144b0",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-24T16:44:07.486Z",
-  "lastError": "UFC Fight Night: Moicano vs Nolan: write-up rejected (too long)"
+  "lastWrittenAt": "2026-10-25T17:08:17.063Z",
+  "lastError": null
 }

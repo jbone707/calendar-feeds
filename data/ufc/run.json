@@ -1,9 +1,10 @@
 {
-  "lastAttemptAt": "2026-10-24T16:41:36.104Z",
-  "lastSuccessAt": "2026-10-24T16:41:36.104Z",
+  "lastAttemptAt": "2026-10-25T17:05:45.561Z",
+  "lastSuccessAt": "2026-10-25T17:05:45.561Z",
   "lastError": null,
   "lastChangeReport": [
-    "Updated UFC 336."
+    "Updated UFC 336: Van vs Kape.",
+    "Added UFC Fight Night."
   ],
   "warnings": [
     "Could not read the bout list for UFC 176 (HTTP 403). Kept what was known."
