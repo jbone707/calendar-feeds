@@ -182,7 +182,7 @@
         "startUtc": "49ers.com, the time it labels \"Kickoff\"",
         "localEventDate": "date of the start in America/Los_Angeles"
       },
-      "status": "scheduled",
+      "status": "completed",
       "missingStrikes": 0,
       "sequence": 0,
       "createdAt": "2026-09-21T01:31:26.542Z",
@@ -201,7 +201,7 @@
       "title": "49ers vs Raiders",
       "matchHint": "Las Vegas Raiders at San Francisco 49ers",
       "localEventDate": "2026-11-08",
-      "startUtc": "2026-11-08T21:05:00.000Z",
+      "startUtc": "2026-11-08T21:25:00.000Z",
       "extraTimes": [],
       "location": "Levi's® Stadium, Santa Clara",
       "url": "https://www.49ers.com/schedule/",
@@ -211,9 +211,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 0,
+      "sequence": 1,
       "createdAt": "2026-09-21T01:31:26.542Z",
-      "lastModified": "2026-09-21T01:31:26.542Z"
+      "lastModified": "2026-10-26T19:25:57.449Z"
     },
     {
       "key": "niners:9fc04969-11d1-4e4d-9ce2-4dcb6759d409",
