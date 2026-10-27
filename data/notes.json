@@ -1,13 +1,13 @@
 {
   "notes": {
     "e030adce-d3d6-4638-b92a-11f6ff7fb67f@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "The main event pits two ranked lightweights, Renato Moicano (#12) against Tom Nolan (#14), with the winner moving closer to a title shot. The co-feature has Yana Santos (#6) meeting Luana Santos (#7) in a ranked women's bantamweight clash that also affects the title picture. On the undercard, Mickey Gall returns from a four fight losing streak and a medical withdrawal to debut at middleweight against Zachary Reese, who is also trying to snap his own skid.",
-      "know": "In the UFC, numbered rankings run from the champion down through #1 to #15 in each division; wins over ranked opponents help fighters climb toward a title shot. A Fight Night card has no championship bout, but it is often where prospects and veterans fighting to save their roster spot make their mark, as with Gall's weight class move after injury setbacks.",
-      "generatedAt": "2026-10-25T17:08:17.063Z",
-      "factsHash": "ae1af0836cd144b0",
+      "why": "In the main event, two ranked lightweights, Moicano (#12) and Nolan (#14), fight for position just below champion Islam Makhachev. Moicano, a former title challenger, is trying to stay relevant in a stacked division, while Nolan, unbeaten since his UFC debut loss and riding a five-fight win streak, gets his first main event and first five-round test. In the co-feature, ranked bantamweights Yana Santos and Luana Santos meet, with the winner moving closer to a shot at champion Kayla Harrison.",
+      "know": "UFC rankings run champion then #1 to #15 per weight class; a Fight Night card has no belt at stake, but strong wins still move fighters up those rankings toward a title shot. Yana Santos last appeared on the Sept 26 card against Raoni Barcelos, so viewers may recognize her coming in on a win streak.",
+      "generatedAt": "2026-10-27T18:47:22.980Z",
+      "factsHash": "98ced6e2a887ccb4",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-25T17:08:17.063Z",
+  "lastWrittenAt": "2026-10-27T18:47:22.980Z",
   "lastError": null
 }
