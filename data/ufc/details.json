@@ -615,8 +615,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-october-31-2026": {
-    "fetchedAt": "2026-10-27T18:45:06.454Z",
-    "changedAt": "2026-10-27T18:45:06.454Z",
+    "fetchedAt": "2026-10-28T18:55:16.537Z",
+    "changedAt": "2026-10-28T18:55:16.537Z",
     "bouts": [
       {
         "segment": "main",
@@ -704,7 +704,7 @@
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Nick Klein",
-        "blue": "Joseph Kropschot",
+        "blue": "Joe Kropschot",
         "redRank": null,
         "blueRank": null
       },
@@ -729,8 +729,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-10-27T18:45:06.454Z",
-    "changedAt": "2026-10-27T18:45:06.454Z",
+    "fetchedAt": "2026-10-28T18:55:16.537Z",
+    "changedAt": "2026-10-28T18:55:16.537Z",
     "bouts": [
       {
         "segment": "main",
@@ -806,6 +806,15 @@
       },
       {
         "segment": "prelims",
+        "weightClass": "Flyweight",
+        "titleBout": false,
+        "red": "Mitch Raposo",
+        "blue": "Marcos Degli",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
         "weightClass": "Featherweight",
         "titleBout": false,
         "red": "Jose Delano",
@@ -852,8 +861,8 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-10-27T18:45:06.454Z",
-    "changedAt": "2026-10-15T17:48:26.569Z",
+    "fetchedAt": "2026-10-28T18:55:16.537Z",
+    "changedAt": "2026-10-28T18:55:16.537Z",
     "bouts": [
       {
         "segment": "main",
@@ -889,7 +898,7 @@
         "red": "Uroš Medić",
         "blue": "Kevin Holland",
         "redRank": "#12",
-        "blueRank": null
+        "blueRank": "#15"
       },
       {
         "segment": "main",
@@ -932,7 +941,7 @@
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Donte Johnson",
-        "blue": "Baisangur Susurkaev",
+        "blue": "Cesar Almeida",
         "redRank": null,
         "blueRank": null
       },
@@ -966,8 +975,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-10-27T18:45:06.454Z",
-    "changedAt": "2026-10-19T19:22:25.350Z",
+    "fetchedAt": "2026-10-28T18:55:16.537Z",
+    "changedAt": "2026-10-28T18:55:16.537Z",
     "bouts": [
       {
         "segment": "card",
@@ -1002,7 +1011,7 @@
         "titleBout": false,
         "red": "Jared Cannonier",
         "blue": "Ikram Aliskerov",
-        "redRank": "#11",
+        "redRank": "#12",
         "blueRank": "#13"
       },
       {
@@ -1053,7 +1062,7 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-10-27T18:45:06.454Z",
+    "fetchedAt": "2026-10-28T18:55:16.537Z",
     "changedAt": "2026-10-16T17:30:58.470Z",
     "bouts": [
       {
@@ -1109,12 +1118,12 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-10-27T18:45:06.454Z",
+    "fetchedAt": "2026-10-28T18:55:16.537Z",
     "changedAt": "2026-10-12T21:46:34.020Z",
     "bouts": []
   },
   "numbered:336": {
-    "fetchedAt": "2026-10-27T18:45:06.454Z",
+    "fetchedAt": "2026-10-28T18:55:16.537Z",
     "changedAt": "2026-10-26T19:23:41.014Z",
     "bouts": [
       {
@@ -1138,7 +1147,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-10-27T18:45:06.454Z",
+    "fetchedAt": "2026-10-28T18:55:16.537Z",
     "changedAt": "2026-10-25T17:06:00.825Z",
     "bouts": []
   }

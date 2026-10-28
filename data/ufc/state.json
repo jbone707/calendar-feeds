@@ -414,6 +414,10 @@
         {
           "label": "Prelims",
           "utc": "2027-01-31T00:00:00.000Z"
+        },
+        {
+          "label": "Early prelims",
+          "utc": "2027-01-30T22:00:00.000Z"
         }
       ],
       "location": "Scotiabank Arena, Toronto, ON, Canada",
@@ -424,9 +428,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 2,
+      "sequence": 3,
       "createdAt": "2026-10-18T16:35:39.148Z",
-      "lastModified": "2026-10-25T17:05:45.760Z"
+      "lastModified": "2026-10-28T18:55:01.446Z"
     },
     {
       "key": "ufc.com:ufc-fight-night-february-06-2027",
