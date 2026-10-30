@@ -1,13 +1,13 @@
 {
   "notes": {
     "e030adce-d3d6-4638-b92a-11f6ff7fb67f@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Main event pits #12 Renato Moicano, a veteran grappler known for submissions, against #14 Tom Nolan, a rising Australian prospect riding a five-fight win streak; the winner moves closer to a lightweight title shot. Co-feature has #6 Yana Santos, who fought on the Sept 26 Rosas Jr vs Barcelos card, facing #7 Luana Santos, a surging Brazilian grappler, with bantamweight ranking and title-picture positioning on the line.",
-      "know": "UFC ranks the top fighters in each division; beating a ranked foe pushes you toward a title shot. A grappler wins mostly by taking opponents down and finishing with submissions like chokes, while a striker relies on punches and kicks. Fight Night cards like this one are often where future contenders first stand out.",
-      "generatedAt": "2026-10-28T18:57:32.897Z",
-      "factsHash": "b16bd86a9367dbdd",
+      "why": "In the lightweight headliner, former title challenger Renato Moicano (21-7-1) faces rising contender Tom Nolan (11-1), who enters his first UFC main event on a five-fight winning streak, with both ranked fighters fighting to climb toward a 155-pound title shot. The co-feature pits the No. 6 against No. 7 in the women's bantamweight rankings, Yana Santos and Luana Santos, both on three-fight winning streaks, a bout that could reshuffle the division's top five.",
+      "know": "A \"title challenger\" simply means a fighter who has previously fought for a championship belt, which is why Moicano's experience matters here. UFC rankings run from champion down through number 15 in each weight class, so beating a ranked opponent is how a fighter climbs toward contention. Fight Night cards like this one are the UFC's regular non-championship events, often used to spot the next wave of rising prospects before they reach the top 10.",
+      "generatedAt": "2026-10-30T18:42:43.491Z",
+      "factsHash": "ed6fe98e27dcdd5d",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-28T18:57:32.897Z",
-  "lastError": "UFC Fight Night: Moicano vs Nolan: write-up rejected (too long)"
+  "lastWrittenAt": "2026-10-30T18:42:43.491Z",
+  "lastError": null
 }
