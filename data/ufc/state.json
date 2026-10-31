@@ -223,8 +223,8 @@
       "aliases": [
         "ufc-fight-night-november-07-2026"
       ],
-      "title": "UFC Fight Night: Bonfim vs Brady",
-      "matchHint": "Bonfim vs Brady",
+      "title": "UFC Fight Night: Cortes Acosta vs Walker",
+      "matchHint": "Cortes Acosta vs Walker",
       "localEventDate": "2026-11-07",
       "startUtc": "2026-11-08T01:00:00.000Z",
       "extraTimes": [
@@ -241,9 +241,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 1,
+      "sequence": 2,
       "createdAt": "2026-09-20T06:04:51.207Z",
-      "lastModified": "2026-10-07T19:23:23.997Z"
+      "lastModified": "2026-10-31T17:48:39.383Z"
     },
     {
       "key": "numbered:334",

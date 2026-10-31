@@ -6,8 +6,15 @@
       "generatedAt": "2026-10-30T18:42:43.491Z",
       "factsHash": "ed6fe98e27dcdd5d",
       "model": "claude-sonnet-5"
+    },
+    "802b3e54-3c53-4b37-a089-8e97a4e163f3@ufc.calendar-feeds.jbone707.github.io": {
+      "why": "Heavyweight headliner has #5-ranked Waldo Cortes-Acosta, trying to snap a two-fight skid, facing Johnny Walker, who you saw score a knockout at UFC 332 five weeks ago. The co-main is a long-awaited rematch of sorts: #2 Tatiana Suarez vs #3 Virna Jandiroba, two former title challengers whose fight fell apart twice before, with the winner moving closer to a strawweight title shot.",
+      "know": "Rankings run from champion down to #15 in each division, so two top-5 matchups on one card is notable. Fight Night events are weekly, non-title shows where contenders build their case for a future title shot. A unanimous decision means all three judges agreed on the winner after the fight went the distance.",
+      "generatedAt": "2026-10-31T17:51:10.869Z",
+      "factsHash": "4a90e57f5100f561",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-10-30T18:42:43.491Z",
+  "lastWrittenAt": "2026-10-31T17:51:10.869Z",
   "lastError": null
 }

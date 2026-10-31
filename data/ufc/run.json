@@ -1,9 +1,9 @@
 {
-  "lastAttemptAt": "2026-10-30T18:40:11.022Z",
-  "lastSuccessAt": "2026-10-30T18:40:11.022Z",
+  "lastAttemptAt": "2026-10-31T17:48:38.958Z",
+  "lastSuccessAt": "2026-10-31T17:48:38.958Z",
   "lastError": null,
   "lastChangeReport": [
-    "Updated UFC 336: Van vs Kape."
+    "Updated UFC Fight Night: Cortes Acosta vs Walker."
   ],
   "warnings": [
     "Could not read the bout list for UFC 176 (HTTP 403). Kept what was known."
