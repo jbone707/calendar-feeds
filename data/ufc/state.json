@@ -439,8 +439,8 @@
       "aliases": [
         "ufc-fight-night-february-06-2027"
       ],
-      "title": "UFC Fight Night",
-      "matchHint": "",
+      "title": "UFC Fight Night: Salkilld vs Saint Denis",
+      "matchHint": "Salkilld vs Saint Denis",
       "localEventDate": "2027-02-06",
       "startUtc": "2027-02-06T22:00:00.000Z",
       "extraTimes": [
@@ -457,9 +457,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 0,
+      "sequence": 1,
       "createdAt": "2026-10-12T21:46:18.817Z",
-      "lastModified": "2026-10-12T21:46:18.817Z"
+      "lastModified": "2026-11-02T22:22:09.107Z"
     }
   ]
 }
