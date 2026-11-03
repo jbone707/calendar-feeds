@@ -729,7 +729,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-11-02T22:22:24.164Z",
+    "fetchedAt": "2026-11-03T20:09:32.067Z",
     "changedAt": "2026-10-31T17:48:54.481Z",
     "bouts": [
       {
@@ -861,7 +861,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-11-02T22:22:24.164Z",
+    "fetchedAt": "2026-11-03T20:09:32.067Z",
     "changedAt": "2026-10-28T18:55:16.537Z",
     "bouts": [
       {
@@ -975,7 +975,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-11-02T22:22:24.164Z",
+    "fetchedAt": "2026-11-03T20:09:32.067Z",
     "changedAt": "2026-10-28T18:55:16.537Z",
     "bouts": [
       {
@@ -1062,8 +1062,8 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-02T22:22:24.164Z",
-    "changedAt": "2026-10-16T17:30:58.470Z",
+    "fetchedAt": "2026-11-03T20:09:32.067Z",
+    "changedAt": "2026-11-03T20:09:32.067Z",
     "bouts": [
       {
         "segment": "card",
@@ -1076,11 +1076,11 @@
       },
       {
         "segment": "card",
-        "weightClass": "Heavyweight",
+        "weightClass": "",
         "titleBout": false,
-        "red": "Sergei Pavlovich",
-        "blue": "Alex Pereira",
-        "redRank": "#3",
+        "red": "Alex Pereira",
+        "blue": "Sergei Pavlovich",
+        "redRank": null,
         "blueRank": null
       },
       {
@@ -1118,7 +1118,7 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-02T22:22:24.164Z",
+    "fetchedAt": "2026-11-03T20:09:32.067Z",
     "changedAt": "2026-11-02T22:22:24.164Z",
     "bouts": [
       {
@@ -1142,7 +1142,7 @@
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-02T22:22:24.164Z",
+    "fetchedAt": "2026-11-03T20:09:32.067Z",
     "changedAt": "2026-10-26T19:23:41.014Z",
     "bouts": [
       {
@@ -1166,7 +1166,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-02T22:22:24.164Z",
+    "fetchedAt": "2026-11-03T20:09:32.067Z",
     "changedAt": "2026-10-25T17:06:00.825Z",
     "bouts": []
   }
