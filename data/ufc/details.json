@@ -729,8 +729,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-11-03T20:09:32.067Z",
-    "changedAt": "2026-10-31T17:48:54.481Z",
+    "fetchedAt": "2026-11-04T20:27:50.708Z",
+    "changedAt": "2026-11-04T20:27:50.708Z",
     "bouts": [
       {
         "segment": "main",
@@ -761,15 +761,6 @@
       },
       {
         "segment": "main",
-        "weightClass": "Welterweight",
-        "titleBout": false,
-        "red": "Seokhyeon Ko",
-        "blue": "Wellington Turman",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "main",
         "weightClass": "Light Heavyweight",
         "titleBout": false,
         "red": "Billy Elekana",
@@ -779,46 +770,19 @@
       },
       {
         "segment": "main",
-        "weightClass": "Middleweight",
+        "weightClass": "Women's Bantamweight",
         "titleBout": false,
-        "red": "Mantas Kondratavičius",
-        "blue": "Andre Petroski",
+        "red": "Priscila Cachoeira",
+        "blue": "Nina Milošević",
         "redRank": null,
         "blueRank": null
       },
       {
-        "segment": "prelims",
-        "weightClass": "Heavyweight",
-        "titleBout": false,
-        "red": "Gabriel Lorenco",
-        "blue": "Thomas Petersen",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "prelims",
-        "weightClass": "Women's Flyweight",
-        "titleBout": false,
-        "red": "Karine Silva",
-        "blue": "Gabriella Fernandes",
-        "redRank": "#11",
-        "blueRank": "#14"
-      },
-      {
-        "segment": "prelims",
+        "segment": "main",
         "weightClass": "Flyweight",
         "titleBout": false,
         "red": "Mitch Raposo",
         "blue": "Marcos Degli",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "prelims",
-        "weightClass": "Featherweight",
-        "titleBout": false,
-        "red": "Jose Delano",
-        "blue": "Murtazali Magomedov",
         "redRank": null,
         "blueRank": null
       },
@@ -833,6 +797,33 @@
       },
       {
         "segment": "prelims",
+        "weightClass": "Heavyweight",
+        "titleBout": false,
+        "red": "Gabriel Lorenço",
+        "blue": "Thomas Petersen",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Women's Flyweight",
+        "titleBout": false,
+        "red": "Karine Silva",
+        "blue": "Gabriella Fernandes",
+        "redRank": "#11",
+        "blueRank": "#15"
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Jose Delano",
+        "blue": "Murtazali Magomedov",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
         "weightClass": "Featherweight",
         "titleBout": false,
         "red": "Austin Bashi",
@@ -842,10 +833,19 @@
       },
       {
         "segment": "prelims",
-        "weightClass": "Women's Bantamweight",
+        "weightClass": "Middleweight",
         "titleBout": false,
-        "red": "Priscila Cachoeira",
-        "blue": "Nina Milošević",
+        "red": "Mantas Kondratavičius",
+        "blue": "Andre Petroski",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Seokhyeon Ko",
+        "blue": "Wellington Turman",
         "redRank": null,
         "blueRank": null
       },
@@ -861,7 +861,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-11-03T20:09:32.067Z",
+    "fetchedAt": "2026-11-04T20:27:50.708Z",
     "changedAt": "2026-10-28T18:55:16.537Z",
     "bouts": [
       {
@@ -975,7 +975,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-11-03T20:09:32.067Z",
+    "fetchedAt": "2026-11-04T20:27:50.708Z",
     "changedAt": "2026-10-28T18:55:16.537Z",
     "bouts": [
       {
@@ -1062,8 +1062,8 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-03T20:09:32.067Z",
-    "changedAt": "2026-11-03T20:09:32.067Z",
+    "fetchedAt": "2026-11-04T20:27:50.708Z",
+    "changedAt": "2026-11-04T20:27:50.708Z",
     "bouts": [
       {
         "segment": "card",
@@ -1076,12 +1076,12 @@
       },
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Heavyweight",
         "titleBout": false,
         "red": "Alex Pereira",
         "blue": "Sergei Pavlovich",
         "redRank": null,
-        "blueRank": null
+        "blueRank": "#3"
       },
       {
         "segment": "card",
@@ -1118,8 +1118,8 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-03T20:09:32.067Z",
-    "changedAt": "2026-11-02T22:22:24.164Z",
+    "fetchedAt": "2026-11-04T20:27:50.708Z",
+    "changedAt": "2026-11-04T20:27:50.708Z",
     "bouts": [
       {
         "segment": "card",
@@ -1138,11 +1138,29 @@
         "blue": "Robert Whittaker",
         "redRank": "#8",
         "blueRank": "#11"
+      },
+      {
+        "segment": "card",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Marwan Rahiki",
+        "blue": "JooSang Yoo",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Kaan Ofli",
+        "blue": "Joanderson Brito",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-03T20:09:32.067Z",
+    "fetchedAt": "2026-11-04T20:27:50.708Z",
     "changedAt": "2026-10-26T19:23:41.014Z",
     "bouts": [
       {
@@ -1166,7 +1184,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-03T20:09:32.067Z",
+    "fetchedAt": "2026-11-04T20:27:50.708Z",
     "changedAt": "2026-10-25T17:06:00.825Z",
     "bouts": []
   }
