@@ -1,20 +1,20 @@
 {
   "notes": {
     "802b3e54-3c53-4b37-a089-8e97a4e163f3@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Heavyweight headliner pits No. 6 ranked Waldo Cortes Acosta, coming off two straight losses, against Johnny Walker, who scored a highlight knockout at UFC 332 last month in his heavyweight debut. Co-main sees former title challengers Tatiana Suarez and Virna Jandiroba clash, with the winner expected to earn a shot at strawweight champion Mackenzie Dern.",
-      "know": "Fight Night cards like this lack a title fight but often showcase contenders who can shoot up the rankings with one big win. Rankings run from champion down to No. 15 in each division, so a ranked fighter beating a tougher ranked opponent moves closer to title contention.",
-      "generatedAt": "2026-11-04T20:29:52.161Z",
-      "factsHash": "f81e8de0836153f4",
+      "why": "Heavyweight headliners Waldo Cortes Acosta (#6, a power puncher trying to snap a two-fight skid) and Johnny Walker (fresh off a highlight KO at UFC 332, now testing himself at a new weight) meet in a statement fight. In the co-main, former title challengers Tatiana Suarez (#2, elite wrestler-grappler) and Virna Jandiroba (#3, submission specialist) clash with the winner expecting a shot at strawweight champ Mackenzie Dern.",
+      "know": "UFC rankings run from champion down to #15 per division, so a top-6 win carries real weight toward a title shot. A Fight Night card like this has no title on the line itself but often decides who earns one next. You already saw Walker finish Mick Parkin at UFC 332, so this is his first test since that breakout performance.",
+      "generatedAt": "2026-11-05T20:44:47.845Z",
+      "factsHash": "75ff6af0493ad84d",
       "model": "claude-sonnet-5"
     },
     "89e0495f-fe2d-46a6-9588-b813f1ec768e@niners.calendar-feeds.jbone707.github.io": {
-      "why": "San Francisco enters at 6-1 and sits atop the NFC West, while Las Vegas is a shakier 3-4. A win keeps the Niners' early lead solid and padded for the stretch run; a loss would be a stumble but not a crisis this early. No single November game clinches or ends anything yet, so watch for continued consistency and how banged-up the receiver group holds up.",
-      "know": "NFC West is San Francisco's four-team division; finishing first typically grants an easier path to the playoffs. Watch QB Brock Purdy, who leads a high-scoring offense, and Raiders pass rusher Maxx Crosby, their top defender who can disrupt the game.",
-      "generatedAt": "2026-11-01T18:29:29.241Z",
+      "why": "The 49ers are 6-1 and alone in first place in the NFC West, their only loss coming to Atlanta right before their bye week (a scheduled week off). The Raiders are 4-4, a team that opened 3-0 before losing four straight. A win keeps San Francisco rolling atop its division, but it is too early for any playoff-clinching or elimination stakes.",
+      "know": "NFC West is one of the NFL's eight divisions; its leader gets an edge toward the playoffs later. No single November game decides a season, so watch the overall win streak and health trends. Keep an eye on running back Christian McCaffrey, working through a hamstring issue, and quarterback Brock Purdy, who is having an MVP-caliber year.",
+      "generatedAt": "2026-11-05T20:44:47.845Z",
       "factsHash": "72d0615111284fe9",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-04T20:29:52.161Z",
+  "lastWrittenAt": "2026-11-05T20:44:47.845Z",
   "lastError": null
 }

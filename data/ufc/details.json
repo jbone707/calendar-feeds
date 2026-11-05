@@ -729,8 +729,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-07-2026": {
-    "fetchedAt": "2026-11-04T20:27:50.708Z",
-    "changedAt": "2026-11-04T20:27:50.708Z",
+    "fetchedAt": "2026-11-05T20:42:46.561Z",
+    "changedAt": "2026-11-05T20:42:46.561Z",
     "bouts": [
       {
         "segment": "main",
@@ -827,7 +827,7 @@
         "weightClass": "Featherweight",
         "titleBout": false,
         "red": "Austin Bashi",
-        "blue": "Lucas Brennan",
+        "blue": "Carlos Calderon",
         "redRank": null,
         "blueRank": null
       },
@@ -861,8 +861,8 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-11-04T20:27:50.708Z",
-    "changedAt": "2026-10-28T18:55:16.537Z",
+    "fetchedAt": "2026-11-05T20:42:46.561Z",
+    "changedAt": "2026-11-05T20:42:46.561Z",
     "bouts": [
       {
         "segment": "main",
@@ -947,6 +947,15 @@
       },
       {
         "segment": "early",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Jared Gordon",
+        "blue": "Melquizael Costa",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "early",
         "weightClass": "Women's Bantamweight",
         "titleBout": false,
         "red": "Macy Chiasson",
@@ -967,19 +976,19 @@
         "segment": "early",
         "weightClass": "Lightweight",
         "titleBout": false,
-        "red": "Nazim Sadykhov",
-        "blue": "Jefferson Nascimento",
+        "red": "Evan Elder",
+        "blue": "Samuel Sanches",
         "redRank": null,
         "blueRank": null
       }
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-11-04T20:27:50.708Z",
-    "changedAt": "2026-10-28T18:55:16.537Z",
+    "fetchedAt": "2026-11-05T20:42:46.561Z",
+    "changedAt": "2026-11-05T20:42:46.561Z",
     "bouts": [
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Light Heavyweight",
         "titleBout": false,
         "red": "Jiří Procházka",
@@ -988,7 +997,7 @@
         "blueRank": "#5"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Featherweight",
         "titleBout": false,
         "red": "Aljamain Sterling",
@@ -997,16 +1006,25 @@
         "blueRank": "#9"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Dan Hooker",
         "blue": "Brian Ortega",
-        "redRank": "#13",
+        "redRank": "#14",
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "main",
+        "weightClass": "Flyweight",
+        "titleBout": false,
+        "red": "Kyoji Horiguchi",
+        "blue": "Asu Almabayev",
+        "redRank": "#5",
+        "blueRank": "#7"
+      },
+      {
+        "segment": "main",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Jared Cannonier",
@@ -1015,25 +1033,7 @@
         "blueRank": "#13"
       },
       {
-        "segment": "card",
-        "weightClass": "Heavyweight",
-        "titleBout": false,
-        "red": "Shamil Gaziev",
-        "blue": "Tallison Teixeira",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
-        "weightClass": "Welterweight",
-        "titleBout": false,
-        "red": "Jake Matthews",
-        "blue": "Tahir Abdullayev",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Aleksandre Topuria",
@@ -1042,27 +1042,36 @@
         "blueRank": null
       },
       {
-        "segment": "card",
-        "weightClass": "Flyweight",
+        "segment": "prelims",
+        "weightClass": "Heavyweight",
         "titleBout": false,
-        "red": "Asu Almabayev",
-        "blue": "Kyoji Horiguchi",
-        "redRank": "#7",
-        "blueRank": "#5"
+        "red": "Shamil Gaziev",
+        "blue": "Tallison Teixeira",
+        "redRank": null,
+        "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Flyweight",
         "titleBout": false,
         "red": "Amir Albazi",
         "blue": "Alessandro Costa",
         "redRank": "#9",
         "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Jake Matthews",
+        "blue": "Tahir Abdullayev",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-04T20:27:50.708Z",
+    "fetchedAt": "2026-11-05T20:42:46.561Z",
     "changedAt": "2026-11-04T20:27:50.708Z",
     "bouts": [
       {
@@ -1118,7 +1127,7 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-04T20:27:50.708Z",
+    "fetchedAt": "2026-11-05T20:42:46.561Z",
     "changedAt": "2026-11-04T20:27:50.708Z",
     "bouts": [
       {
@@ -1160,7 +1169,7 @@
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-04T20:27:50.708Z",
+    "fetchedAt": "2026-11-05T20:42:46.561Z",
     "changedAt": "2026-10-26T19:23:41.014Z",
     "bouts": [
       {
@@ -1184,7 +1193,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-04T20:27:50.708Z",
+    "fetchedAt": "2026-11-05T20:42:46.561Z",
     "changedAt": "2026-10-25T17:06:00.825Z",
     "bouts": []
   }
