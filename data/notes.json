@@ -1,20 +1,27 @@
 {
   "notes": {
     "802b3e54-3c53-4b37-a089-8e97a4e163f3@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Heavyweight headliners Waldo Cortes Acosta (#6, a power puncher trying to snap a two-fight skid) and Johnny Walker (fresh off a highlight KO at UFC 332, now testing himself at a new weight) meet in a statement fight. In the co-main, former title challengers Tatiana Suarez (#2, elite wrestler-grappler) and Virna Jandiroba (#3, submission specialist) clash with the winner expecting a shot at strawweight champ Mackenzie Dern.",
-      "know": "UFC rankings run from champion down to #15 per division, so a top-6 win carries real weight toward a title shot. A Fight Night card like this has no title on the line itself but often decides who earns one next. You already saw Walker finish Mick Parkin at UFC 332, so this is his first test since that breakout performance.",
-      "generatedAt": "2026-11-05T20:44:47.845Z",
+      "why": "Cortes Acosta (17-4) aims to snap a two-fight losing skid, while Walker (23-10) will look to build off a knockout victory over Mick Parkin in October, a win that came in his Heavyweight debut at UFC 332, which you watched last month. In the co-main, #2 Tatiana Suarez faces #3 Virna Jandiroba, who fought for the vacant title last October and came up short against Mackenzie Dern; the winner likely earns a shot at champion Dern.",
+      "know": "A ranking from #1 to #15 shows how close a fighter is to a title shot, with the champion listed above that list. A losing or winning \"skid\" just means consecutive results in a row. Suarez and Jandiroba are both grapplers who win mainly by controlling opponents on the mat, a contrast to the heavyweight main event where knockouts are far more common.",
+      "generatedAt": "2026-11-07T18:07:37.285Z",
       "factsHash": "75ff6af0493ad84d",
       "model": "claude-sonnet-5"
     },
     "89e0495f-fe2d-46a6-9588-b813f1ec768e@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are 6-1 and alone in first place in the NFC West, their only loss coming to Atlanta right before their bye week (a scheduled week off). The Raiders are 4-4, a team that opened 3-0 before losing four straight. A win keeps San Francisco rolling atop its division, but it is too early for any playoff-clinching or elimination stakes.",
-      "know": "NFC West is one of the NFL's eight divisions; its leader gets an edge toward the playoffs later. No single November game decides a season, so watch the overall win streak and health trends. Keep an eye on running back Christian McCaffrey, working through a hamstring issue, and quarterback Brock Purdy, who is having an MVP-caliber year.",
-      "generatedAt": "2026-11-05T20:44:47.845Z",
+      "why": "The 49ers are 6-1 and sit atop the NFC West, fresh off their bye week after their first loss of the season to Atlanta. The Raiders are 4-4, having opened 3-0 before dropping four straight. A win keeps San Francisco comfortably in first place and shows they can bounce back; a loss would make it two losses in a row, but it is still early enough that nothing is decided yet.",
+      "know": "It is only Week 9, so no team clinches or is eliminated from the playoffs this soon; watch the division standings and win streaks instead. Running back Christian McCaffrey just returned from a mild hamstring strain (a leg muscle injury) and will carry extra workload with several receivers out hurt. Pass rusher Nick Bosa is also back healthy after missing time with a calf injury, which should boost San Francisco's defense.",
+      "generatedAt": "2026-11-07T18:07:37.285Z",
       "factsHash": "72d0615111284fe9",
+      "model": "claude-sonnet-5"
+    },
+    "17748478-21b7-4400-ae1f-363effe5688e@ufc.calendar-feeds.jbone707.github.io": {
+      "why": "Ciryl Gane makes the first defense of his undisputed heavyweight title, facing unbeaten #4 contender Josh Hokit, a dangerous test for the champ. In the co-main, Kayla Harrison defends her bantamweight belt in her first fight back from neck surgery against Amanda Nunes, a two-division former champion ending a three-year retirement for one of the biggest matchups in women's MMA history.",
+      "know": "A title fight means the belt changes hands only if the champion loses; the champion keeps it in a draw or no contest. Rankings (like Hokit at #4) show how the UFC orders contenders in a division, with the champ listed separately as \"C.\" A fighter returning from retirement, like Nunes, often faces questions about ring rust after time away from competition.",
+      "generatedAt": "2026-11-07T18:07:37.285Z",
+      "factsHash": "b08c33bb74b8c78d",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-05T20:44:47.845Z",
+  "lastWrittenAt": "2026-11-07T18:07:37.285Z",
   "lastError": null
 }
