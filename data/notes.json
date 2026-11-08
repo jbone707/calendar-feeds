@@ -1,16 +1,9 @@
 {
   "notes": {
-    "802b3e54-3c53-4b37-a089-8e97a4e163f3@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Cortes Acosta (17-4) aims to snap a two-fight losing skid, while Walker (23-10) will look to build off a knockout victory over Mick Parkin in October, a win that came in his Heavyweight debut at UFC 332, which you watched last month. In the co-main, #2 Tatiana Suarez faces #3 Virna Jandiroba, who fought for the vacant title last October and came up short against Mackenzie Dern; the winner likely earns a shot at champion Dern.",
-      "know": "A ranking from #1 to #15 shows how close a fighter is to a title shot, with the champion listed above that list. A losing or winning \"skid\" just means consecutive results in a row. Suarez and Jandiroba are both grapplers who win mainly by controlling opponents on the mat, a contrast to the heavyweight main event where knockouts are far more common.",
-      "generatedAt": "2026-11-07T18:07:37.285Z",
-      "factsHash": "75ff6af0493ad84d",
-      "model": "claude-sonnet-5"
-    },
     "89e0495f-fe2d-46a6-9588-b813f1ec768e@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are 6-1 and sit atop the NFC West, fresh off their bye week after their first loss of the season to Atlanta. The Raiders are 4-4, having opened 3-0 before dropping four straight. A win keeps San Francisco comfortably in first place and shows they can bounce back; a loss would make it two losses in a row, but it is still early enough that nothing is decided yet.",
-      "know": "It is only Week 9, so no team clinches or is eliminated from the playoffs this soon; watch the division standings and win streaks instead. Running back Christian McCaffrey just returned from a mild hamstring strain (a leg muscle injury) and will carry extra workload with several receivers out hurt. Pass rusher Nick Bosa is also back healthy after missing time with a calf injury, which should boost San Francisco's defense.",
-      "generatedAt": "2026-11-07T18:07:37.285Z",
+      "why": "The 49ers are off to a 6-1 start and lead the NFC West, while the Raiders sit at 4-4 and are fighting for AFC West relevance. It's only Week 9, so this game won't clinch or eliminate anyone, but a win keeps San Francisco's division lead solid and build momentum, while a loss would tighten the race and raise questions about their banged-up receiving corps.",
+      "know": "In the NFL, each team plays 17 games, and the division leader after Week 18 hosts a playoff spot automatically, which is why win-loss record and \"division place\" matter so much. Watch Christian McCaffrey, San Francisco's star running back who is playing through a hamstring issue and expected to carry a heavy workload, and Nick Bosa, their top pass rusher who is finally back after missing time on injured reserve, which means a player sidelined but still on the roster.",
+      "generatedAt": "2026-11-08T18:25:56.505Z",
       "factsHash": "72d0615111284fe9",
       "model": "claude-sonnet-5"
     },
@@ -20,8 +13,15 @@
       "generatedAt": "2026-11-07T18:07:37.285Z",
       "factsHash": "b08c33bb74b8c78d",
       "model": "claude-sonnet-5"
+    },
+    "b0ab8af8-cb28-465a-aea7-5d32bec5ae19@niners.calendar-feeds.jbone707.github.io": {
+      "why": "The 49ers are 6-1 and sit first in the NFC West, while the Cowboys are a struggling 3-5. This road game isn't a division matchup, so it won't shake up the West standings directly, but a win keeps San Francisco's hot start rolling into the second half. It's still too early for clinching or elimination talk, win or lose, but a loss would be the first sign of cracks in an otherwise dominant season.",
+      "know": "A \"division\" is a small group of teams (here, the NFC West) that teams compete with most directly for the playoffs; non-division games like this one mainly affect overall record and seeding. Worth watching: running back Christian McCaffrey, the 49ers' top offensive weapon recently back from a long injury layoff, and quarterback Brock Purdy, who runs San Francisco's offense.",
+      "generatedAt": "2026-11-08T18:25:56.505Z",
+      "factsHash": "f9f3bba53863ea57",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-07T18:07:37.285Z",
+  "lastWrittenAt": "2026-11-08T18:25:56.505Z",
   "lastError": null
 }
