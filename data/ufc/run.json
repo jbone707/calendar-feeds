@@ -1,9 +1,9 @@
 {
-  "lastAttemptAt": "2026-11-08T18:23:54.185Z",
-  "lastSuccessAt": "2026-11-08T18:23:54.185Z",
+  "lastAttemptAt": "2026-11-09T23:01:36.181Z",
+  "lastSuccessAt": "2026-11-09T23:01:36.181Z",
   "lastError": null,
   "lastChangeReport": [
-    "Updated UFC Fight Night: Salkilld vs Saint Denis."
+    "Added UFC Fight Night: Adesanya vs Magomedov."
   ],
   "warnings": [
     "Could not read the bout list for UFC 176 (HTTP 403). Kept what was known."

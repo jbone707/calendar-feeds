@@ -861,7 +861,7 @@
     ]
   },
   "numbered:334": {
-    "fetchedAt": "2026-11-08T18:24:09.855Z",
+    "fetchedAt": "2026-11-09T23:01:51.453Z",
     "changedAt": "2026-11-05T20:42:46.561Z",
     "bouts": [
       {
@@ -984,7 +984,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-11-08T18:24:09.855Z",
+    "fetchedAt": "2026-11-09T23:01:51.453Z",
     "changedAt": "2026-11-05T20:42:46.561Z",
     "bouts": [
       {
@@ -1071,7 +1071,7 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-08T18:24:09.855Z",
+    "fetchedAt": "2026-11-09T23:01:51.453Z",
     "changedAt": "2026-11-04T20:27:50.708Z",
     "bouts": [
       {
@@ -1127,7 +1127,7 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-08T18:24:09.855Z",
+    "fetchedAt": "2026-11-09T23:01:51.453Z",
     "changedAt": "2026-11-04T20:27:50.708Z",
     "bouts": [
       {
@@ -1169,7 +1169,7 @@
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-08T18:24:09.855Z",
+    "fetchedAt": "2026-11-09T23:01:51.453Z",
     "changedAt": "2026-10-26T19:23:41.014Z",
     "bouts": [
       {
@@ -1193,8 +1193,122 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-08T18:24:09.855Z",
+    "fetchedAt": "2026-11-09T23:01:51.453Z",
     "changedAt": "2026-10-25T17:06:00.825Z",
     "bouts": []
+  },
+  "ufc.com:ufc-fight-night-december-05-2026": {
+    "fetchedAt": "2026-11-09T23:01:51.453Z",
+    "changedAt": "2026-11-09T23:01:51.453Z",
+    "bouts": [
+      {
+        "segment": "card",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Israel Adesanya",
+        "blue": "Shara Magomedov",
+        "redRank": "#9",
+        "blueRank": "#15"
+      },
+      {
+        "segment": "card",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Ian Machado Garry",
+        "blue": "Yaroslav Amosov",
+        "redRank": "#1",
+        "blueRank": "#11"
+      },
+      {
+        "segment": "card",
+        "weightClass": "Heavyweight",
+        "titleBout": false,
+        "red": "Serghei Spivac",
+        "blue": "Mario Pinto",
+        "redRank": "#9",
+        "blueRank": "#15"
+      },
+      {
+        "segment": "card",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Levan Chokheli",
+        "blue": "Islam Dulatov",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Mairon Santos",
+        "blue": "Akbar Abdullaev",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Magomed Tuchalov",
+        "blue": "Ion Cutelaba",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Flyweight",
+        "titleBout": false,
+        "red": "Bruno Silva",
+        "blue": "Jafel Filho",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Uran Satybaldiev",
+        "blue": "Ivan Gnizditskiy",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Marco Tulio",
+        "blue": "JunYong Park",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Pavel Andrusca",
+        "blue": "Mahammadali Osmanli",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Modestino Rodrigues",
+        "blue": "Matthieu Duclos",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Abdul Hussein",
+        "blue": "Hecher Sosa",
+        "redRank": null,
+        "blueRank": null
+      }
+    ]
   }
 }

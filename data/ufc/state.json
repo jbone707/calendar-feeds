@@ -308,6 +308,35 @@
       "lastModified": "2026-09-30T18:28:38.079Z"
     },
     {
+      "key": "ufc.com:ufc-fight-night-december-05-2026",
+      "uid": "63f1c81c-8b2d-484c-a00c-3fddacb6b4f1@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-fight-night-december-05-2026",
+      "aliases": [
+        "ufc-fight-night-december-05-2026"
+      ],
+      "title": "UFC Fight Night: Adesanya vs Magomedov",
+      "matchHint": "Adesanya vs Magomedov",
+      "localEventDate": "2026-12-05",
+      "startUtc": "2026-12-05T18:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2026-12-05T15:00:00.000Z"
+        }
+      ],
+      "location": "Venue TBD, Riyadh, Saudi Arabia",
+      "url": "https://www.ufc.com/event/ufc-fight-night-december-05-2026",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-11-09T23:01:36.387Z",
+      "lastModified": "2026-11-09T23:01:36.387Z"
+    },
+    {
       "key": "numbered:176",
       "uid": "b88ae29a-4074-44cc-b564-ca62766316a1@ufc.calendar-feeds.jbone707.github.io",
       "sourceId": "ufc-176",
