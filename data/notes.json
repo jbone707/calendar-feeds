@@ -1,10 +1,10 @@
 {
   "notes": {
     "17748478-21b7-4400-ae1f-363effe5688e@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Ciryl Gane makes the first defense of his undisputed heavyweight title, facing unbeaten #4 contender Josh Hokit, a dangerous test for the champ. In the co-main, Kayla Harrison defends her bantamweight belt in her first fight back from neck surgery against Amanda Nunes, a two-division former champion ending a three-year retirement for one of the biggest matchups in women's MMA history.",
-      "know": "A title fight means the belt changes hands only if the champion loses; the champion keeps it in a draw or no contest. Rankings (like Hokit at #4) show how the UFC orders contenders in a division, with the champ listed separately as \"C.\" A fighter returning from retirement, like Nunes, often faces questions about ring rust after time away from competition.",
-      "generatedAt": "2026-11-07T18:07:37.285Z",
-      "factsHash": "b08c33bb74b8c78d",
+      "why": "Ciryl Gane makes the first defense of the heavyweight title he claimed after Tom Aspinall vacated it due to an eye injury, facing undefeated prospect Josh Hokit, who jumped from UFC debutant to title challenger in one year. In the co-main, bantamweight champion Kayla Harrison defends her belt in a huge comeback fight against Amanda Nunes, a former two-division champion returning after a long layoff, with two titles on the line in one night at MSG.",
+      "know": "A \"title defense\" means the champion keeps fighting to prove they still deserve the belt, while a number ranking (like #4) shows how UFC rates contenders in that weight class. Being a \"two-division champion\" means Nunes once held belts in two different weight classes at the same time, a rare feat showing elite versatility.",
+      "generatedAt": "2026-11-10T20:31:48.041Z",
+      "factsHash": "5d07666ddd2f75ab",
       "model": "claude-sonnet-5"
     },
     "b0ab8af8-cb28-465a-aea7-5d32bec5ae19@niners.calendar-feeds.jbone707.github.io": {
@@ -15,6 +15,6 @@
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-08T18:25:56.505Z",
+  "lastWrittenAt": "2026-11-10T20:31:48.041Z",
   "lastError": null
 }

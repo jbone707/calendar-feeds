@@ -324,7 +324,7 @@
           "utc": "2026-12-05T15:00:00.000Z"
         }
       ],
-      "location": "Venue TBD, Riyadh, Saudi Arabia",
+      "location": "The Venue, Riyadh, Saudi Arabia",
       "url": "https://www.ufc.com/event/ufc-fight-night-december-05-2026",
       "provenance": {
         "startUtc": "UFC.com, the time it labels \"Main card\"",
@@ -332,9 +332,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 0,
+      "sequence": 1,
       "createdAt": "2026-11-09T23:01:36.387Z",
-      "lastModified": "2026-11-09T23:01:36.387Z"
+      "lastModified": "2026-11-10T20:29:31.933Z"
     },
     {
       "key": "numbered:176",
