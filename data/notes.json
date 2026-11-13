@@ -1,10 +1,10 @@
 {
   "notes": {
     "17748478-21b7-4400-ae1f-363effe5688e@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Ciryl Gane makes the first defense of the heavyweight title he claimed after Tom Aspinall vacated it due to an eye injury, facing undefeated prospect Josh Hokit, who jumped from UFC debutant to title challenger in one year. In the co-main, bantamweight champion Kayla Harrison defends her belt in a huge comeback fight against Amanda Nunes, a former two-division champion returning after a long layoff, with two titles on the line in one night at MSG.",
-      "know": "A \"title defense\" means the champion keeps fighting to prove they still deserve the belt, while a number ranking (like #4) shows how UFC rates contenders in that weight class. Being a \"two-division champion\" means Nunes once held belts in two different weight classes at the same time, a rare feat showing elite versatility.",
-      "generatedAt": "2026-11-10T20:31:48.041Z",
-      "factsHash": "5d07666ddd2f75ab",
+      "why": "Ciryl Gane makes the first defense of his UFC heavyweight title against unbeaten #4 contender Josh Hokit, a fight that sets the tone for the division. In the co-main event, bantamweight champion Kayla Harrison defends her belt against former two-division champion Amanda Nunes, who is attempting a comeback after walking away from the sport in 2023.",
+      "know": "A numbered UFC event like this one is usually reserved for the promotion's biggest nights, often built around a title fight; this card has two. Harrison and Nunes were once training partners at the same gym, which adds a personal layer to their matchup, while Hokit, a former college wrestler, remains undefeated as a fast-rising heavyweight prospect.",
+      "generatedAt": "2026-11-13T20:33:07.324Z",
+      "factsHash": "1d2839a283f6cd74",
       "model": "claude-sonnet-5"
     },
     "b0ab8af8-cb28-465a-aea7-5d32bec5ae19@niners.calendar-feeds.jbone707.github.io": {
@@ -13,8 +13,15 @@
       "generatedAt": "2026-11-12T20:57:17.007Z",
       "factsHash": "f9f3bba53863ea57",
       "model": "claude-sonnet-5"
+    },
+    "fe74ebe2-bd22-454c-bd51-783a4e7a50cf@ufc.calendar-feeds.jbone707.github.io": {
+      "why": "Former light heavyweight champ Jiri Prochazka looks to rebound after an April title-fight knockout loss, while unbeaten rising prospect Navajo Stirling, fresh off stopping ex-champ Jan Blachowicz, tries to prove he belongs among the elite. In the co-main, former bantamweight champ Aljamain Sterling, now up at featherweight, meets surging contender Kevin Vallejos, with the winner moving closer to a title shot at 145 pounds.",
+      "know": "UFC rankings run #1 to #15 in each weight class below the champion; beating a higher-ranked foe builds a case for a title shot, the chance to fight for the belt. A Fight Night card has no title bout but is a good place to spot fighters who may soon reach title contention.",
+      "generatedAt": "2026-11-13T20:33:07.324Z",
+      "factsHash": "f2d8fce0340ed874",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-12T20:57:17.007Z",
+  "lastWrittenAt": "2026-11-13T20:33:07.324Z",
   "lastError": null
 }
