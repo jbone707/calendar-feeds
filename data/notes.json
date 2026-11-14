@@ -8,9 +8,9 @@
       "model": "claude-sonnet-5"
     },
     "b0ab8af8-cb28-465a-aea7-5d32bec5ae19@niners.calendar-feeds.jbone707.github.io": {
-      "why": "The 49ers are 7-1 and sitting atop the NFC West, the strongest record in their division this year. Dallas is a middling 3-5 team, so this is a good chance for San Francisco to pad its division lead. No playoff spot is clinched or lost here, it is simply one more step toward a strong playoff seed.",
-      "know": "It is only Week 10, so one game will not decide anyone's season. Instead watch how the 49ers handle a mediocre opponent on the road, and track injuries to running back Christian McCaffrey and receiver Deebo Samuel, both nursing hamstring issues, plus tight end George Kittle, a key target in the short passing game Dallas's coach has flagged as hard to stop.",
-      "generatedAt": "2026-11-12T20:57:17.007Z",
+      "why": "San Francisco is 7-1 and leads the NFC West, while Dallas is a shakier 4-5 and banged up on defense. This isn't a division game, so it won't shift the West standings directly, but a 49ers win keeps them rolling toward a top playoff seed, while a loss would be their first real wobble this season.",
+      "know": "It's only Week 10, so no single game clinches a playoff spot or eliminates a team yet; what matters is building a strong overall record for playoff seeding (better seeds mean more home games later). Watch WR Deebo Samuel, back from a hamstring injury for the 49ers, and Cowboys WR CeeDee Lamb, who can still win plays even with Dallas missing key defenders.",
+      "generatedAt": "2026-11-14T18:48:12.803Z",
       "factsHash": "f9f3bba53863ea57",
       "model": "claude-sonnet-5"
     },
@@ -22,6 +22,6 @@
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-13T20:33:07.324Z",
+  "lastWrittenAt": "2026-11-14T18:48:12.803Z",
   "lastError": null
 }
