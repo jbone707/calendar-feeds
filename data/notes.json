@@ -1,16 +1,9 @@
 {
   "notes": {
-    "17748478-21b7-4400-ae1f-363effe5688e@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Ciryl Gane makes the first defense of his UFC heavyweight title against unbeaten #4 contender Josh Hokit, a fight that sets the tone for the division. In the co-main event, bantamweight champion Kayla Harrison defends her belt against former two-division champion Amanda Nunes, who is attempting a comeback after walking away from the sport in 2023.",
-      "know": "A numbered UFC event like this one is usually reserved for the promotion's biggest nights, often built around a title fight; this card has two. Harrison and Nunes were once training partners at the same gym, which adds a personal layer to their matchup, while Hokit, a former college wrestler, remains undefeated as a fast-rising heavyweight prospect.",
-      "generatedAt": "2026-11-13T20:33:07.324Z",
-      "factsHash": "1d2839a283f6cd74",
-      "model": "claude-sonnet-5"
-    },
     "b0ab8af8-cb28-465a-aea7-5d32bec5ae19@niners.calendar-feeds.jbone707.github.io": {
-      "why": "San Francisco is 7-1 and leads the NFC West, while Dallas is a shakier 4-5 and banged up on defense. This isn't a division game, so it won't shift the West standings directly, but a 49ers win keeps them rolling toward a top playoff seed, while a loss would be their first real wobble this season.",
-      "know": "It's only Week 10, so no single game clinches a playoff spot or eliminates a team yet; what matters is building a strong overall record for playoff seeding (better seeds mean more home games later). Watch WR Deebo Samuel, back from a hamstring injury for the 49ers, and Cowboys WR CeeDee Lamb, who can still win plays even with Dallas missing key defenders.",
-      "generatedAt": "2026-11-14T18:48:12.803Z",
+      "why": "The 49ers arrive at 7-1, first in the NFC West, while Dallas is below .500 at 4-5 and fighting to stay in the playoff picture. It is only Week 10, so neither a win nor a loss decides anything by itself, but beating a struggling NFC team would further cement San Francisco's spot atop its division and build toward a playoff seed later.",
+      "know": "NFC West is one of the NFL's eight divisions, winning it (or just making the broader playoff bracket) is the regular season goal. Watch running back Christian McCaffrey, who creates big plays for San Francisco's offense, and Dallas quarterback Dak Prescott, who needs a strong game to keep the Cowboys' season from slipping further.",
+      "generatedAt": "2026-11-15T19:27:01.943Z",
       "factsHash": "f9f3bba53863ea57",
       "model": "claude-sonnet-5"
     },
@@ -20,8 +13,15 @@
       "generatedAt": "2026-11-13T20:33:07.324Z",
       "factsHash": "f2d8fce0340ed874",
       "model": "claude-sonnet-5"
+    },
+    "afce88a5-30fa-41f5-be6d-38cadb4fe552@niners.calendar-feeds.jbone707.github.io": {
+      "why": "San Francisco enters at 7-1 and in first place in the NFC West, hosting a Minnesota team at 6-2 that started 6-0 before dropping two straight. It is Week 11, so no clinching or elimination math applies yet, but it is a measuring-stick game against a real playoff contender. A win keeps the 49ers rolling toward a top playoff seed; a loss would be their second in a row and a warning sign against good teams.",
+      "know": "The teams are in different divisions (NFC West vs NFC North) but same conference, so results here can still affect playoff tiebreakers based on conference record. Watch Christian McCaffrey, San Francisco's versatile running back who can beat you running or catching passes, and Justin Jefferson, Minnesota's top wide receiver who creates big plays whenever he is healthy.",
+      "generatedAt": "2026-11-15T19:27:01.943Z",
+      "factsHash": "9a00226492d8b7fc",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-14T18:48:12.803Z",
+  "lastWrittenAt": "2026-11-15T19:27:01.943Z",
   "lastError": null
 }
