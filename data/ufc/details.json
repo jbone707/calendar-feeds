@@ -984,7 +984,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-11-15T19:24:46.043Z",
+    "fetchedAt": "2026-11-16T22:56:06.906Z",
     "changedAt": "2026-11-05T20:42:46.561Z",
     "bouts": [
       {
@@ -1071,8 +1071,8 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-15T19:24:46.043Z",
-    "changedAt": "2026-11-10T20:29:46.998Z",
+    "fetchedAt": "2026-11-16T22:56:06.906Z",
+    "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
         "segment": "card",
@@ -1103,6 +1103,15 @@
       },
       {
         "segment": "card",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Kyler Phillips",
+        "blue": "Ethyn Ewing",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
         "weightClass": "Light Heavyweight",
         "titleBout": false,
         "red": "Quentin Pasley",
@@ -1114,10 +1123,10 @@
         "segment": "card",
         "weightClass": "Middleweight",
         "titleBout": false,
-        "red": "Joe Pyfer",
-        "blue": "Bo Nickal",
-        "redRank": "#6",
-        "blueRank": "#14"
+        "red": "Damian Pinas",
+        "blue": "Baisangur Susurkaev",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
@@ -1127,8 +1136,8 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-15T19:24:46.043Z",
-    "changedAt": "2026-11-04T20:27:50.708Z",
+    "fetchedAt": "2026-11-16T22:56:06.906Z",
+    "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
         "segment": "card",
@@ -1146,7 +1155,7 @@
         "red": "Bogdan Guskov",
         "blue": "Robert Whittaker",
         "redRank": "#8",
-        "blueRank": "#11"
+        "blueRank": "#10"
       },
       {
         "segment": "card",
@@ -1169,11 +1178,11 @@
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-15T19:24:46.043Z",
-    "changedAt": "2026-10-26T19:23:41.014Z",
+    "fetchedAt": "2026-11-16T22:56:06.906Z",
+    "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
-        "segment": "main",
+        "segment": "card",
         "weightClass": "Flyweight",
         "titleBout": true,
         "red": "Joshua Van",
@@ -1182,18 +1191,45 @@
         "blueRank": "#2"
       },
       {
-        "segment": "main",
+        "segment": "card",
         "weightClass": "Welterweight Interim",
         "titleBout": true,
         "red": "Carlos Prates",
         "blue": "Michael Morales",
         "redRank": "#2",
         "blueRank": "#3"
+      },
+      {
+        "segment": "card",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Lance Gibson Jr.",
+        "blue": "Michael Johnson",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "Serhiy Sidey",
+        "blue": "Louis Lee Scott",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Cam Nelson",
+        "blue": "Sean Clancy Jr.",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-15T19:24:46.043Z",
+    "fetchedAt": "2026-11-16T22:56:06.906Z",
     "changedAt": "2026-11-15T19:24:46.043Z",
     "bouts": [
       {
@@ -1226,8 +1262,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-december-05-2026": {
-    "fetchedAt": "2026-11-15T19:24:46.043Z",
-    "changedAt": "2026-11-09T23:01:51.453Z",
+    "fetchedAt": "2026-11-16T22:56:06.906Z",
+    "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
         "segment": "card",
@@ -1245,7 +1281,7 @@
         "red": "Ian Machado Garry",
         "blue": "Yaroslav Amosov",
         "redRank": "#1",
-        "blueRank": "#11"
+        "blueRank": "#12"
       },
       {
         "segment": "card",
@@ -1253,7 +1289,7 @@
         "titleBout": false,
         "red": "Serghei Spivac",
         "blue": "Mario Pinto",
-        "redRank": "#9",
+        "redRank": "#10",
         "blueRank": "#15"
       },
       {
@@ -1340,7 +1376,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-23-2027": {
-    "fetchedAt": "2026-11-15T19:24:46.043Z",
+    "fetchedAt": "2026-11-16T22:56:06.906Z",
     "changedAt": "2026-11-15T19:24:46.043Z",
     "bouts": [
       {
@@ -1355,7 +1391,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-february-13-2027": {
-    "fetchedAt": "2026-11-15T19:24:46.043Z",
+    "fetchedAt": "2026-11-16T22:56:06.906Z",
     "changedAt": "2026-11-15T19:24:46.043Z",
     "bouts": [
       {
