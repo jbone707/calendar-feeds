@@ -984,8 +984,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-11-16T22:56:06.906Z",
-    "changedAt": "2026-11-05T20:42:46.561Z",
+    "fetchedAt": "2026-11-17T21:49:35.701Z",
+    "changedAt": "2026-11-17T21:49:35.701Z",
     "bouts": [
       {
         "segment": "main",
@@ -1067,11 +1067,29 @@
         "blue": "Tahir Abdullayev",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Nikolas Motta",
+        "blue": "Dom Mar Fan",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Diyar Nurgozhay",
+        "blue": "Alik Lorenz",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-16T22:56:06.906Z",
+    "fetchedAt": "2026-11-17T21:49:35.701Z",
     "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
@@ -1136,7 +1154,7 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-16T22:56:06.906Z",
+    "fetchedAt": "2026-11-17T21:49:35.701Z",
     "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
@@ -1178,7 +1196,7 @@
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-16T22:56:06.906Z",
+    "fetchedAt": "2026-11-17T21:49:35.701Z",
     "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
@@ -1229,8 +1247,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-16T22:56:06.906Z",
-    "changedAt": "2026-11-15T19:24:46.043Z",
+    "fetchedAt": "2026-11-17T21:49:35.701Z",
+    "changedAt": "2026-11-17T21:49:35.701Z",
     "bouts": [
       {
         "segment": "card",
@@ -1247,7 +1265,7 @@
         "titleBout": false,
         "red": "Daniel Rodriguez",
         "blue": "Roberto Soldić",
-        "redRank": "#14",
+        "redRank": "#15",
         "blueRank": null
       },
       {
@@ -1262,8 +1280,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-december-05-2026": {
-    "fetchedAt": "2026-11-16T22:56:06.906Z",
-    "changedAt": "2026-11-16T22:56:06.906Z",
+    "fetchedAt": "2026-11-17T21:49:35.701Z",
+    "changedAt": "2026-11-17T21:49:35.701Z",
     "bouts": [
       {
         "segment": "card",
@@ -1281,7 +1299,7 @@
         "red": "Ian Machado Garry",
         "blue": "Yaroslav Amosov",
         "redRank": "#1",
-        "blueRank": "#12"
+        "blueRank": "#11"
       },
       {
         "segment": "card",
@@ -1376,7 +1394,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-23-2027": {
-    "fetchedAt": "2026-11-16T22:56:06.906Z",
+    "fetchedAt": "2026-11-17T21:49:35.701Z",
     "changedAt": "2026-11-15T19:24:46.043Z",
     "bouts": [
       {
@@ -1391,7 +1409,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-february-13-2027": {
-    "fetchedAt": "2026-11-16T22:56:06.906Z",
+    "fetchedAt": "2026-11-17T21:49:35.701Z",
     "changedAt": "2026-11-15T19:24:46.043Z",
     "bouts": [
       {

@@ -1,10 +1,10 @@
 {
   "notes": {
     "fe74ebe2-bd22-454c-bd51-783a4e7a50cf@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Former light heavyweight champ Jiri Prochazka looks to rebound after an April title-fight knockout loss, while unbeaten rising prospect Navajo Stirling, fresh off stopping ex-champ Jan Blachowicz, tries to prove he belongs among the elite. In the co-main, former bantamweight champ Aljamain Sterling, now up at featherweight, meets surging contender Kevin Vallejos, with the winner moving closer to a title shot at 145 pounds.",
-      "know": "UFC rankings run #1 to #15 in each weight class below the champion; beating a higher-ranked foe builds a case for a title shot, the chance to fight for the belt. A Fight Night card has no title bout but is a good place to spot fighters who may soon reach title contention.",
-      "generatedAt": "2026-11-13T20:33:07.324Z",
-      "factsHash": "f2d8fce0340ed874",
+      "why": "Jiri Prochazka, a former light heavyweight champion coming off a title-fight knockout loss, headlines against Navajo Stirling, an undefeated rising contender who just knocked out another ex-champ. A win pushes either man toward a title shot. The co-main has Aljamain Sterling, a former bantamweight champion now building a featherweight run, facing unbeaten prospect Kevin Vallejos in a fight that could decide if Vallejos is ready for true title contention.",
+      "know": "UFC ranks fighters 1 through 15 in each weight class below the champion; beating a higher-ranked opponent boosts your own ranking. A Fight Night card like this lacks a title fight but often showcases the next wave of contenders, including undefeated prospects like Stirling and Vallejos who are still building their resumes against established veterans.",
+      "generatedAt": "2026-11-17T21:51:51.669Z",
+      "factsHash": "4b37a54f1e1747f7",
       "model": "claude-sonnet-5"
     },
     "afce88a5-30fa-41f5-be6d-38cadb4fe552@niners.calendar-feeds.jbone707.github.io": {
@@ -15,6 +15,6 @@
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-15T19:27:01.943Z",
+  "lastWrittenAt": "2026-11-17T21:51:51.669Z",
   "lastError": null
 }
