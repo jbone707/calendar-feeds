@@ -1,11 +1,9 @@
 {
-  "lastAttemptAt": "2026-11-17T21:49:20.384Z",
-  "lastSuccessAt": "2026-11-17T21:49:20.384Z",
+  "lastAttemptAt": "2026-11-18T21:28:07.631Z",
+  "lastSuccessAt": "2026-11-18T21:28:07.631Z",
   "lastError": null,
   "lastChangeReport": [
-    "Updated UFC Fight Night: Rodriguez vs Garcia.",
-    "Added UFC Fight Night: Bonfim vs Brady.",
-    "Added UFC Fight Night: Pyfer vs Nickal."
+    "Updated UFC Fight Night: Bonfim vs Brady."
   ],
   "warnings": [
     "Could not read the bout list for UFC 176 (HTTP 403). Kept what was known."

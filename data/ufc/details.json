@@ -984,7 +984,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-11-17T21:49:35.701Z",
+    "fetchedAt": "2026-11-18T21:28:23.232Z",
     "changedAt": "2026-11-17T21:49:35.701Z",
     "bouts": [
       {
@@ -1089,11 +1089,11 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-17T21:49:35.701Z",
-    "changedAt": "2026-11-16T22:56:06.906Z",
+    "fetchedAt": "2026-11-18T21:28:23.232Z",
+    "changedAt": "2026-11-18T21:28:23.232Z",
     "bouts": [
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Charles Oliveira",
@@ -1102,7 +1102,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Heavyweight",
         "titleBout": false,
         "red": "Alex Pereira",
@@ -1111,7 +1111,7 @@
         "blueRank": "#3"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Flyweight",
         "titleBout": false,
         "red": "Brandon Moreno",
@@ -1120,7 +1120,7 @@
         "blueRank": "#14"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Kyler Phillips",
@@ -1129,16 +1129,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
-        "weightClass": "Light Heavyweight",
-        "titleBout": false,
-        "red": "Quentin Pasley",
-        "blue": "Junior Tafa",
-        "redRank": null,
-        "blueRank": null
-      },
-      {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Damian Pinas",
@@ -1154,7 +1145,7 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-17T21:49:35.701Z",
+    "fetchedAt": "2026-11-18T21:28:23.232Z",
     "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
@@ -1196,7 +1187,7 @@
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-17T21:49:35.701Z",
+    "fetchedAt": "2026-11-18T21:28:23.232Z",
     "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
@@ -1247,7 +1238,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-17T21:49:35.701Z",
+    "fetchedAt": "2026-11-18T21:28:23.232Z",
     "changedAt": "2026-11-17T21:49:35.701Z",
     "bouts": [
       {
@@ -1280,11 +1271,11 @@
     ]
   },
   "ufc.com:ufc-fight-night-december-05-2026": {
-    "fetchedAt": "2026-11-17T21:49:35.701Z",
-    "changedAt": "2026-11-17T21:49:35.701Z",
+    "fetchedAt": "2026-11-18T21:28:23.232Z",
+    "changedAt": "2026-11-18T21:28:23.232Z",
     "bouts": [
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Israel Adesanya",
@@ -1293,7 +1284,7 @@
         "blueRank": "#15"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Ian Machado Garry",
@@ -1302,7 +1293,7 @@
         "blueRank": "#11"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Heavyweight",
         "titleBout": false,
         "red": "Serghei Spivac",
@@ -1311,7 +1302,7 @@
         "blueRank": "#15"
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Levan Chokheli",
@@ -1320,7 +1311,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Mairon Santos",
@@ -1329,7 +1320,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "main",
         "weightClass": "Light Heavyweight",
         "titleBout": false,
         "red": "Magomed Tuchalov",
@@ -1338,7 +1329,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Flyweight",
         "titleBout": false,
         "red": "Bruno Silva",
@@ -1347,7 +1338,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Light Heavyweight",
         "titleBout": false,
         "red": "Uran Satybaldiev",
@@ -1356,7 +1347,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Marco Tulio",
@@ -1365,7 +1356,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Pavel Andrusca",
@@ -1374,7 +1365,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Modestino Rodrigues",
@@ -1383,7 +1374,7 @@
         "blueRank": null
       },
       {
-        "segment": "card",
+        "segment": "prelims",
         "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Abdul Hussein",
@@ -1394,7 +1385,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-23-2027": {
-    "fetchedAt": "2026-11-17T21:49:35.701Z",
+    "fetchedAt": "2026-11-18T21:28:23.232Z",
     "changedAt": "2026-11-15T19:24:46.043Z",
     "bouts": [
       {
@@ -1409,7 +1400,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-february-13-2027": {
-    "fetchedAt": "2026-11-17T21:49:35.701Z",
+    "fetchedAt": "2026-11-18T21:28:23.232Z",
     "changedAt": "2026-11-15T19:24:46.043Z",
     "bouts": [
       {
