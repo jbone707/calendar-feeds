@@ -984,8 +984,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-november-21-2026": {
-    "fetchedAt": "2026-11-18T21:28:23.232Z",
-    "changedAt": "2026-11-17T21:49:35.701Z",
+    "fetchedAt": "2026-11-19T21:39:32.937Z",
+    "changedAt": "2026-11-19T21:39:32.937Z",
     "bouts": [
       {
         "segment": "main",
@@ -1085,12 +1085,21 @@
         "blue": "Alik Lorenz",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Shoaib Yousaf",
+        "blue": "John Mitchell",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-18T21:28:23.232Z",
-    "changedAt": "2026-11-18T21:28:23.232Z",
+    "fetchedAt": "2026-11-19T21:39:32.937Z",
+    "changedAt": "2026-11-19T21:39:32.937Z",
     "bouts": [
       {
         "segment": "main",
@@ -1136,6 +1145,15 @@
         "blue": "Baisangur Susurkaev",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "early",
+        "weightClass": "Light Heavyweight",
+        "titleBout": false,
+        "red": "Quentin Pasley",
+        "blue": "Junior Tafa",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
@@ -1145,8 +1163,8 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-18T21:28:23.232Z",
-    "changedAt": "2026-11-16T22:56:06.906Z",
+    "fetchedAt": "2026-11-19T21:39:32.937Z",
+    "changedAt": "2026-11-19T21:39:32.937Z",
     "bouts": [
       {
         "segment": "card",
@@ -1165,6 +1183,15 @@
         "blue": "Robert Whittaker",
         "redRank": "#8",
         "blueRank": "#10"
+      },
+      {
+        "segment": "card",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Jonathan Micallef",
+        "blue": "Sam Patterson",
+        "redRank": null,
+        "blueRank": null
       },
       {
         "segment": "card",
@@ -1187,7 +1214,7 @@
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-18T21:28:23.232Z",
+    "fetchedAt": "2026-11-19T21:39:32.937Z",
     "changedAt": "2026-11-16T22:56:06.906Z",
     "bouts": [
       {
@@ -1238,8 +1265,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-18T21:28:23.232Z",
-    "changedAt": "2026-11-17T21:49:35.701Z",
+    "fetchedAt": "2026-11-19T21:39:32.937Z",
+    "changedAt": "2026-11-19T21:39:32.937Z",
     "bouts": [
       {
         "segment": "card",
@@ -1263,15 +1290,105 @@
         "segment": "card",
         "weightClass": "Welterweight",
         "titleBout": false,
+        "red": "Geoff Neal",
+        "blue": "Chris Curtis",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Welterweight",
+        "titleBout": false,
         "red": "Chidi Njokuani",
         "blue": "Ignacio Bahamondes",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Heavyweight",
+        "titleBout": false,
+        "red": "Ryan Spann",
+        "blue": "Louie Sutherland",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Heavyweight",
+        "titleBout": false,
+        "red": "Kennedy Nzechukwu",
+        "blue": "Elisha Ellison",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Gilbert Urbina",
+        "blue": "Robert Valentin",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Flyweight",
+        "titleBout": false,
+        "red": "Alden Coria",
+        "blue": "Michael Aljarouj",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Diego Ferreira",
+        "blue": "MarQuel Mederos",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Magomed Zaynukov",
+        "blue": "Piero Guaylupo",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Bantamweight",
+        "titleBout": false,
+        "red": "John Garza",
+        "blue": "Toshiomi Kazama",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Heavyweight",
+        "titleBout": false,
+        "red": "Steven Asplund",
+        "blue": "Gokhan Saricam",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Women's Strawweight",
+        "titleBout": false,
+        "red": "Sam Hughes",
+        "blue": "Karolina Kowalkiewicz",
         "redRank": null,
         "blueRank": null
       }
     ]
   },
   "ufc.com:ufc-fight-night-december-05-2026": {
-    "fetchedAt": "2026-11-18T21:28:23.232Z",
+    "fetchedAt": "2026-11-19T21:39:32.937Z",
     "changedAt": "2026-11-18T21:28:23.232Z",
     "bouts": [
       {
@@ -1385,7 +1502,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-23-2027": {
-    "fetchedAt": "2026-11-18T21:28:23.232Z",
+    "fetchedAt": "2026-11-19T21:39:32.937Z",
     "changedAt": "2026-11-15T19:24:46.043Z",
     "bouts": [
       {
@@ -1400,7 +1517,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-february-13-2027": {
-    "fetchedAt": "2026-11-18T21:28:23.232Z",
+    "fetchedAt": "2026-11-19T21:39:32.937Z",
     "changedAt": "2026-11-15T19:24:46.043Z",
     "bouts": [
       {

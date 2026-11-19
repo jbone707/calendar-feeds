@@ -1,20 +1,20 @@
 {
   "notes": {
     "fe74ebe2-bd22-454c-bd51-783a4e7a50cf@ufc.calendar-feeds.jbone707.github.io": {
-      "why": "Jiri Prochazka, a former light heavyweight champion coming off a title-fight knockout loss, headlines against Navajo Stirling, an undefeated rising contender who just knocked out another ex-champ. A win pushes either man toward a title shot. The co-main has Aljamain Sterling, a former bantamweight champion now building a featherweight run, facing unbeaten prospect Kevin Vallejos in a fight that could decide if Vallejos is ready for true title contention.",
-      "know": "UFC ranks fighters 1 through 15 in each weight class below the champion; beating a higher-ranked opponent boosts your own ranking. A Fight Night card like this lacks a title fight but often showcases the next wave of contenders, including undefeated prospects like Stirling and Vallejos who are still building their resumes against established veterans.",
-      "generatedAt": "2026-11-17T21:51:51.669Z",
-      "factsHash": "4b37a54f1e1747f7",
+      "why": "Former light heavyweight champ Jiri Prochazka (#2), rebounding from a title-fight KO loss to Carlos Ulberg, meets unbeaten #5 Navajo Stirling, who just finished ex-champ Jan Blachowicz; the winner edges closer to a title shot. Co-main: former bantamweight champ Aljamain Sterling (#4 featherweight) faces surging prospect Kevin Vallejos (#9); a Vallejos win would push him into title contention.",
+      "know": "UFC rankings run from champion down through #1-15 in each weight class, so beating a higher-ranked foe boosts your title case. A Fight Night card has no championship bout but is where rising fighters, like first-time headliner Stirling, try to prove they belong among the elite.",
+      "generatedAt": "2026-11-19T21:41:49.566Z",
+      "factsHash": "1c2eda361381c344",
       "model": "claude-sonnet-5"
     },
     "afce88a5-30fa-41f5-be6d-38cadb4fe552@niners.calendar-feeds.jbone707.github.io": {
-      "why": "San Francisco enters at 7-1 and in first place in the NFC West, hosting a Minnesota team at 6-2 that started 6-0 before dropping two straight. It is Week 11, so no clinching or elimination math applies yet, but it is a measuring-stick game against a real playoff contender. A win keeps the 49ers rolling toward a top playoff seed; a loss would be their second in a row and a warning sign against good teams.",
-      "know": "The teams are in different divisions (NFC West vs NFC North) but same conference, so results here can still affect playoff tiebreakers based on conference record. Watch Christian McCaffrey, San Francisco's versatile running back who can beat you running or catching passes, and Justin Jefferson, Minnesota's top wide receiver who creates big plays whenever he is healthy.",
-      "generatedAt": "2026-11-15T19:27:01.943Z",
+      "why": "San Francisco is 8-1 and sitting comfortably atop the NFC West, several games clear of the pack, while Minnesota comes in 7-2 as one of the NFC's other top teams. It's mid-season, so no single game clinches a spot or eliminates anyone yet, but a win keeps the 49ers' path to a top playoff seed strong, while a loss would tighten the race behind them.",
+      "know": "Winning your division locks in a playoff berth, and a team's overall record decides its \"seed,\" which affects home-field advantage later. Watch Vikings QB Kirk Cousins, just traded in days ago to be Minnesota's new starter after injuries sidelined others. Also watch 49ers QB Brock Purdy, steering an offense that's helped build this strong record.",
+      "generatedAt": "2026-11-19T21:41:49.566Z",
       "factsHash": "9a00226492d8b7fc",
       "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-17T21:51:51.669Z",
+  "lastWrittenAt": "2026-11-19T21:41:49.566Z",
   "lastError": null
 }
