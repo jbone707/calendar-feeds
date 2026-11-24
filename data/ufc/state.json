@@ -435,8 +435,8 @@
       "aliases": [
         "ufc-fight-night-january-23-2027"
       ],
-      "title": "UFC Fight Night: Bonfim vs Brady",
-      "matchHint": "Bonfim vs Brady",
+      "title": "UFC Fight Night: Brady vs Bonfim",
+      "matchHint": "Brady vs Bonfim",
       "localEventDate": "2027-01-23",
       "startUtc": "2027-01-24T01:00:00.000Z",
       "extraTimes": [
@@ -453,9 +453,9 @@
       },
       "status": "scheduled",
       "missingStrikes": 0,
-      "sequence": 1,
+      "sequence": 2,
       "createdAt": "2026-11-15T19:24:30.989Z",
-      "lastModified": "2026-11-18T21:28:08.154Z"
+      "lastModified": "2026-11-24T01:00:00.923Z"
     },
     {
       "key": "numbered:336",
@@ -547,6 +547,35 @@
       "sequence": 0,
       "createdAt": "2026-11-15T19:24:30.989Z",
       "lastModified": "2026-11-15T19:24:30.989Z"
+    },
+    {
+      "key": "numbered:337",
+      "uid": "dd93c80f-8bd7-48ca-9060-dc97ad46aa0d@ufc.calendar-feeds.jbone707.github.io",
+      "sourceId": "ufc-337",
+      "aliases": [
+        "ufc-337"
+      ],
+      "title": "UFC 337",
+      "matchHint": "",
+      "localEventDate": "2027-02-20",
+      "startUtc": "2027-02-20T22:00:00.000Z",
+      "extraTimes": [
+        {
+          "label": "Prelims",
+          "utc": "2027-02-20T20:00:00.000Z"
+        }
+      ],
+      "location": "Kia Center, Orlando, FL, United States",
+      "url": "https://www.ufc.com/event/ufc-337",
+      "provenance": {
+        "startUtc": "UFC.com, the time it labels \"Main card\"",
+        "localEventDate": "date of the start in America/New_York"
+      },
+      "status": "scheduled",
+      "missingStrikes": 0,
+      "sequence": 0,
+      "createdAt": "2026-11-24T01:00:00.923Z",
+      "lastModified": "2026-11-24T01:00:00.923Z"
     }
   ]
 }

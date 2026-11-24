@@ -1098,8 +1098,8 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-22T20:24:12.922Z",
-    "changedAt": "2026-11-22T20:24:12.922Z",
+    "fetchedAt": "2026-11-24T01:00:15.993Z",
+    "changedAt": "2026-11-24T01:00:15.993Z",
     "bouts": [
       {
         "segment": "main",
@@ -1121,7 +1121,7 @@
       },
       {
         "segment": "main",
-        "weightClass": "",
+        "weightClass": "Flyweight",
         "titleBout": false,
         "red": "Brandon Moreno",
         "blue": "Charles Johnson",
@@ -1163,12 +1163,12 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-22T20:24:12.922Z",
-    "changedAt": "2026-11-22T20:24:12.922Z",
+    "fetchedAt": "2026-11-24T01:00:15.993Z",
+    "changedAt": "2026-11-24T01:00:15.993Z",
     "bouts": [
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Quillan Salkilld",
         "blue": "Benoît Saint Denis",
@@ -1177,7 +1177,7 @@
       },
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Light Heavyweight",
         "titleBout": false,
         "red": "Bogdan Guskov",
         "blue": "Robert Whittaker",
@@ -1186,7 +1186,7 @@
       },
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Jonathan Micallef",
         "blue": "Sam Patterson",
@@ -1195,7 +1195,7 @@
       },
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Featherweight",
         "titleBout": false,
         "red": "Marwan Rahiki",
         "blue": "JooSang Yoo",
@@ -1204,7 +1204,7 @@
       },
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Featherweight",
         "titleBout": false,
         "red": "Kaan Ofli",
         "blue": "Joanderson Brito",
@@ -1214,13 +1214,13 @@
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-22T20:24:12.922Z",
-    "changedAt": "2026-11-22T20:24:12.922Z",
+    "fetchedAt": "2026-11-24T01:00:15.993Z",
+    "changedAt": "2026-11-24T01:00:15.993Z",
     "bouts": [
       {
         "segment": "card",
-        "weightClass": "",
-        "titleBout": false,
+        "weightClass": "Flyweight",
+        "titleBout": true,
         "red": "Joshua Van",
         "blue": "Manel Kape",
         "redRank": "C",
@@ -1228,8 +1228,8 @@
       },
       {
         "segment": "card",
-        "weightClass": "",
-        "titleBout": false,
+        "weightClass": "Welterweight Interim",
+        "titleBout": true,
         "red": "Carlos Prates",
         "blue": "Michael Morales",
         "redRank": "#2",
@@ -1237,7 +1237,7 @@
       },
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Lightweight",
         "titleBout": false,
         "red": "Lance Gibson Jr.",
         "blue": "Michael Johnson",
@@ -1246,7 +1246,7 @@
       },
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Bantamweight",
         "titleBout": false,
         "red": "Serhiy Sidey",
         "blue": "Louis Lee Scott",
@@ -1255,7 +1255,7 @@
       },
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Cam Nelson",
         "blue": "Sean Clancy Jr.",
@@ -1265,7 +1265,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-22T20:24:12.922Z",
+    "fetchedAt": "2026-11-24T01:00:15.993Z",
     "changedAt": "2026-11-19T21:39:32.937Z",
     "bouts": [
       {
@@ -1388,8 +1388,8 @@
     ]
   },
   "ufc.com:ufc-fight-night-december-05-2026": {
-    "fetchedAt": "2026-11-22T20:24:12.922Z",
-    "changedAt": "2026-11-18T21:28:23.232Z",
+    "fetchedAt": "2026-11-24T01:00:15.993Z",
+    "changedAt": "2026-11-24T01:00:15.993Z",
     "bouts": [
       {
         "segment": "main",
@@ -1411,21 +1411,21 @@
       },
       {
         "segment": "main",
-        "weightClass": "Heavyweight",
-        "titleBout": false,
-        "red": "Serghei Spivac",
-        "blue": "Mario Pinto",
-        "redRank": "#10",
-        "blueRank": "#15"
-      },
-      {
-        "segment": "main",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Levan Chokheli",
         "blue": "Islam Dulatov",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "main",
+        "weightClass": "Heavyweight",
+        "titleBout": false,
+        "red": "Serghei Spivac",
+        "blue": "Mario Pinto",
+        "redRank": "#10",
+        "blueRank": "#15"
       },
       {
         "segment": "main",
@@ -1442,6 +1442,15 @@
         "titleBout": false,
         "red": "Magomed Tuchalov",
         "blue": "Ion Cutelaba",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Luke Riley",
+        "blue": "Gabriel Santos",
         "redRank": null,
         "blueRank": null
       },
@@ -1498,31 +1507,40 @@
         "blue": "Hecher Sosa",
         "redRank": null,
         "blueRank": null
+      },
+      {
+        "segment": "prelims",
+        "weightClass": "Lightweight",
+        "titleBout": false,
+        "red": "Mateusz Rębecki",
+        "blue": "Elves Brener",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "ufc.com:ufc-fight-night-january-23-2027": {
-    "fetchedAt": "2026-11-22T20:24:12.922Z",
-    "changedAt": "2026-11-22T20:24:12.922Z",
+    "fetchedAt": "2026-11-24T01:00:15.993Z",
+    "changedAt": "2026-11-24T01:00:15.993Z",
     "bouts": [
       {
         "segment": "main",
-        "weightClass": "",
+        "weightClass": "Welterweight",
         "titleBout": false,
-        "red": "Gabriel Bonfim",
-        "blue": "Sean Brady",
-        "redRank": "#5",
-        "blueRank": "#6"
+        "red": "Sean Brady",
+        "blue": "Gabriel Bonfim",
+        "redRank": "#6",
+        "blueRank": "#5"
       }
     ]
   },
   "ufc.com:ufc-fight-night-february-13-2027": {
-    "fetchedAt": "2026-11-22T20:24:12.922Z",
-    "changedAt": "2026-11-22T20:24:12.922Z",
+    "fetchedAt": "2026-11-24T01:00:15.993Z",
+    "changedAt": "2026-11-24T01:00:15.993Z",
     "bouts": [
       {
         "segment": "card",
-        "weightClass": "",
+        "weightClass": "Middleweight",
         "titleBout": false,
         "red": "Joe Pyfer",
         "blue": "Bo Nickal",
@@ -1530,5 +1548,10 @@
         "blueRank": "#14"
       }
     ]
+  },
+  "numbered:337": {
+    "fetchedAt": "2026-11-24T01:00:15.993Z",
+    "changedAt": "2026-11-24T01:00:15.993Z",
+    "bouts": []
   }
 }
