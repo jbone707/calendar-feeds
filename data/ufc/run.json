@@ -1,10 +1,9 @@
 {
-  "lastAttemptAt": "2026-11-24T23:04:37.919Z",
-  "lastSuccessAt": "2026-11-24T23:04:37.919Z",
+  "lastAttemptAt": "2026-11-25T22:36:56.204Z",
+  "lastSuccessAt": "2026-11-25T22:36:56.204Z",
   "lastError": null,
   "lastChangeReport": [
-    "Updated UFC Fight Night: Brady vs Bonfim.",
-    "Added UFC 337."
+    "Updated UFC Fight Night: Salkilld vs Saint Denis."
   ],
   "warnings": [
     "Could not read the bout list for UFC 176 (HTTP 403). Kept what was known."

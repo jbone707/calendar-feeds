@@ -1098,7 +1098,7 @@
     ]
   },
   "numbered:335": {
-    "fetchedAt": "2026-11-24T23:04:53.443Z",
+    "fetchedAt": "2026-11-25T22:37:11.769Z",
     "changedAt": "2026-11-24T23:04:53.443Z",
     "bouts": [
       {
@@ -1181,7 +1181,7 @@
     "bouts": []
   },
   "ufc.com:ufc-fight-night-february-06-2027": {
-    "fetchedAt": "2026-11-24T23:04:53.443Z",
+    "fetchedAt": "2026-11-25T22:37:11.769Z",
     "changedAt": "2026-11-24T01:00:15.993Z",
     "bouts": [
       {
@@ -1232,7 +1232,7 @@
     ]
   },
   "numbered:336": {
-    "fetchedAt": "2026-11-24T23:04:53.443Z",
+    "fetchedAt": "2026-11-25T22:37:11.769Z",
     "changedAt": "2026-11-24T23:04:53.443Z",
     "bouts": [
       {
@@ -1319,7 +1319,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-16-2027": {
-    "fetchedAt": "2026-11-24T23:04:53.443Z",
+    "fetchedAt": "2026-11-25T22:37:11.769Z",
     "changedAt": "2026-11-24T23:04:53.443Z",
     "bouts": [
       {
@@ -1442,7 +1442,7 @@
     ]
   },
   "ufc.com:ufc-fight-night-december-05-2026": {
-    "fetchedAt": "2026-11-24T23:04:53.443Z",
+    "fetchedAt": "2026-11-25T22:37:11.769Z",
     "changedAt": "2026-11-24T23:04:53.443Z",
     "bouts": [
       {
@@ -1574,22 +1574,112 @@
     ]
   },
   "ufc.com:ufc-fight-night-january-23-2027": {
-    "fetchedAt": "2026-11-24T23:04:53.443Z",
-    "changedAt": "2026-11-24T01:00:15.993Z",
+    "fetchedAt": "2026-11-25T22:37:11.769Z",
+    "changedAt": "2026-11-25T22:37:11.769Z",
     "bouts": [
       {
-        "segment": "main",
+        "segment": "card",
         "weightClass": "Welterweight",
         "titleBout": false,
         "red": "Sean Brady",
         "blue": "Gabriel Bonfim",
         "redRank": "#6",
         "blueRank": "#5"
+      },
+      {
+        "segment": "card",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Pat Sabatini",
+        "blue": "Vinicius Oliveira",
+        "redRank": "#13",
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Neil Magny",
+        "blue": "Daniil Donchenko",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Azamat Bekoev",
+        "blue": "Eric McConico",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Yadier del Valle",
+        "blue": "Ezra Elliot",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Middleweight",
+        "titleBout": false,
+        "red": "Trent Miller",
+        "blue": "Nick Klein",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Ramon Taveras",
+        "blue": "Roman Puga",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Featherweight",
+        "titleBout": false,
+        "red": "Jamall Emmers",
+        "blue": "Ramiro Jimenez",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Women's Strawweight",
+        "titleBout": false,
+        "red": "Anna Melisano",
+        "blue": "Marina Spasić",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Welterweight",
+        "titleBout": false,
+        "red": "Ty Miller",
+        "blue": "Christopher Alvidrez",
+        "redRank": null,
+        "blueRank": null
+      },
+      {
+        "segment": "card",
+        "weightClass": "Women's Bantamweight",
+        "titleBout": false,
+        "red": "Smilla Sundell",
+        "blue": "Melissa Mullins",
+        "redRank": null,
+        "blueRank": null
       }
     ]
   },
   "ufc.com:ufc-fight-night-february-13-2027": {
-    "fetchedAt": "2026-11-24T23:04:53.443Z",
+    "fetchedAt": "2026-11-25T22:37:11.769Z",
     "changedAt": "2026-11-24T23:04:53.443Z",
     "bouts": [
       {
@@ -1604,7 +1694,7 @@
     ]
   },
   "numbered:337": {
-    "fetchedAt": "2026-11-24T23:04:53.443Z",
+    "fetchedAt": "2026-11-25T22:37:11.769Z",
     "changedAt": "2026-11-24T01:00:15.993Z",
     "bouts": []
   }
