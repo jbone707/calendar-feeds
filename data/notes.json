@@ -6,8 +6,15 @@
       "generatedAt": "2026-11-26T22:27:47.320Z",
       "factsHash": "376d25046e8fcaeb",
       "model": "claude-sonnet-5"
+    },
+    "63f1c81c-8b2d-484c-a00c-3fddacb6b4f1@ufc.calendar-feeds.jbone707.github.io": {
+      "why": "Israel Adesanya, a two-time former middleweight champion, aims to snap a four-fight losing streak against Shara Magomedov, a hard-hitting rising contender who has called him out for years. In the co-main, Ian Machado Garry, fresh off a welterweight title loss, faces ex-Bellator champion Yaroslav Amosov in a risky test that could restart his climb back toward a title shot.",
+      "know": "UFC rankings run from champion down to number 15 in each weight class; beating a ranked opponent usually moves a fighter closer to a title shot. A Fight Night card has no title bout, often spotlighting rising prospects. Garry recently lost to lightweight-turned-welterweight champion Islam Makhachev, while Amosov was a feared Bellator champion before joining the UFC.",
+      "generatedAt": "2026-11-27T22:08:12.559Z",
+      "factsHash": "744f9538ad9a5868",
+      "model": "claude-sonnet-5"
     }
   },
-  "lastWrittenAt": "2026-11-26T22:27:47.320Z",
+  "lastWrittenAt": "2026-11-27T22:08:12.559Z",
   "lastError": null
 }
